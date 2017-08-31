@@ -1,11 +1,11 @@
 [package]
 name = "pokemon_go_data"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Adam Hammes <adam@hammes.io>"]
 build = "build/build.rs"
 repository = "https://github.com/adamhammes/pokemon_go_data"
 license = "MIT"
-description = "A convenient for interface for Pokemon Go data"
+description = "A convenient interface for Pokemon Go data"
 
 [build-dependencies]
 csv = "1.0.0-beta.4"
