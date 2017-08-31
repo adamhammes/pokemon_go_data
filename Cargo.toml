@@ -1,0 +1,12 @@
+[package]
+name = "pokemon_go_data"
+version = "0.1.0"
+authors = ["Adam Hammes <adam@hammes.io>"]
+build = "build/build.rs"
+
+[build-dependencies]
+csv = "1.0.0-beta.4"
+serde = "^1.0.0"
+serde_derive = "^1.0.0"
+
+[dependencies]
