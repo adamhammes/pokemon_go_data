@@ -69,3 +69,22 @@ impl FromStr for PokeType {
     }
 }
 
+#[cfg(test)]
+mod tests {
+    use ::{PokeType, Effectiveness};
+
+    #[test]
+    fn efficacy_against() {
+        let electric_v_ground = PokeType::Electric.efficacy_against(PokeType::Ground);
+        assert_eq!(Effectiveness::DoubleNotVery, electric_v_ground);
+
+        let grass_v_bug = PokeType::Grass.efficacy_against(PokeType::Bug);
+        assert_eq!(Effectiveness::NotVery, grass_v_bug);
+
+        let poison_v_flying = PokeType::Poison.efficacy_against(PokeType::Flying);
+        assert_eq!(Effectiveness::Normal, poison_v_flying);
+
+        let fighting_v_normal = PokeType::Fighting.efficacy_against(PokeType::Normal);
+        assert_eq!(Effectiveness::SuperEffective, fighting_v_normal);
+    }
+}
