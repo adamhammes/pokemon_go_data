@@ -34,8 +34,8 @@ pub enum PokeType {
 }
 
 impl PokeType {
-    pub fn efficacy_against(&self, other: &PokeType) -> Effectiveness {
-        EFFECTIVENESS_CHART[*self as usize][*other as usize]
+    pub fn efficacy_against(&self, other: PokeType) -> Effectiveness {
+        EFFECTIVENESS_CHART[*self as usize][other as usize]
     }
 }
 
