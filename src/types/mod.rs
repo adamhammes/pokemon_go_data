@@ -11,6 +11,17 @@ pub enum Effectiveness {
     SuperEffective
 }
 
+impl Effectiveness {
+    pub fn coefficient(&self) -> f32 {
+        match *self {
+            Effectiveness::DoubleNotVery => 0.51,
+            Effectiveness::NotVery => 0.74,
+            Effectiveness::Normal => 1.,
+            Effectiveness::SuperEffective => 1.4
+        }
+    }
+}
+
 #[derive(Clone, Copy, PartialEq, Eq, Debug, Hash)]
 pub enum PokeType {
     Normal = 0,
@@ -36,6 +47,10 @@ pub enum PokeType {
 impl PokeType {
     pub fn efficacy_against(&self, other: PokeType) -> Effectiveness {
         EFFECTIVENESS_CHART[*self as usize][other as usize]
+    }
+
+    pub fn coefficient_against(&self, other: PokeType) -> f32 {
+        self.efficacy_against(other).coefficient()
     }
 }
 
@@ -86,6 +101,12 @@ mod tests {
 
         let fighting_v_normal = PokeType::Fighting.efficacy_against(PokeType::Normal);
         assert_eq!(Effectiveness::SuperEffective, fighting_v_normal);
+    }
+
+    #[test]
+    fn coefficient_against() {
+        assert_eq!(1., PokeType::Normal.coefficient_against(PokeType::Poison));
+        assert_eq!(0.51, PokeType::Fighting.coefficient_against(PokeType::Ghost));
     }
 
     #[test]
