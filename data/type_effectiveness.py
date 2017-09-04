@@ -5,7 +5,7 @@ IN_FILE = 'in/type_effectiveness.html'
 OUT_FILE = '../src/types/generated.rs'
 
 
-def main():
+def read_effectiveness():
     with open(IN_FILE) as f:
         tree = html.fromstring(f.read())
 
@@ -13,19 +13,20 @@ def main():
 
     chart = []
 
-    for tr in tbody.cssselect('tr')[1:]:
+    # Collect the rows, skipping the first empty row and the type icon row
+    rows = tbody.cssselect('tr')[2:]
+
+    for tr in rows:
         row = []
 
         for td in tr.cssselect('td')[1:]:
-            text = td.text.strip() if td.text else ''
-
-            if not text:
+            if 'matrixfact1000' in td.classes:
                 val = 'Normal'
-            elif text.startswith('0.51'):
+            elif 'matrixfact510' in td.classes:
                 val = 'DoubleNotVery'
-            elif text.startswith('0.74'):
+            elif 'matrixfact714' in td.classes:
                 val = 'NotVery'
-            elif text.startswith('1.4'):
+            elif 'matrixfact1400' in td.classes:
                 val = 'SuperEffective'
 
             assert val
@@ -33,6 +34,10 @@ def main():
 
         chart.append(row)
 
+    return chart
+
+
+def write_effectiveness(chart):
     with open(OUT_FILE, 'w') as f:
         f.write('// This file was auto-generated using data/type_effectiveness.py\n')
         f.write('use types::Effectiveness;\n\n')
@@ -50,4 +55,5 @@ def main():
         f.write('];\n')
 
 if __name__ == '__main__':
-    main()
+    effectiveness_chart = read_effectiveness()
+    write_effectiveness(effectiveness_chart)
