@@ -87,4 +87,13 @@ mod tests {
         let fighting_v_normal = PokeType::Fighting.efficacy_against(PokeType::Normal);
         assert_eq!(Effectiveness::SuperEffective, fighting_v_normal);
     }
+
+    #[test]
+    fn from_string() {
+        assert_eq!(PokeType::Dragon, "dragon".parse().unwrap());
+        assert_eq!(PokeType::Ice, "Ice".parse().unwrap());
+
+        let error: Result<PokeType, ()> = "gibberish".parse();
+        assert!(error.is_err());
+    }
 }
