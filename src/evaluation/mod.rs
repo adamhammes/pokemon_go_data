@@ -4,12 +4,12 @@ pub struct Level {
     val: f64
 }
 
-pub const MAX_LEVEL: Level = Level { val: 40. };
-pub const MIN_LEVEL: Level = Level { val: 1. };
+const MIN_LEVEL: f64 = 1.;
+const MAX_LEVEL: f64 = 40.;
 
 impl Level {
     pub fn new(val: f64) -> Option<Level> {
-        if val < 1. || val > 40. || (val.fract() != 0.5f64 && val.fract() != 0.0f64)  {
+        if val < MIN_LEVEL || val > MAX_LEVEL || (val.fract() != 0.5f64 && val.fract() != 0.0f64)  {
             return None
         }
 
@@ -21,12 +21,20 @@ impl Level {
     }
 
     pub fn cp_multiplier(&self) -> f64 {
-        let &(level, cp_multiplier) = cp_multiplier::CP_MULTIPLIER
+        let &(_, cp_multiplier) = cp_multiplier::CP_MULTIPLIER
             .iter()
             .find(|&&(level, _)| level == self.value())
             .unwrap();
 
         cp_multiplier
+    }
+
+    pub fn min() -> Level {
+        Level { val: MIN_LEVEL }
+    }
+
+    pub fn max() -> Level {
+        Level { val: MAX_LEVEL }
     }
 }
 
