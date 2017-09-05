@@ -1,3 +1,5 @@
+use types::PokeType;
+
 mod generated;
 use self::generated::POKE_STATS;
 
@@ -7,7 +9,9 @@ pub struct PokemonData {
     id: u16,
     attack: u16,
     defense: u16,
-    stamina: u16
+    stamina: u16,
+    primary_type: PokeType,
+    secondary_type: Option<PokeType>
 }
 
 impl PokemonData {
@@ -34,6 +38,14 @@ impl PokemonData {
     /// The Pokemon's base stats, as a `(attack, defense, stamina)` triple.
     pub fn base_stats(&self) -> (u16, u16, u16) {
         (self.attack, self.defense, self.stamina)
+    }
+
+    pub fn primary_type(&self) -> PokeType {
+        self.primary_type
+    }
+
+    pub fn secondary_type(&self) -> Option<PokeType> {
+        self.secondary_type
     }
 }
 
@@ -74,7 +86,9 @@ pub fn all_pokemon() -> &'static [PokemonData] {
 
 #[cfg(test)]
 mod tests {
+    use types::PokeType;
     use ::{all_pokemon, pokemon_by_id};
+
     #[test]
     fn pokemon_by_id_test() {
         let bulbasaur = pokemon_by_id(1).unwrap();
@@ -87,6 +101,17 @@ mod tests {
         assert_eq!((193, 323, 212), lugia.base_stats());
 
         assert!(pokemon_by_id(444).is_none());
+    }
+
+    #[test]
+    fn poketype() {
+        let charizard = pokemon_by_id(6).unwrap();
+        assert_eq!(PokeType::Fire, charizard.primary_type());
+        assert_eq!(Some(PokeType::Flying), charizard.secondary_type());
+
+        let squirtle = pokemon_by_id(7).unwrap();
+        assert_eq!(PokeType::Water, squirtle.primary_type());
+        assert!(squirtle.secondary_type().is_none());
     }
 
     #[test]
