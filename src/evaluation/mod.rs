@@ -5,7 +5,7 @@ pub struct Level {
 }
 
 const MIN_LEVEL: f64 = 1.;
-const MAX_LEVEL: f64 = 40.;
+const MAX_LEVEL: f64 = 39.;
 
 impl Level {
     pub fn new(val: f64) -> Option<Level> {
