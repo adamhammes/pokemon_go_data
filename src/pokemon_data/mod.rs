@@ -42,6 +42,7 @@ impl SpeciesData {
     ///
     /// ```
     /// use pokemon_go_data::SpeciesData;
+    ///
     /// let all_species = SpeciesData::all_species();
     ///
     /// assert_eq!(251, all_species.len());
