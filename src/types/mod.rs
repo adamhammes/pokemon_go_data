@@ -8,7 +8,7 @@ pub enum Effectiveness {
     DoubleNotVery,
     NotVery,
     Normal,
-    SuperEffective
+    SuperEffective,
 }
 
 impl Effectiveness {
@@ -17,7 +17,7 @@ impl Effectiveness {
             Effectiveness::DoubleNotVery => 0.51,
             Effectiveness::NotVery => 0.74,
             Effectiveness::Normal => 1.,
-            Effectiveness::SuperEffective => 1.4
+            Effectiveness::SuperEffective => 1.4,
         }
     }
 }
@@ -41,7 +41,7 @@ pub enum PokeType {
     Ice = 14,
     Dragon = 15,
     Dark = 16,
-    Fairy = 17
+    Fairy = 17,
 }
 
 impl PokeType {
@@ -79,14 +79,14 @@ impl FromStr for PokeType {
             "dragon" => Ok(PokeType::Dragon),
             "dark" => Ok(PokeType::Dark),
             "fairy" => Ok(PokeType::Fairy),
-            _ => Err(())
+            _ => Err(()),
         }
     }
 }
 
 #[cfg(test)]
 mod tests {
-    use ::{PokeType, Effectiveness};
+    use {PokeType, Effectiveness};
 
     #[test]
     fn efficacy_against() {
@@ -106,7 +106,10 @@ mod tests {
     #[test]
     fn coefficient_against() {
         assert_eq!(1., PokeType::Normal.coefficient_against(PokeType::Poison));
-        assert_eq!(0.51, PokeType::Fighting.coefficient_against(PokeType::Ghost));
+        assert_eq!(
+            0.51,
+            PokeType::Fighting.coefficient_against(PokeType::Ghost)
+        );
     }
 
     #[test]

@@ -1,7 +1,7 @@
 mod cp_multiplier;
 
 pub struct Level {
-    val: f64
+    val: f64,
 }
 
 const MIN_LEVEL: f64 = 1.;
@@ -9,8 +9,8 @@ const MAX_LEVEL: f64 = 40.;
 
 impl Level {
     pub fn new(val: f64) -> Option<Level> {
-        if val < MIN_LEVEL || val > MAX_LEVEL || (val.fract() != 0.5f64 && val.fract() != 0.0f64)  {
-            return None
+        if val < MIN_LEVEL || val > MAX_LEVEL || (val.fract() != 0.5f64 && val.fract() != 0.0f64) {
+            return None;
         }
 
         Some(Level { val })
@@ -40,7 +40,7 @@ impl Level {
 
 #[cfg(test)]
 mod tests {
-    use ::Level;
+    use Level;
 
     #[test]
     fn level_construction() {

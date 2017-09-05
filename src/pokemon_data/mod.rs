@@ -11,13 +11,12 @@ pub struct SpeciesData {
     defense: u16,
     stamina: u16,
     primary_type: PokeType,
-    secondary_type: Option<PokeType>
+    secondary_type: Option<PokeType>,
 }
 
-
 impl SpeciesData {
-    /// Given the id of a species, return its corresponding data. Return `None` if no data is found for
-    /// the given id.
+    /// Given the id of a species, return its corresponding data. Return `None` if no data is found
+    /// for the given id.
     ///
     /// ## Example:
     ///
@@ -31,9 +30,7 @@ impl SpeciesData {
     /// assert!(no_such_pokemon.is_none());
     /// ```
     pub fn from_id(id: u16) -> Option<&'static SpeciesData> {
-        SPECIES
-            .iter()
-            .find(|p| p.id() == id)
+        SPECIES.iter().find(|p| p.id() == id)
     }
 
     /// Return a list of all `SpeciesData`, sorted by id.
@@ -96,7 +93,7 @@ impl SpeciesData {
 #[cfg(test)]
 mod tests {
     use types::PokeType;
-    use ::SpeciesData;
+    use SpeciesData;
 
     #[test]
     fn pokemon_by_id_test() {
@@ -131,7 +128,10 @@ mod tests {
         assert_eq!(num_pokemon, all_pokemon.len());
 
         for i in 0..num_pokemon {
-            assert!(all_pokemon[i].id() == (i + 1) as u16, format!("Couldn't find pokemon #{}", i));
+            assert!(
+                all_pokemon[i].id() == (i + 1) as u16,
+                format!("Couldn't find pokemon #{}", i)
+            );
         }
     }
 }
