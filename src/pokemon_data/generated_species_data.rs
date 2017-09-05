@@ -1,9 +1,9 @@
 // Thie file was auto-generated using data/base_stats.py
-use pokemon_data::PokemonData;
+use pokemon_data::SpeciesData;
 use types::PokeType;
 
-pub const POKE_STATS: &'static [PokemonData] = &[
-	PokemonData {
+pub const SPECIES: &'static [SpeciesData] = &[
+	SpeciesData {
 		id: 1,
 		attack: 118,
 		defense: 118,
@@ -11,7 +11,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 2,
 		attack: 151,
 		defense: 151,
@@ -19,7 +19,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 3,
 		attack: 198,
 		defense: 198,
@@ -27,7 +27,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 4,
 		attack: 116,
 		defense: 96,
@@ -35,7 +35,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 5,
 		attack: 158,
 		defense: 129,
@@ -43,7 +43,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 6,
 		attack: 223,
 		defense: 176,
@@ -51,7 +51,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 7,
 		attack: 94,
 		defense: 122,
@@ -59,7 +59,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 8,
 		attack: 126,
 		defense: 155,
@@ -67,7 +67,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 9,
 		attack: 171,
 		defense: 210,
@@ -75,7 +75,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 10,
 		attack: 55,
 		defense: 62,
@@ -83,7 +83,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 11,
 		attack: 45,
 		defense: 94,
@@ -91,7 +91,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 12,
 		attack: 167,
 		defense: 151,
@@ -99,7 +99,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 13,
 		attack: 63,
 		defense: 55,
@@ -107,7 +107,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 14,
 		attack: 46,
 		defense: 86,
@@ -115,7 +115,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 15,
 		attack: 169,
 		defense: 150,
@@ -123,7 +123,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 16,
 		attack: 85,
 		defense: 76,
@@ -131,7 +131,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 17,
 		attack: 117,
 		defense: 108,
@@ -139,7 +139,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 18,
 		attack: 166,
 		defense: 157,
@@ -147,7 +147,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 19,
 		attack: 103,
 		defense: 70,
@@ -155,7 +155,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 20,
 		attack: 161,
 		defense: 144,
@@ -163,7 +163,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 21,
 		attack: 112,
 		defense: 61,
@@ -171,7 +171,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 22,
 		attack: 182,
 		defense: 135,
@@ -179,7 +179,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 23,
 		attack: 110,
 		defense: 102,
@@ -187,7 +187,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 24,
 		attack: 167,
 		defense: 158,
@@ -195,7 +195,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 25,
 		attack: 112,
 		defense: 101,
@@ -203,7 +203,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 26,
 		attack: 193,
 		defense: 165,
@@ -211,7 +211,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 27,
 		attack: 126,
 		defense: 145,
@@ -219,7 +219,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 28,
 		attack: 182,
 		defense: 202,
@@ -227,7 +227,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 29,
 		attack: 86,
 		defense: 94,
@@ -235,7 +235,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 30,
 		attack: 117,
 		defense: 126,
@@ -243,7 +243,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 31,
 		attack: 180,
 		defense: 174,
@@ -251,7 +251,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 32,
 		attack: 105,
 		defense: 76,
@@ -259,7 +259,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 33,
 		attack: 137,
 		defense: 112,
@@ -267,7 +267,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 34,
 		attack: 204,
 		defense: 157,
@@ -275,7 +275,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 35,
 		attack: 107,
 		defense: 116,
@@ -283,7 +283,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fairy,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 36,
 		attack: 178,
 		defense: 171,
@@ -291,7 +291,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fairy,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 37,
 		attack: 96,
 		defense: 122,
@@ -299,7 +299,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 38,
 		attack: 169,
 		defense: 204,
@@ -307,7 +307,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 39,
 		attack: 80,
 		defense: 44,
@@ -315,7 +315,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Fairy),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 40,
 		attack: 156,
 		defense: 93,
@@ -323,7 +323,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Fairy),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 41,
 		attack: 83,
 		defense: 76,
@@ -331,7 +331,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 42,
 		attack: 161,
 		defense: 153,
@@ -339,7 +339,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 43,
 		attack: 131,
 		defense: 116,
@@ -347,7 +347,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 44,
 		attack: 153,
 		defense: 139,
@@ -355,7 +355,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 45,
 		attack: 202,
 		defense: 170,
@@ -363,7 +363,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 46,
 		attack: 121,
 		defense: 99,
@@ -371,7 +371,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Grass),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 47,
 		attack: 165,
 		defense: 146,
@@ -379,7 +379,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Grass),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 48,
 		attack: 100,
 		defense: 102,
@@ -387,7 +387,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 49,
 		attack: 179,
 		defense: 150,
@@ -395,7 +395,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 50,
 		attack: 109,
 		defense: 88,
@@ -403,7 +403,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 51,
 		attack: 167,
 		defense: 147,
@@ -411,7 +411,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 52,
 		attack: 92,
 		defense: 81,
@@ -419,7 +419,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 53,
 		attack: 150,
 		defense: 139,
@@ -427,7 +427,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 54,
 		attack: 122,
 		defense: 96,
@@ -435,7 +435,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 55,
 		attack: 191,
 		defense: 163,
@@ -443,7 +443,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 56,
 		attack: 148,
 		defense: 87,
@@ -451,7 +451,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fighting,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 57,
 		attack: 207,
 		defense: 144,
@@ -459,7 +459,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fighting,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 58,
 		attack: 136,
 		defense: 96,
@@ -467,7 +467,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 59,
 		attack: 227,
 		defense: 166,
@@ -475,7 +475,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 60,
 		attack: 101,
 		defense: 82,
@@ -483,7 +483,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 61,
 		attack: 130,
 		defense: 130,
@@ -491,7 +491,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 62,
 		attack: 182,
 		defense: 187,
@@ -499,7 +499,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Fighting),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 63,
 		attack: 195,
 		defense: 103,
@@ -507,7 +507,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 64,
 		attack: 232,
 		defense: 138,
@@ -515,7 +515,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 65,
 		attack: 271,
 		defense: 194,
@@ -523,7 +523,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 66,
 		attack: 137,
 		defense: 88,
@@ -531,7 +531,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fighting,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 67,
 		attack: 177,
 		defense: 130,
@@ -539,7 +539,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fighting,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 68,
 		attack: 234,
 		defense: 162,
@@ -547,7 +547,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fighting,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 69,
 		attack: 139,
 		defense: 64,
@@ -555,7 +555,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 70,
 		attack: 172,
 		defense: 95,
@@ -563,7 +563,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 71,
 		attack: 207,
 		defense: 138,
@@ -571,7 +571,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 72,
 		attack: 97,
 		defense: 182,
@@ -579,7 +579,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 73,
 		attack: 166,
 		defense: 237,
@@ -587,7 +587,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 74,
 		attack: 132,
 		defense: 163,
@@ -595,7 +595,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 75,
 		attack: 164,
 		defense: 196,
@@ -603,7 +603,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 76,
 		attack: 211,
 		defense: 229,
@@ -611,7 +611,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 77,
 		attack: 170,
 		defense: 132,
@@ -619,7 +619,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 78,
 		attack: 207,
 		defense: 167,
@@ -627,7 +627,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 79,
 		attack: 109,
 		defense: 109,
@@ -635,7 +635,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Psychic),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 80,
 		attack: 177,
 		defense: 194,
@@ -643,7 +643,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Psychic),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 81,
 		attack: 165,
 		defense: 128,
@@ -651,7 +651,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: Some(PokeType::Steel),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 82,
 		attack: 223,
 		defense: 182,
@@ -659,7 +659,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: Some(PokeType::Steel),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 83,
 		attack: 124,
 		defense: 118,
@@ -667,7 +667,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 84,
 		attack: 158,
 		defense: 88,
@@ -675,7 +675,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 85,
 		attack: 218,
 		defense: 145,
@@ -683,7 +683,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 86,
 		attack: 85,
 		defense: 128,
@@ -691,7 +691,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 87,
 		attack: 139,
 		defense: 184,
@@ -699,7 +699,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Ice),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 88,
 		attack: 135,
 		defense: 90,
@@ -707,7 +707,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 89,
 		attack: 190,
 		defense: 184,
@@ -715,7 +715,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 90,
 		attack: 116,
 		defense: 168,
@@ -723,7 +723,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 91,
 		attack: 186,
 		defense: 323,
@@ -731,7 +731,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Ice),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 92,
 		attack: 186,
 		defense: 70,
@@ -739,7 +739,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ghost,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 93,
 		attack: 223,
 		defense: 112,
@@ -747,7 +747,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ghost,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 94,
 		attack: 261,
 		defense: 156,
@@ -755,7 +755,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ghost,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 95,
 		attack: 85,
 		defense: 288,
@@ -763,7 +763,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 96,
 		attack: 89,
 		defense: 158,
@@ -771,7 +771,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 97,
 		attack: 144,
 		defense: 215,
@@ -779,7 +779,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 98,
 		attack: 181,
 		defense: 156,
@@ -787,7 +787,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 99,
 		attack: 240,
 		defense: 214,
@@ -795,7 +795,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 100,
 		attack: 109,
 		defense: 114,
@@ -803,7 +803,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 101,
 		attack: 173,
 		defense: 179,
@@ -811,7 +811,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 102,
 		attack: 107,
 		defense: 140,
@@ -819,7 +819,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Psychic),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 103,
 		attack: 233,
 		defense: 158,
@@ -827,7 +827,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Psychic),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 104,
 		attack: 90,
 		defense: 165,
@@ -835,7 +835,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 105,
 		attack: 144,
 		defense: 200,
@@ -843,7 +843,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 106,
 		attack: 224,
 		defense: 211,
@@ -851,7 +851,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fighting,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 107,
 		attack: 193,
 		defense: 212,
@@ -859,7 +859,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fighting,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 108,
 		attack: 108,
 		defense: 137,
@@ -867,7 +867,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 109,
 		attack: 119,
 		defense: 164,
@@ -875,7 +875,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 110,
 		attack: 174,
 		defense: 221,
@@ -883,7 +883,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 111,
 		attack: 140,
 		defense: 157,
@@ -891,7 +891,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: Some(PokeType::Rock),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 112,
 		attack: 222,
 		defense: 206,
@@ -899,7 +899,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: Some(PokeType::Rock),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 113,
 		attack: 60,
 		defense: 176,
@@ -907,7 +907,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 114,
 		attack: 183,
 		defense: 205,
@@ -915,7 +915,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 115,
 		attack: 181,
 		defense: 165,
@@ -923,7 +923,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 116,
 		attack: 129,
 		defense: 125,
@@ -931,7 +931,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 117,
 		attack: 187,
 		defense: 182,
@@ -939,7 +939,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 118,
 		attack: 123,
 		defense: 115,
@@ -947,7 +947,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 119,
 		attack: 175,
 		defense: 154,
@@ -955,7 +955,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 120,
 		attack: 137,
 		defense: 112,
@@ -963,7 +963,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 121,
 		attack: 210,
 		defense: 184,
@@ -971,7 +971,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Psychic),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 122,
 		attack: 192,
 		defense: 233,
@@ -979,7 +979,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: Some(PokeType::Fairy),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 123,
 		attack: 218,
 		defense: 170,
@@ -987,7 +987,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 124,
 		attack: 223,
 		defense: 182,
@@ -995,7 +995,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ice,
 		secondary_type: Some(PokeType::Psychic),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 125,
 		attack: 198,
 		defense: 173,
@@ -1003,7 +1003,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 126,
 		attack: 206,
 		defense: 169,
@@ -1011,7 +1011,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 127,
 		attack: 238,
 		defense: 197,
@@ -1019,7 +1019,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 128,
 		attack: 198,
 		defense: 197,
@@ -1027,7 +1027,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 129,
 		attack: 29,
 		defense: 102,
@@ -1035,7 +1035,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 130,
 		attack: 237,
 		defense: 197,
@@ -1043,7 +1043,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 131,
 		attack: 165,
 		defense: 180,
@@ -1051,7 +1051,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Ice),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 132,
 		attack: 91,
 		defense: 91,
@@ -1059,7 +1059,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 133,
 		attack: 104,
 		defense: 121,
@@ -1067,7 +1067,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 134,
 		attack: 205,
 		defense: 177,
@@ -1075,7 +1075,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 135,
 		attack: 232,
 		defense: 201,
@@ -1083,7 +1083,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 136,
 		attack: 246,
 		defense: 204,
@@ -1091,7 +1091,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 137,
 		attack: 153,
 		defense: 139,
@@ -1099,7 +1099,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 138,
 		attack: 155,
 		defense: 174,
@@ -1107,7 +1107,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Water),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 139,
 		attack: 207,
 		defense: 227,
@@ -1115,7 +1115,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Water),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 140,
 		attack: 148,
 		defense: 162,
@@ -1123,7 +1123,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Water),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 141,
 		attack: 220,
 		defense: 203,
@@ -1131,7 +1131,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Water),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 142,
 		attack: 221,
 		defense: 164,
@@ -1139,7 +1139,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 143,
 		attack: 190,
 		defense: 190,
@@ -1147,7 +1147,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 144,
 		attack: 192,
 		defense: 249,
@@ -1155,7 +1155,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ice,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 145,
 		attack: 253,
 		defense: 188,
@@ -1163,7 +1163,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 146,
 		attack: 251,
 		defense: 184,
@@ -1171,7 +1171,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 147,
 		attack: 119,
 		defense: 94,
@@ -1179,7 +1179,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Dragon,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 148,
 		attack: 163,
 		defense: 138,
@@ -1187,7 +1187,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Dragon,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 149,
 		attack: 263,
 		defense: 201,
@@ -1195,7 +1195,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Dragon,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 150,
 		attack: 300,
 		defense: 182,
@@ -1203,7 +1203,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 151,
 		attack: 210,
 		defense: 210,
@@ -1211,7 +1211,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 152,
 		attack: 92,
 		defense: 122,
@@ -1219,7 +1219,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 153,
 		attack: 122,
 		defense: 155,
@@ -1227,7 +1227,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 154,
 		attack: 168,
 		defense: 202,
@@ -1235,7 +1235,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 155,
 		attack: 116,
 		defense: 96,
@@ -1243,7 +1243,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 156,
 		attack: 158,
 		defense: 129,
@@ -1251,7 +1251,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 157,
 		attack: 223,
 		defense: 176,
@@ -1259,7 +1259,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 158,
 		attack: 117,
 		defense: 116,
@@ -1267,7 +1267,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 159,
 		attack: 150,
 		defense: 151,
@@ -1275,7 +1275,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 160,
 		attack: 205,
 		defense: 197,
@@ -1283,7 +1283,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 161,
 		attack: 79,
 		defense: 77,
@@ -1291,7 +1291,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 162,
 		attack: 148,
 		defense: 130,
@@ -1299,7 +1299,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 163,
 		attack: 67,
 		defense: 101,
@@ -1307,7 +1307,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 164,
 		attack: 145,
 		defense: 179,
@@ -1315,7 +1315,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 165,
 		attack: 72,
 		defense: 142,
@@ -1323,7 +1323,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 166,
 		attack: 107,
 		defense: 209,
@@ -1331,7 +1331,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 167,
 		attack: 105,
 		defense: 73,
@@ -1339,7 +1339,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 168,
 		attack: 161,
 		defense: 128,
@@ -1347,7 +1347,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 169,
 		attack: 194,
 		defense: 178,
@@ -1355,7 +1355,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Poison,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 170,
 		attack: 106,
 		defense: 106,
@@ -1363,7 +1363,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Electric),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 171,
 		attack: 146,
 		defense: 146,
@@ -1371,7 +1371,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Electric),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 172,
 		attack: 77,
 		defense: 63,
@@ -1379,7 +1379,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 173,
 		attack: 75,
 		defense: 91,
@@ -1387,7 +1387,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fairy,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 174,
 		attack: 69,
 		defense: 34,
@@ -1395,7 +1395,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Fairy),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 175,
 		attack: 67,
 		defense: 116,
@@ -1403,7 +1403,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fairy,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 176,
 		attack: 139,
 		defense: 191,
@@ -1411,7 +1411,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fairy,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 177,
 		attack: 134,
 		defense: 89,
@@ -1419,7 +1419,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 178,
 		attack: 192,
 		defense: 146,
@@ -1427,7 +1427,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 179,
 		attack: 114,
 		defense: 82,
@@ -1435,7 +1435,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 180,
 		attack: 145,
 		defense: 112,
@@ -1443,7 +1443,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 181,
 		attack: 211,
 		defense: 172,
@@ -1451,7 +1451,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 182,
 		attack: 169,
 		defense: 189,
@@ -1459,7 +1459,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 183,
 		attack: 37,
 		defense: 93,
@@ -1467,7 +1467,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Fairy),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 184,
 		attack: 112,
 		defense: 152,
@@ -1475,7 +1475,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Fairy),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 185,
 		attack: 167,
 		defense: 198,
@@ -1483,7 +1483,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 186,
 		attack: 174,
 		defense: 192,
@@ -1491,7 +1491,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 187,
 		attack: 67,
 		defense: 101,
@@ -1499,7 +1499,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 188,
 		attack: 91,
 		defense: 127,
@@ -1507,7 +1507,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 189,
 		attack: 118,
 		defense: 197,
@@ -1515,7 +1515,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 190,
 		attack: 136,
 		defense: 112,
@@ -1523,7 +1523,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 191,
 		attack: 55,
 		defense: 55,
@@ -1531,7 +1531,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 192,
 		attack: 185,
 		defense: 148,
@@ -1539,7 +1539,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Grass,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 193,
 		attack: 154,
 		defense: 94,
@@ -1547,7 +1547,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 194,
 		attack: 75,
 		defense: 75,
@@ -1555,7 +1555,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 195,
 		attack: 152,
 		defense: 152,
@@ -1563,7 +1563,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 196,
 		attack: 261,
 		defense: 194,
@@ -1571,7 +1571,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 197,
 		attack: 126,
 		defense: 250,
@@ -1579,7 +1579,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Dark,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 198,
 		attack: 175,
 		defense: 87,
@@ -1587,7 +1587,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Dark,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 199,
 		attack: 177,
 		defense: 194,
@@ -1595,7 +1595,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Psychic),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 200,
 		attack: 167,
 		defense: 167,
@@ -1603,7 +1603,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ghost,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 201,
 		attack: 136,
 		defense: 91,
@@ -1611,7 +1611,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 202,
 		attack: 60,
 		defense: 106,
@@ -1619,7 +1619,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 203,
 		attack: 182,
 		defense: 133,
@@ -1627,7 +1627,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: Some(PokeType::Psychic),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 204,
 		attack: 108,
 		defense: 146,
@@ -1635,7 +1635,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 205,
 		attack: 161,
 		defense: 242,
@@ -1643,7 +1643,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Steel),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 206,
 		attack: 131,
 		defense: 131,
@@ -1651,7 +1651,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 207,
 		attack: 143,
 		defense: 204,
@@ -1659,7 +1659,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 208,
 		attack: 148,
 		defense: 333,
@@ -1667,7 +1667,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Steel,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 209,
 		attack: 137,
 		defense: 89,
@@ -1675,7 +1675,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fairy,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 210,
 		attack: 212,
 		defense: 137,
@@ -1683,7 +1683,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fairy,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 211,
 		attack: 184,
 		defense: 148,
@@ -1691,7 +1691,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Poison),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 212,
 		attack: 236,
 		defense: 191,
@@ -1699,7 +1699,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Steel),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 213,
 		attack: 17,
 		defense: 396,
@@ -1707,7 +1707,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Rock),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 214,
 		attack: 234,
 		defense: 189,
@@ -1715,7 +1715,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Bug,
 		secondary_type: Some(PokeType::Fighting),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 215,
 		attack: 189,
 		defense: 157,
@@ -1723,7 +1723,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Dark,
 		secondary_type: Some(PokeType::Ice),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 216,
 		attack: 142,
 		defense: 93,
@@ -1731,7 +1731,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 217,
 		attack: 236,
 		defense: 144,
@@ -1739,7 +1739,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 218,
 		attack: 118,
 		defense: 71,
@@ -1747,7 +1747,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 219,
 		attack: 139,
 		defense: 209,
@@ -1755,7 +1755,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: Some(PokeType::Rock),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 220,
 		attack: 90,
 		defense: 74,
@@ -1763,7 +1763,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ice,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 221,
 		attack: 181,
 		defense: 147,
@@ -1771,7 +1771,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ice,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 222,
 		attack: 118,
 		defense: 156,
@@ -1779,7 +1779,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Rock),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 223,
 		attack: 127,
 		defense: 69,
@@ -1787,7 +1787,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 224,
 		attack: 197,
 		defense: 141,
@@ -1795,7 +1795,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 225,
 		attack: 128,
 		defense: 90,
@@ -1803,7 +1803,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ice,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 226,
 		attack: 148,
 		defense: 260,
@@ -1811,7 +1811,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 227,
 		attack: 148,
 		defense: 260,
@@ -1819,7 +1819,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Steel,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 228,
 		attack: 152,
 		defense: 93,
@@ -1827,7 +1827,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Dark,
 		secondary_type: Some(PokeType::Fire),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 229,
 		attack: 224,
 		defense: 159,
@@ -1835,7 +1835,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Dark,
 		secondary_type: Some(PokeType::Fire),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 230,
 		attack: 194,
 		defense: 194,
@@ -1843,7 +1843,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: Some(PokeType::Dragon),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 231,
 		attack: 107,
 		defense: 107,
@@ -1851,7 +1851,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 232,
 		attack: 214,
 		defense: 214,
@@ -1859,7 +1859,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ground,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 233,
 		attack: 198,
 		defense: 183,
@@ -1867,7 +1867,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 234,
 		attack: 192,
 		defense: 132,
@@ -1875,7 +1875,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 235,
 		attack: 40,
 		defense: 88,
@@ -1883,7 +1883,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 236,
 		attack: 64,
 		defense: 64,
@@ -1891,7 +1891,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fighting,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 237,
 		attack: 173,
 		defense: 214,
@@ -1899,7 +1899,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fighting,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 238,
 		attack: 153,
 		defense: 116,
@@ -1907,7 +1907,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Ice,
 		secondary_type: Some(PokeType::Psychic),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 239,
 		attack: 135,
 		defense: 110,
@@ -1915,7 +1915,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 240,
 		attack: 151,
 		defense: 108,
@@ -1923,7 +1923,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 241,
 		attack: 157,
 		defense: 211,
@@ -1931,7 +1931,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 242,
 		attack: 129,
 		defense: 229,
@@ -1939,7 +1939,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Normal,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 243,
 		attack: 241,
 		defense: 210,
@@ -1947,7 +1947,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Electric,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 244,
 		attack: 235,
 		defense: 176,
@@ -1955,7 +1955,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 245,
 		attack: 180,
 		defense: 235,
@@ -1963,7 +1963,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Water,
 		secondary_type: None,
 	},
-	PokemonData {
+	SpeciesData {
 		id: 246,
 		attack: 115,
 		defense: 93,
@@ -1971,7 +1971,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 247,
 		attack: 155,
 		defense: 133,
@@ -1979,7 +1979,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Ground),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 248,
 		attack: 251,
 		defense: 212,
@@ -1987,7 +1987,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Rock,
 		secondary_type: Some(PokeType::Dark),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 249,
 		attack: 193,
 		defense: 323,
@@ -1995,7 +1995,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Psychic,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 250,
 		attack: 263,
 		defense: 301,
@@ -2003,7 +2003,7 @@ pub const POKE_STATS: &'static [PokemonData] = &[
 		primary_type: PokeType::Fire,
 		secondary_type: Some(PokeType::Flying),
 	},
-	PokemonData {
+	SpeciesData {
 		id: 251,
 		attack: 210,
 		defense: 210,
