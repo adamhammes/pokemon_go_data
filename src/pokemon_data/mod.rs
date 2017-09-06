@@ -170,7 +170,7 @@ mod tests {
 
     #[test]
     fn max_cp_at_level() {
-        let level = Level::new(20.).unwrap();
+        let level = Level::new(20).unwrap();
         let kakuna = SpeciesData::from_id(14).unwrap();
 
         assert_eq!(224, kakuna.max_cp_at_level(level));

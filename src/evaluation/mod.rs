@@ -8,7 +8,9 @@ const MIN_LEVEL: f64 = 1.;
 const MAX_LEVEL: f64 = 39.;
 
 impl Level {
-    pub fn new(val: f64) -> Option<Level> {
+    pub fn new<T: Into<f64> + Copy>(level: T) -> Option<Level> {
+        let val: f64 = level.into();
+
         if val < MIN_LEVEL || val > MAX_LEVEL || (val.fract() != 0.5f64 && val.fract() != 0.0f64) {
             return None;
         }
