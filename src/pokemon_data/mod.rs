@@ -1,3 +1,4 @@
+use evaluation::Level;
 use types::PokeType;
 
 mod generated_species_data;
@@ -88,15 +89,47 @@ impl SpeciesData {
     pub fn is_dual_type(&self) -> bool {
         self.secondary_type.is_some()
     }
+
+    /// Returns the highest possible stats for this pokemon (e.g., perfect IVs).
+    pub fn perfect_stats(&self) -> (u16, u16, u16) {
+        (self.attack() + 15, self.defense() + 15, self.stamina() + 15)
+    }
+
+    /// Returns the species' max Combat Power at the given `Level`, assuming perfect IVs.
+    pub fn max_cp_at_level(&self, level: Level) -> u16 {
+        let (attack, defense, stamina) = self.perfect_stats();
+
+        SpeciesData::calculate_cp(attack, defense, stamina, level)
+    }
+
+    /// Returns this species' max Combat Power at level 39, assuming perfect IVs.
+    pub fn max_cp(&self) -> u16 {
+        let (attack, defense, stamina) = self.perfect_stats();
+
+        SpeciesData::calculate_cp(attack, defense, stamina, Level::max())
+    }
+
+    fn calculate_cp(attack: u16, defense: u16, stamina: u16, level: Level) -> u16 {
+        let attack_calc = attack as f64;
+        let defense_calc = (defense as f64).sqrt();
+        let stamina_calc = (stamina as f64).sqrt();
+
+        let cp_multiplier = level.cp_multiplier().powi(2);
+
+        let inner = attack_calc * defense_calc * stamina_calc * cp_multiplier / 10.;
+
+        ::std::cmp::max(10, inner.floor() as u16)
+    }
 }
 
 #[cfg(test)]
 mod tests {
+    use evaluation::Level;
     use types::PokeType;
     use SpeciesData;
 
     #[test]
-    fn pokemon_by_id_test() {
+    fn species_by_id() {
         let bulbasaur = SpeciesData::from_id(1).unwrap();
         assert_eq!((118, 118, 90), bulbasaur.base_stats());
 
@@ -121,7 +154,7 @@ mod tests {
     }
 
     #[test]
-    fn all_pokemon_test() {
+    fn all_species() {
         let all_pokemon = SpeciesData::all_species();
         let num_pokemon = 251;
 
@@ -133,5 +166,22 @@ mod tests {
                 format!("Couldn't find pokemon #{}", i)
             );
         }
+    }
+
+    #[test]
+    fn max_cp_at_level() {
+        let level = Level::new(20.).unwrap();
+        let kakuna = SpeciesData::from_id(14).unwrap();
+
+        assert_eq!(224, kakuna.max_cp_at_level(level));
+    }
+
+    #[test]
+    fn max_cp() {
+        let eevee = SpeciesData::from_id(133).unwrap();
+        assert_eq!(955, eevee.max_cp());
+
+        let dragonite = SpeciesData::from_id(149).unwrap();
+        assert_eq!(3_530, dragonite.max_cp());
     }
 }
