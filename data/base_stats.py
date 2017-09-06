@@ -2,7 +2,7 @@ from lxml import html
 import cssselect
 
 IN_FILE = 'in/base_stats.html'
-OUT_FILE = '../src/pokemon_data/generated_species_data.rs'
+OUT_FILE = '../src/pokemon_data/generated_species.rs'
 
 
 def read_stats():
@@ -45,13 +45,13 @@ def read_stats():
 def write_stats(stats):
     with open(OUT_FILE, 'w') as f:
         f.write('// Thie file was auto-generated using data/base_stats.py\n')
-        f.write('use pokemon_data::SpeciesData;\n')
+        f.write('use pokemon_data::Species;\n')
         f.write('use types::PokeType;\n\n')
 
-        f.write('pub const SPECIES: &\'static [SpeciesData] = &[\n')
+        f.write('pub const SPECIES: &\'static [Species] = &[\n')
 
         for stat in stats:
-            f.write('\tSpeciesData {\n')
+            f.write('\tSpecies {\n')
 
             f.write('\t\tid: {},\n'.format(stat['id']))
 
