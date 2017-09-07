@@ -32,6 +32,15 @@ def write(names):
 
         f.write('\tid: {},\n'.format(name['id']))
         f.write('\tenglish: "{}",\n'.format(name['English']))
+        f.write('\tjapanese: "{}",\n'.format(name['Japanese']))
+        f.write('\tjapanese_transliterated: "{}",\n'.format(name['JapaneseTransliterated']))
+        f.write('\tkorean: "{}",\n'.format(name['Korean']))
+        f.write('\tchinese: "{}",\n'.format(name['Chinese']))
+        f.write('\tfrench: "{}",\n'.format(name['French']))
+        f.write('\tgerman: "{}",\n'.format(name['German']))
+        f.write('\tspanish: "{}",\n'.format(name['Spanish']))
+        f.write('\titalian: "{}",\n'.format(name['Italian']))
+
 
         f.write('};\n\n')
 

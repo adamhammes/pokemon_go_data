@@ -5,1255 +5,3263 @@ use names::PokeName;
 pub const Bulbasaur: PokeName = PokeName {
 	id: 1,
 	english: "Bulbasaur",
+	japanese: "フシギダネ",
+	japanese_transliterated: "Fushigidane",
+	korean: "이상해씨",
+	chinese: "妙蛙種子",
+	french: "Bulbizarre",
+	german: "Bisasam",
+	spanish: "Bulbasaur",
+	italian: "Bulbasaur",
 };
 
 pub const Ivysaur: PokeName = PokeName {
 	id: 2,
 	english: "Ivysaur",
+	japanese: "フシギソウ",
+	japanese_transliterated: "Fushigisou",
+	korean: "이상해풀",
+	chinese: "妙蛙草",
+	french: "Herbizarre",
+	german: "Bisaknosp",
+	spanish: "Ivysaur",
+	italian: "Ivysaur",
 };
 
 pub const Venusaur: PokeName = PokeName {
 	id: 3,
 	english: "Venusaur",
+	japanese: "フシギバナ",
+	japanese_transliterated: "Fushigibana",
+	korean: "이상해꽃",
+	chinese: "妙蛙花",
+	french: "Florizarre",
+	german: "Bisaflor",
+	spanish: "Venusaur",
+	italian: "Venusaur",
 };
 
 pub const Charmander: PokeName = PokeName {
 	id: 4,
 	english: "Charmander",
+	japanese: "ヒトカゲ",
+	japanese_transliterated: "Hitokage",
+	korean: "파이리",
+	chinese: "小火龍",
+	french: "Salamèche",
+	german: "Glumanda",
+	spanish: "Charmander",
+	italian: "Charmander",
 };
 
 pub const Charmeleon: PokeName = PokeName {
 	id: 5,
 	english: "Charmeleon",
+	japanese: "リザード",
+	japanese_transliterated: "Lizardo",
+	korean: "리자드",
+	chinese: "火恐龍",
+	french: "Reptincel",
+	german: "Glutexo",
+	spanish: "Charmeleon",
+	italian: "Charmeleon",
 };
 
 pub const Charizard: PokeName = PokeName {
 	id: 6,
 	english: "Charizard",
+	japanese: "リザードン",
+	japanese_transliterated: "Lizardon",
+	korean: "리자몽",
+	chinese: "噴火龍",
+	french: "Dracaufeu",
+	german: "Glurak",
+	spanish: "Charizard",
+	italian: "Charizard",
 };
 
 pub const Squirtle: PokeName = PokeName {
 	id: 7,
 	english: "Squirtle",
+	japanese: "ゼニガメ",
+	japanese_transliterated: "Zenigame",
+	korean: "꼬부기",
+	chinese: "傑尼龜",
+	french: "Carapuce",
+	german: "Schiggy",
+	spanish: "Squirtle",
+	italian: "Squirtle",
 };
 
 pub const Wartortle: PokeName = PokeName {
 	id: 8,
 	english: "Wartortle",
+	japanese: "カメール",
+	japanese_transliterated: "Kameil",
+	korean: "어니부기",
+	chinese: "卡咪龜",
+	french: "Carabaffe",
+	german: "Schillok",
+	spanish: "Wartortle",
+	italian: "Wartortle",
 };
 
 pub const Blastoise: PokeName = PokeName {
 	id: 9,
 	english: "Blastoise",
+	japanese: "カメックス",
+	japanese_transliterated: "Kamex",
+	korean: "거북왕",
+	chinese: "水箭龜",
+	french: "Tortank",
+	german: "Turtok",
+	spanish: "Blastoise",
+	italian: "Blastoise",
 };
 
 pub const Caterpie: PokeName = PokeName {
 	id: 10,
 	english: "Caterpie",
+	japanese: "キャタピー",
+	japanese_transliterated: "Caterpie",
+	korean: "캐터피",
+	chinese: "綠毛蟲",
+	french: "Chenipan",
+	german: "Raupy",
+	spanish: "Caterpie",
+	italian: "Caterpie",
 };
 
 pub const Metapod: PokeName = PokeName {
 	id: 11,
 	english: "Metapod",
+	japanese: "トランセル",
+	japanese_transliterated: "Trancell",
+	korean: "단데기",
+	chinese: "鐵甲蛹",
+	french: "Chrysacier",
+	german: "Safcon",
+	spanish: "Metapod",
+	italian: "Metapod",
 };
 
 pub const Butterfree: PokeName = PokeName {
 	id: 12,
 	english: "Butterfree",
+	japanese: "バタフリー",
+	japanese_transliterated: "Butterfree",
+	korean: "버터플",
+	chinese: "巴大蝴",
+	french: "Papilusion",
+	german: "Smettbo",
+	spanish: "Butterfree",
+	italian: "Butterfree",
 };
 
 pub const Weedle: PokeName = PokeName {
 	id: 13,
 	english: "Weedle",
+	japanese: "ビードル",
+	japanese_transliterated: "Beedle",
+	korean: "뿔충이",
+	chinese: "獨角蟲",
+	french: "Aspicot",
+	german: "Hornliu",
+	spanish: "Weedle",
+	italian: "Weedle",
 };
 
 pub const Kakuna: PokeName = PokeName {
 	id: 14,
 	english: "Kakuna",
+	japanese: "コクーン",
+	japanese_transliterated: "Cocoon",
+	korean: "딱충이",
+	chinese: "鐵殼昆",
+	french: "Coconfort",
+	german: "Kokuna",
+	spanish: "Kakuna",
+	italian: "Kakuna",
 };
 
 pub const Beedrill: PokeName = PokeName {
 	id: 15,
 	english: "Beedrill",
+	japanese: "スピアー",
+	japanese_transliterated: "Spear",
+	korean: "독침붕",
+	chinese: "大針蜂",
+	french: "Dardargnan",
+	german: "Bibor",
+	spanish: "Beedrill",
+	italian: "Beedrill",
 };
 
 pub const Pidgey: PokeName = PokeName {
 	id: 16,
 	english: "Pidgey",
+	japanese: "ポッポ",
+	japanese_transliterated: "Poppo",
+	korean: "구구",
+	chinese: "波波",
+	french: "Roucool",
+	german: "Taubsi",
+	spanish: "Pidgey",
+	italian: "Pidgey",
 };
 
 pub const Pidgeotto: PokeName = PokeName {
 	id: 17,
 	english: "Pidgeotto",
+	japanese: "ピジョン",
+	japanese_transliterated: "Pigeon",
+	korean: "피죤",
+	chinese: "比比鳥",
+	french: "Roucoups",
+	german: "Tauboga",
+	spanish: "Pidgeotto",
+	italian: "Pidgeotto",
 };
 
 pub const Pidgeot: PokeName = PokeName {
 	id: 18,
 	english: "Pidgeot",
+	japanese: "ピジョット",
+	japanese_transliterated: "Pigeot",
+	korean: "피죤투",
+	chinese: "比鵰",
+	french: "Roucarnage",
+	german: "Tauboss",
+	spanish: "Pidgeot",
+	italian: "Pidgeot",
 };
 
 pub const Rattata: PokeName = PokeName {
 	id: 19,
 	english: "Rattata",
+	japanese: "コラッタ",
+	japanese_transliterated: "Koratta",
+	korean: "꼬렛",
+	chinese: "小拉達",
+	french: "Rattata",
+	german: "Rattfratz",
+	spanish: "Rattata",
+	italian: "Rattata",
 };
 
 pub const Raticate: PokeName = PokeName {
 	id: 20,
 	english: "Raticate",
+	japanese: "ラッタ",
+	japanese_transliterated: "Ratta",
+	korean: "레트라",
+	chinese: "拉達",
+	french: "Rattatac",
+	german: "Rattikarl",
+	spanish: "Raticate",
+	italian: "Raticate",
 };
 
 pub const Spearow: PokeName = PokeName {
 	id: 21,
 	english: "Spearow",
+	japanese: "オニスズメ",
+	japanese_transliterated: "Onisuzume",
+	korean: "깨비참",
+	chinese: "烈雀",
+	french: "Piafabec",
+	german: "Habitak",
+	spanish: "Spearow",
+	italian: "Spearow",
 };
 
 pub const Fearow: PokeName = PokeName {
 	id: 22,
 	english: "Fearow",
+	japanese: "オニドリル",
+	japanese_transliterated: "Onidrill",
+	korean: "깨비드릴조",
+	chinese: "大嘴雀",
+	french: "Rapasdepic",
+	german: "Ibitak",
+	spanish: "Fearow",
+	italian: "Fearow",
 };
 
 pub const Ekans: PokeName = PokeName {
 	id: 23,
 	english: "Ekans",
+	japanese: "アーボ",
+	japanese_transliterated: "Arbo",
+	korean: "아보",
+	chinese: "阿柏蛇",
+	french: "Abo",
+	german: "Rettan",
+	spanish: "Ekans",
+	italian: "Ekans",
 };
 
 pub const Arbok: PokeName = PokeName {
 	id: 24,
 	english: "Arbok",
+	japanese: "アーボック",
+	japanese_transliterated: "Arbok",
+	korean: "아보크",
+	chinese: "阿柏怪",
+	french: "Arbok",
+	german: "Arbok",
+	spanish: "Arbok",
+	italian: "Arbok",
 };
 
 pub const Pikachu: PokeName = PokeName {
 	id: 25,
 	english: "Pikachu",
+	japanese: "ピカチュウ",
+	japanese_transliterated: "Pikachu",
+	korean: "피카츄",
+	chinese: "皮卡丘",
+	french: "Pikachu",
+	german: "Pikachu",
+	spanish: "Pikachu",
+	italian: "Pikachu",
 };
 
 pub const Raichu: PokeName = PokeName {
 	id: 26,
 	english: "Raichu",
+	japanese: "ライチュウ",
+	japanese_transliterated: "Raichu",
+	korean: "라이츄",
+	chinese: "雷丘",
+	french: "Raichu",
+	german: "Raichu",
+	spanish: "Raichu",
+	italian: "Raichu",
 };
 
 pub const Sandshrew: PokeName = PokeName {
 	id: 27,
 	english: "Sandshrew",
+	japanese: "サンド",
+	japanese_transliterated: "Sand",
+	korean: "모래두지",
+	chinese: "穿山鼠",
+	french: "Sabelette",
+	german: "Sandan",
+	spanish: "Sandshrew",
+	italian: "Sandshrew",
 };
 
 pub const Sandslash: PokeName = PokeName {
 	id: 28,
 	english: "Sandslash",
+	japanese: "サンドパン",
+	japanese_transliterated: "Sandpan",
+	korean: "고지",
+	chinese: "穿山王",
+	french: "Sablaireau",
+	german: "Sandamer",
+	spanish: "Sandslash",
+	italian: "Sandslash",
 };
 
 pub const NidoranFemale: PokeName = PokeName {
 	id: 29,
 	english: "Nidoran♀",
+	japanese: "ニドラン♀",
+	japanese_transliterated: "Nidoran♀",
+	korean: "니드런♀",
+	chinese: "尼多蘭",
+	french: "Nidoran♀",
+	german: "Nidoran♀",
+	spanish: "Nidoran♀",
+	italian: "Nidoran♀",
 };
 
 pub const Nidorina: PokeName = PokeName {
 	id: 30,
 	english: "Nidorina",
+	japanese: "ニドリーナ",
+	japanese_transliterated: "Nidorina",
+	korean: "니드리나",
+	chinese: "尼多娜",
+	french: "Nidorina",
+	german: "Nidorina",
+	spanish: "Nidorina",
+	italian: "Nidorina",
 };
 
 pub const Nidoqueen: PokeName = PokeName {
 	id: 31,
 	english: "Nidoqueen",
+	japanese: "ニドクイン",
+	japanese_transliterated: "Nidoqueen",
+	korean: "니드퀸",
+	chinese: "尼多后",
+	french: "Nidoqueen",
+	german: "Nidoqueen",
+	spanish: "Nidoqueen",
+	italian: "Nidoqueen",
 };
 
 pub const NidoranMale: PokeName = PokeName {
 	id: 32,
 	english: "Nidoran♂",
+	japanese: "ニドラン♂",
+	japanese_transliterated: "Nidoran♂",
+	korean: "니드런♂",
+	chinese: "尼多朗",
+	french: "Nidoran♂",
+	german: "Nidoran♂",
+	spanish: "Nidoran♂",
+	italian: "Nidoran♂",
 };
 
 pub const Nidorino: PokeName = PokeName {
 	id: 33,
 	english: "Nidorino",
+	japanese: "ニドリーノ",
+	japanese_transliterated: "Nidorino",
+	korean: "니드리노",
+	chinese: "尼多力諾",
+	french: "Nidorino",
+	german: "Nidorino",
+	spanish: "Nidorino",
+	italian: "Nidorino",
 };
 
 pub const Nidoking: PokeName = PokeName {
 	id: 34,
 	english: "Nidoking",
+	japanese: "ニドキング",
+	japanese_transliterated: "Nidoking",
+	korean: "니드킹",
+	chinese: "尼多王",
+	french: "Nidoking",
+	german: "Nidoking",
+	spanish: "Nidoking",
+	italian: "Nidoking",
 };
 
 pub const Clefairy: PokeName = PokeName {
 	id: 35,
 	english: "Clefairy",
+	japanese: "ピッピ",
+	japanese_transliterated: "Pippi",
+	korean: "삐삐",
+	chinese: "皮皮",
+	french: "Mélofée",
+	german: "Piepi",
+	spanish: "Clefairy",
+	italian: "Clefairy",
 };
 
 pub const Clefable: PokeName = PokeName {
 	id: 36,
 	english: "Clefable",
+	japanese: "ピクシー",
+	japanese_transliterated: "Pixy",
+	korean: "픽시",
+	chinese: "皮可西",
+	french: "Mélodelfe",
+	german: "Pixi",
+	spanish: "Clefable",
+	italian: "Clefable",
 };
 
 pub const Vulpix: PokeName = PokeName {
 	id: 37,
 	english: "Vulpix",
+	japanese: "ロコン",
+	japanese_transliterated: "Rokon",
+	korean: "식스테일",
+	chinese: "六尾",
+	french: "Goupix",
+	german: "Vulpix",
+	spanish: "Vulpix",
+	italian: "Vulpix",
 };
 
 pub const Ninetales: PokeName = PokeName {
 	id: 38,
 	english: "Ninetales",
+	japanese: "キュウコン",
+	japanese_transliterated: "Kyukon",
+	korean: "나인테일",
+	chinese: "九尾",
+	french: "Feunard",
+	german: "Vulnona",
+	spanish: "Ninetales",
+	italian: "Ninetales",
 };
 
 pub const Jigglypuff: PokeName = PokeName {
 	id: 39,
 	english: "Jigglypuff",
+	japanese: "プリン",
+	japanese_transliterated: "Purin",
+	korean: "푸린",
+	chinese: "胖丁",
+	french: "Rondoudou",
+	german: "Pummeluff",
+	spanish: "Jigglypuff",
+	italian: "Jigglypuff",
 };
 
 pub const Wigglytuff: PokeName = PokeName {
 	id: 40,
 	english: "Wigglytuff",
+	japanese: "プクリン",
+	japanese_transliterated: "Pukurin",
+	korean: "푸크린",
+	chinese: "胖可丁",
+	french: "Grodoudou",
+	german: "Knuddeluff",
+	spanish: "Wigglytuff",
+	italian: "Wigglytuff",
 };
 
 pub const Zubat: PokeName = PokeName {
 	id: 41,
 	english: "Zubat",
+	japanese: "ズバット",
+	japanese_transliterated: "Zubat",
+	korean: "주뱃",
+	chinese: "超音蝠",
+	french: "Nosferapti",
+	german: "Zubat",
+	spanish: "Zubat",
+	italian: "Zubat",
 };
 
 pub const Golbat: PokeName = PokeName {
 	id: 42,
 	english: "Golbat",
+	japanese: "ゴルバット",
+	japanese_transliterated: "Golbat",
+	korean: "골뱃",
+	chinese: "大嘴蝠",
+	french: "Nosferalto",
+	german: "Golbat",
+	spanish: "Golbat",
+	italian: "Golbat",
 };
 
 pub const Oddish: PokeName = PokeName {
 	id: 43,
 	english: "Oddish",
+	japanese: "ナゾノクサ",
+	japanese_transliterated: "Nazonokusa",
+	korean: "뚜벅쵸",
+	chinese: "走路草",
+	french: "Mystherbe",
+	german: "Myrapla",
+	spanish: "Oddish",
+	italian: "Oddish",
 };
 
 pub const Gloom: PokeName = PokeName {
 	id: 44,
 	english: "Gloom",
+	japanese: "クサイハナ",
+	japanese_transliterated: "Kusaihana",
+	korean: "냄새꼬",
+	chinese: "臭臭花",
+	french: "Ortide",
+	german: "Duflor",
+	spanish: "Gloom",
+	italian: "Gloom",
 };
 
 pub const Vileplume: PokeName = PokeName {
 	id: 45,
 	english: "Vileplume",
+	japanese: "ラフレシア",
+	japanese_transliterated: "Ruffresia",
+	korean: "라플레시아",
+	chinese: "霸王花",
+	french: "Rafflesia",
+	german: "Giflor",
+	spanish: "Vileplume",
+	italian: "Vileplume",
 };
 
 pub const Paras: PokeName = PokeName {
 	id: 46,
 	english: "Paras",
+	japanese: "パラス",
+	japanese_transliterated: "Paras",
+	korean: "파라스",
+	chinese: "派拉斯",
+	french: "Paras",
+	german: "Paras",
+	spanish: "Paras",
+	italian: "Paras",
 };
 
 pub const Parasect: PokeName = PokeName {
 	id: 47,
 	english: "Parasect",
+	japanese: "パラセクト",
+	japanese_transliterated: "Parasect",
+	korean: "파라섹트",
+	chinese: "派拉斯特",
+	french: "Parasect",
+	german: "Parasek",
+	spanish: "Parasect",
+	italian: "Parasect",
 };
 
 pub const Venonat: PokeName = PokeName {
 	id: 48,
 	english: "Venonat",
+	japanese: "コンパン",
+	japanese_transliterated: "Kongpang",
+	korean: "콘팡",
+	chinese: "毛球",
+	french: "Mimitoss",
+	german: "Bluzuk",
+	spanish: "Venonat",
+	italian: "Venonat",
 };
 
 pub const Venomoth: PokeName = PokeName {
 	id: 49,
 	english: "Venomoth",
+	japanese: "モルフォン",
+	japanese_transliterated: "Morphon",
+	korean: "도나리",
+	chinese: "末入蛾",
+	french: "Aéromite",
+	german: "Omot",
+	spanish: "Venomoth",
+	italian: "Venomoth",
 };
 
 pub const Diglett: PokeName = PokeName {
 	id: 50,
 	english: "Diglett",
+	japanese: "ディグダ",
+	japanese_transliterated: "Digda",
+	korean: "디그다",
+	chinese: "地鼠",
+	french: "Taupiqueur",
+	german: "Digda",
+	spanish: "Diglett",
+	italian: "Diglett",
 };
 
 pub const Dugtrio: PokeName = PokeName {
 	id: 51,
 	english: "Dugtrio",
+	japanese: "ダグトリオ",
+	japanese_transliterated: "Dugtrio",
+	korean: "닥트리오",
+	chinese: "三地鼠",
+	french: "Triopikeur",
+	german: "Digdri",
+	spanish: "Dugtrio",
+	italian: "Dugtrio",
 };
 
 pub const Meowth: PokeName = PokeName {
 	id: 52,
 	english: "Meowth",
+	japanese: "ニャース",
+	japanese_transliterated: "Nyarth",
+	korean: "나옹",
+	chinese: "喵喵",
+	french: "Miaouss",
+	german: "Mauzi",
+	spanish: "Meowth",
+	italian: "Meowth",
 };
 
 pub const Persian: PokeName = PokeName {
 	id: 53,
 	english: "Persian",
+	japanese: "ペルシアン",
+	japanese_transliterated: "Persian",
+	korean: "페르시온",
+	chinese: "貓老大",
+	french: "Persian",
+	german: "Snobilikat",
+	spanish: "Persian",
+	italian: "Persian",
 };
 
 pub const Psyduck: PokeName = PokeName {
 	id: 54,
 	english: "Psyduck",
+	japanese: "コダック",
+	japanese_transliterated: "Koduck",
+	korean: "고라파덕",
+	chinese: "可達鴨",
+	french: "Psykokwak",
+	german: "Enton",
+	spanish: "Psyduck",
+	italian: "Psyduck",
 };
 
 pub const Golduck: PokeName = PokeName {
 	id: 55,
 	english: "Golduck",
+	japanese: "ゴルダック",
+	japanese_transliterated: "Golduck",
+	korean: "골덕",
+	chinese: "哥達鴨",
+	french: "Akwakwak",
+	german: "Entoron",
+	spanish: "Golduck",
+	italian: "Golduck",
 };
 
 pub const Mankey: PokeName = PokeName {
 	id: 56,
 	english: "Mankey",
+	japanese: "マンキー",
+	japanese_transliterated: "Mankey",
+	korean: "망키",
+	chinese: "猴怪",
+	french: "Férosinge",
+	german: "Menki",
+	spanish: "Mankey",
+	italian: "Mankey",
 };
 
 pub const Primeape: PokeName = PokeName {
 	id: 57,
 	english: "Primeape",
+	japanese: "オコリザル",
+	japanese_transliterated: "Okorizaru",
+	korean: "성원숭",
+	chinese: "火爆猴",
+	french: "Colossinge",
+	german: "Rasaff",
+	spanish: "Primeape",
+	italian: "Primeape",
 };
 
 pub const Growlithe: PokeName = PokeName {
 	id: 58,
 	english: "Growlithe",
+	japanese: "ガーディ",
+	japanese_transliterated: "Gardie",
+	korean: "가디",
+	chinese: "卡蒂狗",
+	french: "Caninos",
+	german: "Fukano",
+	spanish: "Growlithe",
+	italian: "Growlithe",
 };
 
 pub const Arcanine: PokeName = PokeName {
 	id: 59,
 	english: "Arcanine",
+	japanese: "ウインディ",
+	japanese_transliterated: "Windie",
+	korean: "윈디",
+	chinese: "風速狗",
+	french: "Arcanin",
+	german: "Arkani",
+	spanish: "Arcanine",
+	italian: "Arcanine",
 };
 
 pub const Poliwag: PokeName = PokeName {
 	id: 60,
 	english: "Poliwag",
+	japanese: "ニョロモ",
+	japanese_transliterated: "Nyoromo",
+	korean: "발챙이",
+	chinese: "蚊香蝌蚪",
+	french: "Ptitard",
+	german: "Quapsel",
+	spanish: "Poliwag",
+	italian: "Poliwag",
 };
 
 pub const Poliwhirl: PokeName = PokeName {
 	id: 61,
 	english: "Poliwhirl",
+	japanese: "ニョロゾ",
+	japanese_transliterated: "Nyorozo",
+	korean: "슈륙챙이",
+	chinese: "蚊香蛙",
+	french: "Têtarte",
+	german: "Quaputzi",
+	spanish: "Poliwhirl",
+	italian: "Poliwhirl",
 };
 
 pub const Poliwrath: PokeName = PokeName {
 	id: 62,
 	english: "Poliwrath",
+	japanese: "ニョロボン",
+	japanese_transliterated: "Nyorobon",
+	korean: "강챙이",
+	chinese: "快泳蛙",
+	french: "Tartard",
+	german: "Quappo",
+	spanish: "Poliwrath",
+	italian: "Poliwrath",
 };
 
 pub const Abra: PokeName = PokeName {
 	id: 63,
 	english: "Abra",
+	japanese: "ケーシィ",
+	japanese_transliterated: "Casey",
+	korean: "캐이시",
+	chinese: "凱西",
+	french: "Abra",
+	german: "Abra",
+	spanish: "Abra",
+	italian: "Abra",
 };
 
 pub const Kadabra: PokeName = PokeName {
 	id: 64,
 	english: "Kadabra",
+	japanese: "ユンゲラー",
+	japanese_transliterated: "Yungerer",
+	korean: "윤겔라",
+	chinese: "勇吉拉",
+	french: "Kadabra",
+	german: "Kadabra",
+	spanish: "Kadabra",
+	italian: "Kadabra",
 };
 
 pub const Alakazam: PokeName = PokeName {
 	id: 65,
 	english: "Alakazam",
+	japanese: "フーディン",
+	japanese_transliterated: "Foodin",
+	korean: "후딘",
+	chinese: "胡地",
+	french: "Alakazam",
+	german: "Simsala",
+	spanish: "Alakazam",
+	italian: "Alakazam",
 };
 
 pub const Machop: PokeName = PokeName {
 	id: 66,
 	english: "Machop",
+	japanese: "ワンリキー",
+	japanese_transliterated: "Wanriky",
+	korean: "알통몬",
+	chinese: "腕力",
+	french: "Machoc",
+	german: "Machollo",
+	spanish: "Machop",
+	italian: "Machop",
 };
 
 pub const Machoke: PokeName = PokeName {
 	id: 67,
 	english: "Machoke",
+	japanese: "ゴーリキー",
+	japanese_transliterated: "Goriky",
+	korean: "근육몬",
+	chinese: "豪力",
+	french: "Machopeur",
+	german: "Maschock",
+	spanish: "Machoke",
+	italian: "Machoke",
 };
 
 pub const Machamp: PokeName = PokeName {
 	id: 68,
 	english: "Machamp",
+	japanese: "カイリキー",
+	japanese_transliterated: "Kairiky",
+	korean: "괴력몬",
+	chinese: "怪力",
+	french: "Mackogneur",
+	german: "Machomei",
+	spanish: "Machamp",
+	italian: "Machamp",
 };
 
 pub const Bellsprout: PokeName = PokeName {
 	id: 69,
 	english: "Bellsprout",
+	japanese: "マダツボミ",
+	japanese_transliterated: "Madatsubomi",
+	korean: "모다피",
+	chinese: "喇叭芽",
+	french: "Chétiflor",
+	german: "Knofensa",
+	spanish: "Bellsprout",
+	italian: "Bellsprout",
 };
 
 pub const Weepinbell: PokeName = PokeName {
 	id: 70,
 	english: "Weepinbell",
+	japanese: "ウツドン",
+	japanese_transliterated: "Utsudon",
+	korean: "우츠동",
+	chinese: "口呆花",
+	french: "Boustiflor",
+	german: "Ultrigaria",
+	spanish: "Weepinbell",
+	italian: "Weepinbell",
 };
 
 pub const Victreebel: PokeName = PokeName {
 	id: 71,
 	english: "Victreebel",
+	japanese: "ウツボット",
+	japanese_transliterated: "Utsubot",
+	korean: "우츠보트",
+	chinese: "大食花",
+	french: "Empiflor",
+	german: "Sarzenia",
+	spanish: "Victreebel",
+	italian: "Victreebel",
 };
 
 pub const Tentacool: PokeName = PokeName {
 	id: 72,
 	english: "Tentacool",
+	japanese: "メノクラゲ",
+	japanese_transliterated: "Menokurage",
+	korean: "왕눈해",
+	chinese: "瑪瑙水母",
+	french: "Tentacool",
+	german: "Tentacha",
+	spanish: "Tentacool",
+	italian: "Tentacool",
 };
 
 pub const Tentacruel: PokeName = PokeName {
 	id: 73,
 	english: "Tentacruel",
+	japanese: "ドククラゲ",
+	japanese_transliterated: "Dokukurage",
+	korean: "독파리",
+	chinese: "毒刺水母",
+	french: "Tentacruel",
+	german: "Tentoxa",
+	spanish: "Tentacruel",
+	italian: "Tentacruel",
 };
 
 pub const Geodude: PokeName = PokeName {
 	id: 74,
 	english: "Geodude",
+	japanese: "イシツブテ",
+	japanese_transliterated: "Isitsubute",
+	korean: "꼬마돌",
+	chinese: "小拳石",
+	french: "Racaillou",
+	german: "Kleinstein",
+	spanish: "Geodude",
+	italian: "Geodude",
 };
 
 pub const Graveler: PokeName = PokeName {
 	id: 75,
 	english: "Graveler",
+	japanese: "ゴローン",
+	japanese_transliterated: "Golone",
+	korean: "데구리",
+	chinese: "隆隆石",
+	french: "Gravalanch",
+	german: "Georok",
+	spanish: "Graveler",
+	italian: "Graveler",
 };
 
 pub const Golem: PokeName = PokeName {
 	id: 76,
 	english: "Golem",
+	japanese: "ゴローニャ",
+	japanese_transliterated: "Golonya",
+	korean: "딱구리",
+	chinese: "隆隆岩",
+	french: "Grolem",
+	german: "Geowaz",
+	spanish: "Golem",
+	italian: "Golem",
 };
 
 pub const Ponyta: PokeName = PokeName {
 	id: 77,
 	english: "Ponyta",
+	japanese: "ポニータ",
+	japanese_transliterated: "Ponyta",
+	korean: "포니타",
+	chinese: "小火馬",
+	french: "Ponyta",
+	german: "Ponita",
+	spanish: "Ponyta",
+	italian: "Ponyta",
 };
 
 pub const Rapidash: PokeName = PokeName {
 	id: 78,
 	english: "Rapidash",
+	japanese: "ギャロップ",
+	japanese_transliterated: "Gallop",
+	korean: "날쌩마",
+	chinese: "烈焰馬",
+	french: "Galopa",
+	german: "Gallopa",
+	spanish: "Rapidash",
+	italian: "Rapidash",
 };
 
 pub const Slowpoke: PokeName = PokeName {
 	id: 79,
 	english: "Slowpoke",
+	japanese: "ヤドン",
+	japanese_transliterated: "Yadon",
+	korean: "야돈",
+	chinese: "呆呆獸",
+	french: "Ramoloss",
+	german: "Flegmon",
+	spanish: "Slowpoke",
+	italian: "Slowpoke",
 };
 
 pub const Slowbro: PokeName = PokeName {
 	id: 80,
 	english: "Slowbro",
+	japanese: "ヤドラン",
+	japanese_transliterated: "Yadoran",
+	korean: "야도란",
+	chinese: "呆河馬",
+	french: "Flagadoss",
+	german: "Lahmus",
+	spanish: "Slowbro",
+	italian: "Slowbro",
 };
 
 pub const Magnemite: PokeName = PokeName {
 	id: 81,
 	english: "Magnemite",
+	japanese: "コイル",
+	japanese_transliterated: "Coil",
+	korean: "코일",
+	chinese: "小磁怪",
+	french: "Magnéti",
+	german: "Magnetilo",
+	spanish: "Magnemite",
+	italian: "Magnemite",
 };
 
 pub const Magneton: PokeName = PokeName {
 	id: 82,
 	english: "Magneton",
+	japanese: "レアコイル",
+	japanese_transliterated: "Rarecoil",
+	korean: "레어코일",
+	chinese: "三合一磁怪",
+	french: "Magnéton",
+	german: "Magneton",
+	spanish: "Magneton",
+	italian: "Magneton",
 };
 
 pub const Farfetchd: PokeName = PokeName {
 	id: 83,
 	english: "Farfetch'd",
+	japanese: "カモネギ",
+	japanese_transliterated: "Kamonegi",
+	korean: "파오리",
+	chinese: "大蔥鴨",
+	french: "Canarticho",
+	german: "Porenta",
+	spanish: "Farfetch'd",
+	italian: "Farfetch'd",
 };
 
 pub const Doduo: PokeName = PokeName {
 	id: 84,
 	english: "Doduo",
+	japanese: "ドードー",
+	japanese_transliterated: "Dodo",
+	korean: "두두",
+	chinese: "嘟嘟",
+	french: "Doduo",
+	german: "Dodu",
+	spanish: "Doduo",
+	italian: "Doduo",
 };
 
 pub const Dodrio: PokeName = PokeName {
 	id: 85,
 	english: "Dodrio",
+	japanese: "ドードリオ",
+	japanese_transliterated: "Dodorio",
+	korean: "두트리오",
+	chinese: "嘟嘟利",
+	french: "Dodrio",
+	german: "Dodri",
+	spanish: "Dodrio",
+	italian: "Dodrio",
 };
 
 pub const Seel: PokeName = PokeName {
 	id: 86,
 	english: "Seel",
+	japanese: "パウワウ",
+	japanese_transliterated: "Pawou",
+	korean: "쥬쥬",
+	chinese: "小海獅",
+	french: "Otaria",
+	german: "Jurob",
+	spanish: "Seel",
+	italian: "Seel",
 };
 
 pub const Dewgong: PokeName = PokeName {
 	id: 87,
 	english: "Dewgong",
+	japanese: "ジュゴン",
+	japanese_transliterated: "Jugon",
+	korean: "쥬레곤",
+	chinese: "白海獅",
+	french: "Lamantine",
+	german: "Jugong",
+	spanish: "Dewgong",
+	italian: "Dewgong",
 };
 
 pub const Grimer: PokeName = PokeName {
 	id: 88,
 	english: "Grimer",
+	japanese: "ベトベター",
+	japanese_transliterated: "Betbeter",
+	korean: "질퍽이",
+	chinese: "臭泥",
+	french: "Tadmorv",
+	german: "Sleima",
+	spanish: "Grimer",
+	italian: "Grimer",
 };
 
 pub const Muk: PokeName = PokeName {
 	id: 89,
 	english: "Muk",
+	japanese: "ベトベトン",
+	japanese_transliterated: "Betbeton",
+	korean: "질뻐기",
+	chinese: "臭臭泥",
+	french: "Grotadmorv",
+	german: "Sleimok",
+	spanish: "Muk",
+	italian: "Muk",
 };
 
 pub const Shellder: PokeName = PokeName {
 	id: 90,
 	english: "Shellder",
+	japanese: "シェルダー",
+	japanese_transliterated: "Shellder",
+	korean: "셀러",
+	chinese: "大舌貝",
+	french: "Kokiyas",
+	german: "Muschas",
+	spanish: "Shellder",
+	italian: "Shellder",
 };
 
 pub const Cloyster: PokeName = PokeName {
 	id: 91,
 	english: "Cloyster",
+	japanese: "パルシェン",
+	japanese_transliterated: "Parshen",
+	korean: "파르셀",
+	chinese: "鐵甲貝",
+	french: "Crustabri",
+	german: "Austos",
+	spanish: "Cloyster",
+	italian: "Cloyster",
 };
 
 pub const Gastly: PokeName = PokeName {
 	id: 92,
 	english: "Gastly",
+	japanese: "ゴース",
+	japanese_transliterated: "Ghos",
+	korean: "고오스",
+	chinese: "鬼斯",
+	french: "Fantominus",
+	german: "Nebulak",
+	spanish: "Gastly",
+	italian: "Gastly",
 };
 
 pub const Haunter: PokeName = PokeName {
 	id: 93,
 	english: "Haunter",
+	japanese: "ゴースト",
+	japanese_transliterated: "Ghost",
+	korean: "고우스트",
+	chinese: "鬼斯通",
+	french: "Spectrum",
+	german: "Alpollo",
+	spanish: "Haunter",
+	italian: "Haunter",
 };
 
 pub const Gengar: PokeName = PokeName {
 	id: 94,
 	english: "Gengar",
+	japanese: "ゲンガー",
+	japanese_transliterated: "Gangar",
+	korean: "팬텀",
+	chinese: "耿鬼",
+	french: "Ectoplasma",
+	german: "Gengar",
+	spanish: "Gengar",
+	italian: "Gengar",
 };
 
 pub const Onix: PokeName = PokeName {
 	id: 95,
 	english: "Onix",
+	japanese: "イワーク",
+	japanese_transliterated: "Iwark",
+	korean: "롱스톤",
+	chinese: "大岩蛇",
+	french: "Onix",
+	german: "Onix",
+	spanish: "Onix",
+	italian: "Onix",
 };
 
 pub const Drowzee: PokeName = PokeName {
 	id: 96,
 	english: "Drowzee",
+	japanese: "スリープ",
+	japanese_transliterated: "Sleep",
+	korean: "슬리프",
+	chinese: "素利普",
+	french: "Soporifik",
+	german: "Traumato",
+	spanish: "Drowzee",
+	italian: "Drowzee",
 };
 
 pub const Hypno: PokeName = PokeName {
 	id: 97,
 	english: "Hypno",
+	japanese: "スリーパー",
+	japanese_transliterated: "Sleeper",
+	korean: "슬리퍼",
+	chinese: "素利拍",
+	french: "Hypnomade",
+	german: "Hypno",
+	spanish: "Hypno",
+	italian: "Hypno",
 };
 
 pub const Krabby: PokeName = PokeName {
 	id: 98,
 	english: "Krabby",
+	japanese: "クラブ",
+	japanese_transliterated: "Crab",
+	korean: "크랩",
+	chinese: "大鉗蟹",
+	french: "Krabby",
+	german: "Krabby",
+	spanish: "Krabby",
+	italian: "Krabby",
 };
 
 pub const Kingler: PokeName = PokeName {
 	id: 99,
 	english: "Kingler",
+	japanese: "キングラー",
+	japanese_transliterated: "Kingler",
+	korean: "킹크랩",
+	chinese: "巨鉗蟹",
+	french: "Krabboss",
+	german: "Kingler",
+	spanish: "Kingler",
+	italian: "Kingler",
 };
 
 pub const Voltorb: PokeName = PokeName {
 	id: 100,
 	english: "Voltorb",
+	japanese: "ビリリダマ",
+	japanese_transliterated: "Biriridama",
+	korean: "찌리리공",
+	chinese: "雷電球",
+	french: "Voltorbe",
+	german: "Voltobal",
+	spanish: "Voltorb",
+	italian: "Voltorb",
 };
 
 pub const Electrode: PokeName = PokeName {
 	id: 101,
 	english: "Electrode",
+	japanese: "マルマイン",
+	japanese_transliterated: "Marumine",
+	korean: "붐볼",
+	chinese: "頑皮彈",
+	french: "Électrode",
+	german: "Lektrobal",
+	spanish: "Electrode",
+	italian: "Electrode",
 };
 
 pub const Exeggcute: PokeName = PokeName {
 	id: 102,
 	english: "Exeggcute",
+	japanese: "タマタマ",
+	japanese_transliterated: "Tamatama",
+	korean: "아라리",
+	chinese: "蛋蛋",
+	french: "Noeunoeuf",
+	german: "Owei",
+	spanish: "Exeggcute",
+	italian: "Exeggcute",
 };
 
 pub const Exeggutor: PokeName = PokeName {
 	id: 103,
 	english: "Exeggutor",
+	japanese: "ナッシー",
+	japanese_transliterated: "Nassy",
+	korean: "나시",
+	chinese: "椰蛋樹",
+	french: "Noadkoko",
+	german: "Kokowei",
+	spanish: "Exeggutor",
+	italian: "Exeggutor",
 };
 
 pub const Cubone: PokeName = PokeName {
 	id: 104,
 	english: "Cubone",
+	japanese: "カラカラ",
+	japanese_transliterated: "Karakara",
+	korean: "탕구리",
+	chinese: "可拉可拉",
+	french: "Osselait",
+	german: "Tragosso",
+	spanish: "Cubone",
+	italian: "Cubone",
 };
 
 pub const Marowak: PokeName = PokeName {
 	id: 105,
 	english: "Marowak",
+	japanese: "ガラガラ",
+	japanese_transliterated: "Garagara",
+	korean: "텅구리",
+	chinese: "嘎啦嘎啦",
+	french: "Ossatueur",
+	german: "Knogga",
+	spanish: "Marowak",
+	italian: "Marowak",
 };
 
 pub const Hitmonlee: PokeName = PokeName {
 	id: 106,
 	english: "Hitmonlee",
+	japanese: "サワムラー",
+	japanese_transliterated: "Sawamular",
+	korean: "시라소몬",
+	chinese: "沙瓦郎",
+	french: "Kicklee",
+	german: "Kicklee",
+	spanish: "Hitmonlee",
+	italian: "Hitmonlee",
 };
 
 pub const Hitmonchan: PokeName = PokeName {
 	id: 107,
 	english: "Hitmonchan",
+	japanese: "エビワラー",
+	japanese_transliterated: "Ebiwalar",
+	korean: "홍수몬",
+	chinese: "艾比郎",
+	french: "Tygnon",
+	german: "Nockchan",
+	spanish: "Hitmonchan",
+	italian: "Hitmonchan",
 };
 
 pub const Lickitung: PokeName = PokeName {
 	id: 108,
 	english: "Lickitung",
+	japanese: "ベロリンガ",
+	japanese_transliterated: "Beroringa",
+	korean: "내루미",
+	chinese: "大舌頭",
+	french: "Excelangue",
+	german: "Schlurp",
+	spanish: "Lickitung",
+	italian: "Lickitung",
 };
 
 pub const Koffing: PokeName = PokeName {
 	id: 109,
 	english: "Koffing",
+	japanese: "ドガース",
+	japanese_transliterated: "Dogars",
+	korean: "또가스",
+	chinese: "瓦斯彈",
+	french: "Smogo",
+	german: "Smogon",
+	spanish: "Koffing",
+	italian: "Koffing",
 };
 
 pub const Weezing: PokeName = PokeName {
 	id: 110,
 	english: "Weezing",
+	japanese: "マタドガス",
+	japanese_transliterated: "Matadogas",
+	korean: "또도가스",
+	chinese: "雙彈瓦斯",
+	french: "Smogogo",
+	german: "Smogmog",
+	spanish: "Weezing",
+	italian: "Weezing",
 };
 
 pub const Rhyhorn: PokeName = PokeName {
 	id: 111,
 	english: "Rhyhorn",
+	japanese: "サイホーン",
+	japanese_transliterated: "Sihorn",
+	korean: "뿔카노",
+	chinese: "鐵甲犀牛",
+	french: "Rhinocorne",
+	german: "Rihorn",
+	spanish: "Rhyhorn",
+	italian: "Rhyhorn",
 };
 
 pub const Rhydon: PokeName = PokeName {
 	id: 112,
 	english: "Rhydon",
+	japanese: "サイドン",
+	japanese_transliterated: "Sidon",
+	korean: "코뿌리",
+	chinese: "鐵甲暴龍",
+	french: "Rhinoféros",
+	german: "Rizeros",
+	spanish: "Rhydon",
+	italian: "Rhydon",
 };
 
 pub const Chansey: PokeName = PokeName {
 	id: 113,
 	english: "Chansey",
+	japanese: "ラッキー",
+	japanese_transliterated: "Lucky",
+	korean: "럭키",
+	chinese: "吉利蛋",
+	french: "Leveinard",
+	german: "Chaneira",
+	spanish: "Chansey",
+	italian: "Chansey",
 };
 
 pub const Tangela: PokeName = PokeName {
 	id: 114,
 	english: "Tangela",
+	japanese: "モンジャラ",
+	japanese_transliterated: "Monjara",
+	korean: "덩쿠리",
+	chinese: "蔓藤怪",
+	french: "Saquedeneu",
+	german: "Tangela",
+	spanish: "Tangela",
+	italian: "Tangela",
 };
 
 pub const Kangaskhan: PokeName = PokeName {
 	id: 115,
 	english: "Kangaskhan",
+	japanese: "ガルーラ",
+	japanese_transliterated: "Garura",
+	korean: "캥카",
+	chinese: "袋龍",
+	french: "Kangourex",
+	german: "Kangama",
+	spanish: "Kangaskhan",
+	italian: "Kangaskhan",
 };
 
 pub const Horsea: PokeName = PokeName {
 	id: 116,
 	english: "Horsea",
+	japanese: "タッツー",
+	japanese_transliterated: "Tattu",
+	korean: "쏘드라",
+	chinese: "墨海馬",
+	french: "Hypotrempe",
+	german: "Seeper",
+	spanish: "Horsea",
+	italian: "Horsea",
 };
 
 pub const Seadra: PokeName = PokeName {
 	id: 117,
 	english: "Seadra",
+	japanese: "シードラ",
+	japanese_transliterated: "Seadra",
+	korean: "시드라",
+	chinese: "海刺龍",
+	french: "Hypocéan",
+	german: "Seemon",
+	spanish: "Seadra",
+	italian: "Seadra",
 };
 
 pub const Goldeen: PokeName = PokeName {
 	id: 118,
 	english: "Goldeen",
+	japanese: "トサキント",
+	japanese_transliterated: "Tosakinto",
+	korean: "콘치",
+	chinese: "角金魚",
+	french: "Poissirène",
+	german: "Goldini",
+	spanish: "Goldeen",
+	italian: "Goldeen",
 };
 
 pub const Seaking: PokeName = PokeName {
 	id: 119,
 	english: "Seaking",
+	japanese: "アズマオウ",
+	japanese_transliterated: "Azumao",
+	korean: "왕콘치",
+	chinese: "金魚王",
+	french: "Poissoroy",
+	german: "Golking",
+	spanish: "Seaking",
+	italian: "Seaking",
 };
 
 pub const Staryu: PokeName = PokeName {
 	id: 120,
 	english: "Staryu",
+	japanese: "ヒトデマン",
+	japanese_transliterated: "Hitodeman",
+	korean: "별가사리",
+	chinese: "海星星",
+	french: "Stari",
+	german: "Sterndu",
+	spanish: "Staryu",
+	italian: "Staryu",
 };
 
 pub const Starmie: PokeName = PokeName {
 	id: 121,
 	english: "Starmie",
+	japanese: "スターミー",
+	japanese_transliterated: "Starmie",
+	korean: "아쿠스타",
+	chinese: "寶石海星",
+	french: "Staross",
+	german: "Starmie",
+	spanish: "Starmie",
+	italian: "Starmie",
 };
 
 pub const MrMime: PokeName = PokeName {
 	id: 122,
 	english: "Mr. Mime",
+	japanese: "バリヤード",
+	japanese_transliterated: "Barrierd",
+	korean: "마임맨",
+	chinese: "吸盤魔偶",
+	french: "M. Mime",
+	german: "Pantimos",
+	spanish: "Mr. Mime",
+	italian: "Mr. Mime",
 };
 
 pub const Scyther: PokeName = PokeName {
 	id: 123,
 	english: "Scyther",
+	japanese: "ストライク",
+	japanese_transliterated: "Strike",
+	korean: "스라크",
+	chinese: "飛天螳螂",
+	french: "Insécateur",
+	german: "Sichlor",
+	spanish: "Scyther",
+	italian: "Scyther",
 };
 
 pub const Jynx: PokeName = PokeName {
 	id: 124,
 	english: "Jynx",
+	japanese: "ルージュラ",
+	japanese_transliterated: "Rougela",
+	korean: "루주라",
+	chinese: "迷唇姐",
+	french: "Lippoutou",
+	german: "Rossana",
+	spanish: "Jynx",
+	italian: "Jynx",
 };
 
 pub const Electabuzz: PokeName = PokeName {
 	id: 125,
 	english: "Electabuzz",
+	japanese: "エレブー",
+	japanese_transliterated: "Eleboo",
+	korean: "에레브",
+	chinese: "電擊獸",
+	french: "Élektek",
+	german: "Elektek",
+	spanish: "Electabuzz",
+	italian: "Electabuzz",
 };
 
 pub const Magmar: PokeName = PokeName {
 	id: 126,
 	english: "Magmar",
+	japanese: "ブーバー",
+	japanese_transliterated: "Boober",
+	korean: "마그마",
+	chinese: "鴨嘴火龍",
+	french: "Magmar",
+	german: "Magmar",
+	spanish: "Magmar",
+	italian: "Magmar",
 };
 
 pub const Pinsir: PokeName = PokeName {
 	id: 127,
 	english: "Pinsir",
+	japanese: "カイロス",
+	japanese_transliterated: "Kailios",
+	korean: "쁘사이저",
+	chinese: "大甲",
+	french: "Scarabrute",
+	german: "Pinsir",
+	spanish: "Pinsir",
+	italian: "Pinsir",
 };
 
 pub const Tauros: PokeName = PokeName {
 	id: 128,
 	english: "Tauros",
+	japanese: "ケンタロス",
+	japanese_transliterated: "Kentauros",
+	korean: "켄타로스",
+	chinese: "肯泰羅",
+	french: "Tauros",
+	german: "Tauros",
+	spanish: "Tauros",
+	italian: "Tauros",
 };
 
 pub const Magikarp: PokeName = PokeName {
 	id: 129,
 	english: "Magikarp",
+	japanese: "コイキング",
+	japanese_transliterated: "Koiking",
+	korean: "잉어킹",
+	chinese: "鯉魚王",
+	french: "Magicarpe",
+	german: "Karpador",
+	spanish: "Magikarp",
+	italian: "Magikarp",
 };
 
 pub const Gyarados: PokeName = PokeName {
 	id: 130,
 	english: "Gyarados",
+	japanese: "ギャラドス",
+	japanese_transliterated: "Gyarados",
+	korean: "갸라도스",
+	chinese: "暴鯉龍",
+	french: "Léviator",
+	german: "Garados",
+	spanish: "Gyarados",
+	italian: "Gyarados",
 };
 
 pub const Lapras: PokeName = PokeName {
 	id: 131,
 	english: "Lapras",
+	japanese: "ラプラス",
+	japanese_transliterated: "Laplace",
+	korean: "라프라스",
+	chinese: "乘龍",
+	french: "Lokhlass",
+	german: "Lapras",
+	spanish: "Lapras",
+	italian: "Lapras",
 };
 
 pub const Ditto: PokeName = PokeName {
 	id: 132,
 	english: "Ditto",
+	japanese: "メタモン",
+	japanese_transliterated: "Metamon",
+	korean: "메타몽",
+	chinese: "百變怪",
+	french: "Métamorph",
+	german: "Ditto",
+	spanish: "Ditto",
+	italian: "Ditto",
 };
 
 pub const Eevee: PokeName = PokeName {
 	id: 133,
 	english: "Eevee",
+	japanese: "イーブイ",
+	japanese_transliterated: "Eievui",
+	korean: "이브이",
+	chinese: "伊布",
+	french: "Évoli",
+	german: "Evoli",
+	spanish: "Eevee",
+	italian: "Eevee",
 };
 
 pub const Vaporeon: PokeName = PokeName {
 	id: 134,
 	english: "Vaporeon",
+	japanese: "シャワーズ",
+	japanese_transliterated: "Showers",
+	korean: "샤미드",
+	chinese: "水精靈",
+	french: "Aquali",
+	german: "Aquana",
+	spanish: "Vaporeon",
+	italian: "Vaporeon",
 };
 
 pub const Jolteon: PokeName = PokeName {
 	id: 135,
 	english: "Jolteon",
+	japanese: "サンダース",
+	japanese_transliterated: "Thunders",
+	korean: "쥬피썬더",
+	chinese: "雷精靈",
+	french: "Voltali",
+	german: "Blitza",
+	spanish: "Jolteon",
+	italian: "Jolteon",
 };
 
 pub const Flareon: PokeName = PokeName {
 	id: 136,
 	english: "Flareon",
+	japanese: "ブースター",
+	japanese_transliterated: "Booster",
+	korean: "부스터",
+	chinese: "火精靈",
+	french: "Pyroli",
+	german: "Flamara",
+	spanish: "Flareon",
+	italian: "Flareon",
 };
 
 pub const Porygon: PokeName = PokeName {
 	id: 137,
 	english: "Porygon",
+	japanese: "ポリゴン",
+	japanese_transliterated: "Porygon",
+	korean: "폴리곤",
+	chinese: "3D龍",
+	french: "Porygon",
+	german: "Porygon",
+	spanish: "Porygon",
+	italian: "Porygon",
 };
 
 pub const Omanyte: PokeName = PokeName {
 	id: 138,
 	english: "Omanyte",
+	japanese: "オムナイト",
+	japanese_transliterated: "Omnite",
+	korean: "암나이트",
+	chinese: "菊石獸",
+	french: "Amonita",
+	german: "Amonitas",
+	spanish: "Omanyte",
+	italian: "Omanyte",
 };
 
 pub const Omastar: PokeName = PokeName {
 	id: 139,
 	english: "Omastar",
+	japanese: "オムスター",
+	japanese_transliterated: "Omstar",
+	korean: "암스타",
+	chinese: "多刺菊石獸",
+	french: "Amonistar",
+	german: "Amoroso",
+	spanish: "Omastar",
+	italian: "Omastar",
 };
 
 pub const Kabuto: PokeName = PokeName {
 	id: 140,
 	english: "Kabuto",
+	japanese: "カブト",
+	japanese_transliterated: "Kabuto",
+	korean: "투구",
+	chinese: "化石盔",
+	french: "Kabuto",
+	german: "Kabuto",
+	spanish: "Kabuto",
+	italian: "Kabuto",
 };
 
 pub const Kabutops: PokeName = PokeName {
 	id: 141,
 	english: "Kabutops",
+	japanese: "カブトプス",
+	japanese_transliterated: "Kabutops",
+	korean: "투구푸스",
+	chinese: "鐮刀盔",
+	french: "Kabutops",
+	german: "Kabutops",
+	spanish: "Kabutops",
+	italian: "Kabutops",
 };
 
 pub const Aerodactyl: PokeName = PokeName {
 	id: 142,
 	english: "Aerodactyl",
+	japanese: "プテラ",
+	japanese_transliterated: "Ptera",
+	korean: "프테라",
+	chinese: "化石翼龍",
+	french: "Ptéra",
+	german: "Aerodactyl",
+	spanish: "Aerodactyl",
+	italian: "Aerodactyl",
 };
 
 pub const Snorlax: PokeName = PokeName {
 	id: 143,
 	english: "Snorlax",
+	japanese: "カビゴン",
+	japanese_transliterated: "Kabigon",
+	korean: "잠만보",
+	chinese: "卡比獸",
+	french: "Ronflex",
+	german: "Relaxo",
+	spanish: "Snorlax",
+	italian: "Snorlax",
 };
 
 pub const Articuno: PokeName = PokeName {
 	id: 144,
 	english: "Articuno",
+	japanese: "フリーザー",
+	japanese_transliterated: "Freezer",
+	korean: "프리져",
+	chinese: "急凍鳥",
+	french: "Artikodin",
+	german: "Arktos",
+	spanish: "Articuno",
+	italian: "Articuno",
 };
 
 pub const Zapdos: PokeName = PokeName {
 	id: 145,
 	english: "Zapdos",
+	japanese: "サンダー",
+	japanese_transliterated: "Thunder",
+	korean: "썬더",
+	chinese: "閃電鳥",
+	french: "Électhor",
+	german: "Zapdos",
+	spanish: "Zapdos",
+	italian: "Zapdos",
 };
 
 pub const Moltres: PokeName = PokeName {
 	id: 146,
 	english: "Moltres",
+	japanese: "ファイヤー",
+	japanese_transliterated: "Fire",
+	korean: "파이어",
+	chinese: "火焰鳥",
+	french: "Sulfura",
+	german: "Lavados",
+	spanish: "Moltres",
+	italian: "Moltres",
 };
 
 pub const Dratini: PokeName = PokeName {
 	id: 147,
 	english: "Dratini",
+	japanese: "ミニリュウ",
+	japanese_transliterated: "Miniryu",
+	korean: "미뇽",
+	chinese: "迷你龍",
+	french: "Minidraco",
+	german: "Dratini",
+	spanish: "Dratini",
+	italian: "Dratini",
 };
 
 pub const Dragonair: PokeName = PokeName {
 	id: 148,
 	english: "Dragonair",
+	japanese: "ハクリュー",
+	japanese_transliterated: "Hakuryu",
+	korean: "신뇽",
+	chinese: "哈克龍",
+	french: "Draco",
+	german: "Dragonir",
+	spanish: "Dragonair",
+	italian: "Dragonair",
 };
 
 pub const Dragonite: PokeName = PokeName {
 	id: 149,
 	english: "Dragonite",
+	japanese: "カイリュー",
+	japanese_transliterated: "Kairyu",
+	korean: "망나뇽",
+	chinese: "快龍",
+	french: "Dracolosse",
+	german: "Dragoran",
+	spanish: "Dragonite",
+	italian: "Dragonite",
 };
 
 pub const Mewtwo: PokeName = PokeName {
 	id: 150,
 	english: "Mewtwo",
+	japanese: "ミュウツー",
+	japanese_transliterated: "Mewtwo",
+	korean: "뮤츠",
+	chinese: "超夢",
+	french: "Mewtwo",
+	german: "Mewtu",
+	spanish: "Mewtwo",
+	italian: "Mewtwo",
 };
 
 pub const Mew: PokeName = PokeName {
 	id: 151,
 	english: "Mew",
+	japanese: "ミュウ",
+	japanese_transliterated: "Mew",
+	korean: "뮤",
+	chinese: "夢幻",
+	french: "Mew",
+	german: "Mew",
+	spanish: "Mew",
+	italian: "Mew",
 };
 
 pub const Chikorita: PokeName = PokeName {
 	id: 152,
 	english: "Chikorita",
+	japanese: "チコリータ",
+	japanese_transliterated: "Chicorita",
+	korean: "치코리타",
+	chinese: "菊草葉",
+	french: "Germignon",
+	german: "Endivie",
+	spanish: "Chikorita",
+	italian: "Chikorita",
 };
 
 pub const Bayleef: PokeName = PokeName {
 	id: 153,
 	english: "Bayleef",
+	japanese: "ベイリーフ",
+	japanese_transliterated: "Bayleaf",
+	korean: "베이리프",
+	chinese: "月桂葉",
+	french: "Macronium",
+	german: "Lorblatt",
+	spanish: "Bayleef",
+	italian: "Bayleef",
 };
 
 pub const Meganium: PokeName = PokeName {
 	id: 154,
 	english: "Meganium",
+	japanese: "メガニウム",
+	japanese_transliterated: "Meganium",
+	korean: "메가니움",
+	chinese: "大菊花",
+	french: "Méganium",
+	german: "Meganie",
+	spanish: "Meganium",
+	italian: "Meganium",
 };
 
 pub const Cyndaquil: PokeName = PokeName {
 	id: 155,
 	english: "Cyndaquil",
+	japanese: "ヒノアラシ",
+	japanese_transliterated: "Hinoarashi",
+	korean: "브케인",
+	chinese: "火球鼠",
+	french: "Héricendre",
+	german: "Feurigel",
+	spanish: "Cyndaquil",
+	italian: "Cyndaquil",
 };
 
 pub const Quilava: PokeName = PokeName {
 	id: 156,
 	english: "Quilava",
+	japanese: "マグマラシ",
+	japanese_transliterated: "Magmarashi",
+	korean: "마그케인",
+	chinese: "火岩鼠",
+	french: "Feurisson",
+	german: "Igelavar",
+	spanish: "Quilava",
+	italian: "Quilava",
 };
 
 pub const Typhlosion: PokeName = PokeName {
 	id: 157,
 	english: "Typhlosion",
+	japanese: "バクフーン",
+	japanese_transliterated: "Bakphoon",
+	korean: "블레이범",
+	chinese: "火暴獸",
+	french: "Typhlosion",
+	german: "Tornupto",
+	spanish: "Typhlosion",
+	italian: "Typhlosion",
 };
 
 pub const Totodile: PokeName = PokeName {
 	id: 158,
 	english: "Totodile",
+	japanese: "ワニノコ",
+	japanese_transliterated: "Waninoko",
+	korean: "리아코",
+	chinese: "小鋸鱷",
+	french: "Kaiminus",
+	german: "Karnimani",
+	spanish: "Totodile",
+	italian: "Totodile",
 };
 
 pub const Croconaw: PokeName = PokeName {
 	id: 159,
 	english: "Croconaw",
+	japanese: "アリゲイツ",
+	japanese_transliterated: "Alligates",
+	korean: "엘리게이",
+	chinese: "藍鱷",
+	french: "Crocrodil",
+	german: "Tyracroc",
+	spanish: "Croconaw",
+	italian: "Croconaw",
 };
 
 pub const Feraligatr: PokeName = PokeName {
 	id: 160,
 	english: "Feraligatr",
+	japanese: "オーダイル",
+	japanese_transliterated: "Ordile",
+	korean: "장크로다일",
+	chinese: "大力鱷",
+	french: "Aligatueur",
+	german: "Impergator",
+	spanish: "Feraligatr",
+	italian: "Feraligatr",
 };
 
 pub const Sentret: PokeName = PokeName {
 	id: 161,
 	english: "Sentret",
+	japanese: "オタチ",
+	japanese_transliterated: "Otachi",
+	korean: "꼬리선",
+	chinese: "尾立",
+	french: "Fouinette",
+	german: "Wiesor",
+	spanish: "Sentret",
+	italian: "Sentret",
 };
 
 pub const Furret: PokeName = PokeName {
 	id: 162,
 	english: "Furret",
+	japanese: "オオタチ",
+	japanese_transliterated: "Ootachi",
+	korean: "다꼬리",
+	chinese: "大尾立",
+	french: "Fouinar",
+	german: "Wiesenior",
+	spanish: "Furret",
+	italian: "Furret",
 };
 
 pub const Hoothoot: PokeName = PokeName {
 	id: 163,
 	english: "Hoothoot",
+	japanese: "ホーホー",
+	japanese_transliterated: "Hoho",
+	korean: "부우부",
+	chinese: "咕咕",
+	french: "Hoothoot",
+	german: "Hoothoot",
+	spanish: "Hoothoot",
+	italian: "Hoothoot",
 };
 
 pub const Noctowl: PokeName = PokeName {
 	id: 164,
 	english: "Noctowl",
+	japanese: "ヨルノズク",
+	japanese_transliterated: "Yorunozuku",
+	korean: "야부엉",
+	chinese: "貓頭夜鷹",
+	french: "Noarfang",
+	german: "Noctuh",
+	spanish: "Noctowl",
+	italian: "Noctowl",
 };
 
 pub const Ledyba: PokeName = PokeName {
 	id: 165,
 	english: "Ledyba",
+	japanese: "レディバ",
+	japanese_transliterated: "Rediba",
+	korean: "레디바",
+	chinese: "芭瓢蟲",
+	french: "Coxy",
+	german: "Ledyba",
+	spanish: "Ledyba",
+	italian: "Ledyba",
 };
 
 pub const Ledian: PokeName = PokeName {
 	id: 166,
 	english: "Ledian",
+	japanese: "レディアン",
+	japanese_transliterated: "Redian",
+	korean: "레디안",
+	chinese: "安瓢蟲",
+	french: "Coxyclaque",
+	german: "Ledian",
+	spanish: "Ledian",
+	italian: "Ledian",
 };
 
 pub const Spinarak: PokeName = PokeName {
 	id: 167,
 	english: "Spinarak",
+	japanese: "イトマル",
+	japanese_transliterated: "Itomaru",
+	korean: "페이검",
+	chinese: "線球",
+	french: "Mimigal",
+	german: "Webarak",
+	spanish: "Spinarak",
+	italian: "Spinarak",
 };
 
 pub const Ariados: PokeName = PokeName {
 	id: 168,
 	english: "Ariados",
+	japanese: "アリアドス",
+	japanese_transliterated: "Ariados",
+	korean: "아리아도스",
+	chinese: "阿利多斯",
+	french: "Migalos",
+	german: "Ariados",
+	spanish: "Ariados",
+	italian: "Ariados",
 };
 
 pub const Crobat: PokeName = PokeName {
 	id: 169,
 	english: "Crobat",
+	japanese: "クロバット",
+	japanese_transliterated: "Crobat",
+	korean: "크로뱃",
+	chinese: "叉字蝠",
+	french: "Nostenfer",
+	german: "Iksbat",
+	spanish: "Crobat",
+	italian: "Crobat",
 };
 
 pub const Chinchou: PokeName = PokeName {
 	id: 170,
 	english: "Chinchou",
+	japanese: "チョンチー",
+	japanese_transliterated: "Chonchie",
+	korean: "초라기",
+	chinese: "燈籠魚",
+	french: "Loupio",
+	german: "Lampi",
+	spanish: "Chinchou",
+	italian: "Chinchou",
 };
 
 pub const Lanturn: PokeName = PokeName {
 	id: 171,
 	english: "Lanturn",
+	japanese: "ランターン",
+	japanese_transliterated: "Lantern",
+	korean: "랜턴",
+	chinese: "電燈怪",
+	french: "Lanturn",
+	german: "Lanturn",
+	spanish: "Lanturn",
+	italian: "Lanturn",
 };
 
 pub const Pichu: PokeName = PokeName {
 	id: 172,
 	english: "Pichu",
+	japanese: "ピチュー",
+	japanese_transliterated: "Pichu",
+	korean: "피츄",
+	chinese: "皮丘",
+	french: "Pichu",
+	german: "Pichu",
+	spanish: "Pichu",
+	italian: "Pichu",
 };
 
 pub const Cleffa: PokeName = PokeName {
 	id: 173,
 	english: "Cleffa",
+	japanese: "ピィ",
+	japanese_transliterated: "Py",
+	korean: "삐",
+	chinese: "皮寶寶",
+	french: "Mélo",
+	german: "Pii",
+	spanish: "Cleffa",
+	italian: "Cleffa",
 };
 
 pub const Igglybuff: PokeName = PokeName {
 	id: 174,
 	english: "Igglybuff",
+	japanese: "ププリン",
+	japanese_transliterated: "Pupurin",
+	korean: "푸푸린",
+	chinese: "寶寶丁",
+	french: "Toudoudou",
+	german: "Fluffeluff",
+	spanish: "Igglybuff",
+	italian: "Igglybuff",
 };
 
 pub const Togepi: PokeName = PokeName {
 	id: 175,
 	english: "Togepi",
+	japanese: "トゲピー",
+	japanese_transliterated: "Togepy",
+	korean: "토게피",
+	chinese: "波克比",
+	french: "Togepi",
+	german: "Togepi",
+	spanish: "Togepi",
+	italian: "Togepi",
 };
 
 pub const Togetic: PokeName = PokeName {
 	id: 176,
 	english: "Togetic",
+	japanese: "トゲチック",
+	japanese_transliterated: "Togechick",
+	korean: "토게틱",
+	chinese: "波克基古",
+	french: "Togetic",
+	german: "Togetic",
+	spanish: "Togetic",
+	italian: "Togetic",
 };
 
 pub const Natu: PokeName = PokeName {
 	id: 177,
 	english: "Natu",
+	japanese: "ネイティ",
+	japanese_transliterated: "Naty",
+	korean: "네이티",
+	chinese: "天然雀",
+	french: "Natu",
+	german: "Natu",
+	spanish: "Natu",
+	italian: "Natu",
 };
 
 pub const Xatu: PokeName = PokeName {
 	id: 178,
 	english: "Xatu",
+	japanese: "ネイティオ",
+	japanese_transliterated: "Natio",
+	korean: "네이티오",
+	chinese: "天然鳥",
+	french: "Xatu",
+	german: "Xatu",
+	spanish: "Xatu",
+	italian: "Xatu",
 };
 
 pub const Mareep: PokeName = PokeName {
 	id: 179,
 	english: "Mareep",
+	japanese: "メリープ",
+	japanese_transliterated: "Merriep",
+	korean: "메리프",
+	chinese: "咩利羊",
+	french: "Wattouat",
+	german: "Voltilamm",
+	spanish: "Mareep",
+	italian: "Mareep",
 };
 
 pub const Flaaffy: PokeName = PokeName {
 	id: 180,
 	english: "Flaaffy",
+	japanese: "モココ",
+	japanese_transliterated: "Mokoko",
+	korean: "보송송",
+	chinese: "綿綿",
+	french: "Lainergie",
+	german: "Waaty",
+	spanish: "Flaaffy",
+	italian: "Flaaffy",
 };
 
 pub const Ampharos: PokeName = PokeName {
 	id: 181,
 	english: "Ampharos",
+	japanese: "デンリュウ",
+	japanese_transliterated: "Denryu",
+	korean: "전룡",
+	chinese: "電龍",
+	french: "Pharamp",
+	german: "Ampharos",
+	spanish: "Ampharos",
+	italian: "Ampharos",
 };
 
 pub const Bellossom: PokeName = PokeName {
 	id: 182,
 	english: "Bellossom",
+	japanese: "キレイハナ",
+	japanese_transliterated: "Kireihana",
+	korean: "아르코",
+	chinese: "美麗花",
+	french: "Joliflor",
+	german: "Blubella",
+	spanish: "Bellossom",
+	italian: "Bellossom",
 };
 
 pub const Marill: PokeName = PokeName {
 	id: 183,
 	english: "Marill",
+	japanese: "マリル",
+	japanese_transliterated: "Maril",
+	korean: "마릴",
+	chinese: "瑪力露",
+	french: "Marill",
+	german: "Marill",
+	spanish: "Marill",
+	italian: "Marill",
 };
 
 pub const Azumarill: PokeName = PokeName {
 	id: 184,
 	english: "Azumarill",
+	japanese: "マリルリ",
+	japanese_transliterated: "Marilli",
+	korean: "마릴리",
+	chinese: "瑪力露麗",
+	french: "Azumarill",
+	german: "Azumarill",
+	spanish: "Azumarill",
+	italian: "Azumarill",
 };
 
 pub const Sudowoodo: PokeName = PokeName {
 	id: 185,
 	english: "Sudowoodo",
+	japanese: "ウソッキー",
+	japanese_transliterated: "Usokkie",
+	korean: "꼬지모",
+	chinese: "胡說樹",
+	french: "Simularbre",
+	german: "Mogelbaum",
+	spanish: "Sudowoodo",
+	italian: "Sudowoodo",
 };
 
 pub const Politoed: PokeName = PokeName {
 	id: 186,
 	english: "Politoed",
+	japanese: "ニョロトノ",
+	japanese_transliterated: "Nyorotono",
+	korean: "왕구리",
+	chinese: "牛蛙君",
+	french: "Tarpaud",
+	german: "Quaxo",
+	spanish: "Politoed",
+	italian: "Politoed",
 };
 
 pub const Hoppip: PokeName = PokeName {
 	id: 187,
 	english: "Hoppip",
+	japanese: "ハネッコ",
+	japanese_transliterated: "Hanecco",
+	korean: "통통코",
+	chinese: "毽子草",
+	french: "Granivol",
+	german: "Hoppspross",
+	spanish: "Hoppip",
+	italian: "Hoppip",
 };
 
 pub const Skiploom: PokeName = PokeName {
 	id: 188,
 	english: "Skiploom",
+	japanese: "ポポッコ",
+	japanese_transliterated: "Popocco",
+	korean: "두코",
+	chinese: "毽子花",
+	french: "Floravol",
+	german: "Hubelupf",
+	spanish: "Skiploom",
+	italian: "Skiploom",
 };
 
 pub const Jumpluff: PokeName = PokeName {
 	id: 189,
 	english: "Jumpluff",
+	japanese: "ワタッコ",
+	japanese_transliterated: "Watacco",
+	korean: "솜솜코",
+	chinese: "毽子綿",
+	french: "Cotovol",
+	german: "Papungha",
+	spanish: "Jumpluff",
+	italian: "Jumpluff",
 };
 
 pub const Aipom: PokeName = PokeName {
 	id: 190,
 	english: "Aipom",
+	japanese: "エイパム",
+	japanese_transliterated: "Eipam",
+	korean: "에이팜",
+	chinese: "長尾怪手",
+	french: "Capumain",
+	german: "Griffel",
+	spanish: "Aipom",
+	italian: "Aipom",
 };
 
 pub const Sunkern: PokeName = PokeName {
 	id: 191,
 	english: "Sunkern",
+	japanese: "ヒマナッツ",
+	japanese_transliterated: "Himanuts",
+	korean: "해너츠",
+	chinese: "向日種子",
+	french: "Tournegrin",
+	german: "Sonnkern",
+	spanish: "Sunkern",
+	italian: "Sunkern",
 };
 
 pub const Sunflora: PokeName = PokeName {
 	id: 192,
 	english: "Sunflora",
+	japanese: "キマワリ",
+	japanese_transliterated: "Kimawari",
+	korean: "해루미",
+	chinese: "向日花怪",
+	french: "Héliatronc",
+	german: "Sonnflora",
+	spanish: "Sunflora",
+	italian: "Sunflora",
 };
 
 pub const Yanma: PokeName = PokeName {
 	id: 193,
 	english: "Yanma",
+	japanese: "ヤンヤンマ",
+	japanese_transliterated: "Yanyanma",
+	korean: "왕자리",
+	chinese: "陽陽瑪",
+	french: "Yanma",
+	german: "Yanma",
+	spanish: "Yanma",
+	italian: "Yanma",
 };
 
 pub const Wooper: PokeName = PokeName {
 	id: 194,
 	english: "Wooper",
+	japanese: "ウパー",
+	japanese_transliterated: "Upah",
+	korean: "우파",
+	chinese: "烏波",
+	french: "Axoloto",
+	german: "Felino",
+	spanish: "Wooper",
+	italian: "Wooper",
 };
 
 pub const Quagsire: PokeName = PokeName {
 	id: 195,
 	english: "Quagsire",
+	japanese: "ヌオー",
+	japanese_transliterated: "Nuoh",
+	korean: "누오",
+	chinese: "沼王",
+	french: "Maraiste",
+	german: "Morlord",
+	spanish: "Quagsire",
+	italian: "Quagsire",
 };
 
 pub const Espeon: PokeName = PokeName {
 	id: 196,
 	english: "Espeon",
+	japanese: "エーフィ",
+	japanese_transliterated: "Eifie",
+	korean: "에브이",
+	chinese: "太陽精靈",
+	french: "Mentali",
+	german: "Psiana",
+	spanish: "Espeon",
+	italian: "Espeon",
 };
 
 pub const Umbreon: PokeName = PokeName {
 	id: 197,
 	english: "Umbreon",
+	japanese: "ブラッキー",
+	japanese_transliterated: "Blacky",
+	korean: "블래키",
+	chinese: "月精靈",
+	french: "Noctali",
+	german: "Nachtara",
+	spanish: "Umbreon",
+	italian: "Umbreon",
 };
 
 pub const Murkrow: PokeName = PokeName {
 	id: 198,
 	english: "Murkrow",
+	japanese: "ヤミカラス",
+	japanese_transliterated: "Yamikarasu",
+	korean: "니로우",
+	chinese: "黑暗鴉",
+	french: "Cornèbre",
+	german: "Kramurx",
+	spanish: "Murkrow",
+	italian: "Murkrow",
 };
 
 pub const Slowking: PokeName = PokeName {
 	id: 199,
 	english: "Slowking",
+	japanese: "ヤドキング",
+	japanese_transliterated: "Yadoking",
+	korean: "야도킹",
+	chinese: "河馬王",
+	french: "Roigada",
+	german: "Laschoking",
+	spanish: "Slowking",
+	italian: "Slowking",
 };
 
 pub const Misdreavus: PokeName = PokeName {
 	id: 200,
 	english: "Misdreavus",
+	japanese: "ムウマ",
+	japanese_transliterated: "Muma",
+	korean: "무우마",
+	chinese: "夢妖",
+	french: "Feuforêve",
+	german: "Traunfugil",
+	spanish: "Misdreavus",
+	italian: "Misdreavus",
 };
 
 pub const Unown: PokeName = PokeName {
 	id: 201,
 	english: "Unown",
+	japanese: "アンノーン",
+	japanese_transliterated: "Unknown",
+	korean: "안농",
+	chinese: "未知圖騰",
+	french: "Zarbi",
+	german: "Icognito",
+	spanish: "Unown",
+	italian: "Unown",
 };
 
 pub const Wobbuffet: PokeName = PokeName {
 	id: 202,
 	english: "Wobbuffet",
+	japanese: "ソーナンス",
+	japanese_transliterated: "Sonans",
+	korean: "마자용",
+	chinese: "果然翁",
+	french: "Qulbutoké",
+	german: "Woingenau",
+	spanish: "Wobbuffet",
+	italian: "Wobbuffet",
 };
 
 pub const Girafarig: PokeName = PokeName {
 	id: 203,
 	english: "Girafarig",
+	japanese: "キリンリキ",
+	japanese_transliterated: "Kirinriki",
+	korean: "키링키",
+	chinese: "麒麟奇",
+	french: "Girafarig",
+	german: "Girafarig",
+	spanish: "Girafarig",
+	italian: "Girafarig",
 };
 
 pub const Pineco: PokeName = PokeName {
 	id: 204,
 	english: "Pineco",
+	japanese: "クヌギダマ",
+	japanese_transliterated: "Kunugidama",
+	korean: "피콘",
+	chinese: "榛果球",
+	french: "Pomdepik",
+	german: "Tannza",
+	spanish: "Pineco",
+	italian: "Pineco",
 };
 
 pub const Forretress: PokeName = PokeName {
 	id: 205,
 	english: "Forretress",
+	japanese: "フォレトス",
+	japanese_transliterated: "Foretos",
+	korean: "쏘콘",
+	chinese: "佛烈托斯",
+	french: "Foretress",
+	german: "Forstellka",
+	spanish: "Forretress",
+	italian: "Forretress",
 };
 
 pub const Dunsparce: PokeName = PokeName {
 	id: 206,
 	english: "Dunsparce",
+	japanese: "ノコッチ",
+	japanese_transliterated: "Nokocchi",
+	korean: "노고치",
+	chinese: "土龍弟弟",
+	french: "Insolourdo",
+	german: "Dummisel",
+	spanish: "Dunsparce",
+	italian: "Dunsparce",
 };
 
 pub const Gligar: PokeName = PokeName {
 	id: 207,
 	english: "Gligar",
+	japanese: "グライガー",
+	japanese_transliterated: "Gliger",
+	korean: "글라이거",
+	chinese: "天蠍",
+	french: "Scorplane",
+	german: "Skorgla",
+	spanish: "Gligar",
+	italian: "Gligar",
 };
 
 pub const Steelix: PokeName = PokeName {
 	id: 208,
 	english: "Steelix",
+	japanese: "ハガネール",
+	japanese_transliterated: "Haganeil",
+	korean: "강철톤",
+	chinese: "大鋼蛇",
+	french: "Steelix",
+	german: "Stahlos",
+	spanish: "Steelix",
+	italian: "Steelix",
 };
 
 pub const Snubbull: PokeName = PokeName {
 	id: 209,
 	english: "Snubbull",
+	japanese: "ブルー",
+	japanese_transliterated: "Bulu",
+	korean: "블루",
+	chinese: "布盧",
+	french: "Snubbull",
+	german: "Snubbull",
+	spanish: "Snubbull",
+	italian: "Snubbull",
 };
 
 pub const Granbull: PokeName = PokeName {
 	id: 210,
 	english: "Granbull",
+	japanese: "グランブル",
+	japanese_transliterated: "Granbulu",
+	korean: "그랑블루",
+	chinese: "布盧皇",
+	french: "Granbull",
+	german: "Granbull",
+	spanish: "Granbull",
+	italian: "Granbull",
 };
 
 pub const Qwilfish: PokeName = PokeName {
 	id: 211,
 	english: "Qwilfish",
+	japanese: "ハリーセン",
+	japanese_transliterated: "Harysen",
+	korean: "침바루",
+	chinese: "千針魚",
+	french: "Qwilfish",
+	german: "Baldorfish",
+	spanish: "Qwilfish",
+	italian: "Qwilfish",
 };
 
 pub const Scizor: PokeName = PokeName {
 	id: 212,
 	english: "Scizor",
+	japanese: "ハッサム",
+	japanese_transliterated: "Hassam",
+	korean: "핫삼",
+	chinese: "巨鉗螳螂",
+	french: "Cizayox",
+	german: "Scherox",
+	spanish: "Scizor",
+	italian: "Scizor",
 };
 
 pub const Shuckle: PokeName = PokeName {
 	id: 213,
 	english: "Shuckle",
+	japanese: "ツボツボ",
+	japanese_transliterated: "Tsubotsubo",
+	korean: "단단지",
+	chinese: "壺壺",
+	french: "Caratroc",
+	german: "Pottrott",
+	spanish: "Shuckle",
+	italian: "Shuckle",
 };
 
 pub const Heracross: PokeName = PokeName {
 	id: 214,
 	english: "Heracross",
+	japanese: "ヘラクロス",
+	japanese_transliterated: "Heracros",
+	korean: "헤라크로스",
+	chinese: "赫拉剋羅斯",
+	french: "Scarhino",
+	german: "Skaraborn",
+	spanish: "Heracross",
+	italian: "Heracross",
 };
 
 pub const Sneasel: PokeName = PokeName {
 	id: 215,
 	english: "Sneasel",
+	japanese: "ニューラ",
+	japanese_transliterated: "Nyula",
+	korean: "포푸니",
+	chinese: "狃拉",
+	french: "Farfuret",
+	german: "Sniebel",
+	spanish: "Sneasel",
+	italian: "Sneasel",
 };
 
 pub const Teddiursa: PokeName = PokeName {
 	id: 216,
 	english: "Teddiursa",
+	japanese: "ヒメグマ",
+	japanese_transliterated: "Himeguma",
+	korean: "깜지곰",
+	chinese: "熊寶寶",
+	french: "Teddiursa",
+	german: "Teddiursa",
+	spanish: "Teddiursa",
+	italian: "Teddiursa",
 };
 
 pub const Ursaring: PokeName = PokeName {
 	id: 217,
 	english: "Ursaring",
+	japanese: "リングマ",
+	japanese_transliterated: "Ringuma",
+	korean: "링곰",
+	chinese: "圈圈熊",
+	french: "Ursaring",
+	german: "Ursaring",
+	spanish: "Ursaring",
+	italian: "Ursaring",
 };
 
 pub const Slugma: PokeName = PokeName {
 	id: 218,
 	english: "Slugma",
+	japanese: "マグマッグ",
+	japanese_transliterated: "Magmag",
+	korean: "마그마그",
+	chinese: "熔岩蟲",
+	french: "Limagma",
+	german: "Schneckmag",
+	spanish: "Slugma",
+	italian: "Slugma",
 };
 
 pub const Magcargo: PokeName = PokeName {
 	id: 219,
 	english: "Magcargo",
+	japanese: "マグカルゴ",
+	japanese_transliterated: "Magcargot",
+	korean: "마그카르고",
+	chinese: "熔岩蝸牛",
+	french: "Volcaropod",
+	german: "Magcargo",
+	spanish: "Magcargo",
+	italian: "Magcargo",
 };
 
 pub const Swinub: PokeName = PokeName {
 	id: 220,
 	english: "Swinub",
+	japanese: "ウリムー",
+	japanese_transliterated: "Urimoo",
+	korean: "꾸꾸리",
+	chinese: "小山豬",
+	french: "Marcacrin",
+	german: "Quiekel",
+	spanish: "Swinub",
+	italian: "Swinub",
 };
 
 pub const Piloswine: PokeName = PokeName {
 	id: 221,
 	english: "Piloswine",
+	japanese: "イノムー",
+	japanese_transliterated: "Inomoo",
+	korean: "메꾸리",
+	chinese: "長毛豬",
+	french: "Cochignon",
+	german: "Keifel",
+	spanish: "Piloswine",
+	italian: "Piloswine",
 };
 
 pub const Corsola: PokeName = PokeName {
 	id: 222,
 	english: "Corsola",
+	japanese: "サニーゴ",
+	japanese_transliterated: "Sunnygo",
+	korean: "코산호",
+	chinese: "太陽珊瑚",
+	french: "Corayon",
+	german: "Corasonn",
+	spanish: "Corsola",
+	italian: "Corsola",
 };
 
 pub const Remoraid: PokeName = PokeName {
 	id: 223,
 	english: "Remoraid",
+	japanese: "テッポウオ",
+	japanese_transliterated: "Teppouo",
+	korean: "총어",
+	chinese: "鐵砲魚",
+	french: "Rémoraid",
+	german: "Remoraid",
+	spanish: "Remoraid",
+	italian: "Remoraid",
 };
 
 pub const Octillery: PokeName = PokeName {
 	id: 224,
 	english: "Octillery",
+	japanese: "オクタン",
+	japanese_transliterated: "Okutank",
+	korean: "대포무노",
+	chinese: "章魚桶",
+	french: "Octillery",
+	german: "Octillery",
+	spanish: "Octillery",
+	italian: "Octillery",
 };
 
 pub const Delibird: PokeName = PokeName {
 	id: 225,
 	english: "Delibird",
+	japanese: "デリバード",
+	japanese_transliterated: "Delibird",
+	korean: "딜리버드",
+	chinese: "信使鳥",
+	french: "Cadoizo",
+	german: "Botogel",
+	spanish: "Delibird",
+	italian: "Delibird",
 };
 
 pub const Mantine: PokeName = PokeName {
 	id: 226,
 	english: "Mantine",
+	japanese: "マンタイン",
+	japanese_transliterated: "Mantain",
+	korean: "만타인",
+	chinese: "巨翅飛魚",
+	french: "Démanta",
+	german: "Mantax",
+	spanish: "Mantine",
+	italian: "Mantine",
 };
 
 pub const Skarmory: PokeName = PokeName {
 	id: 227,
 	english: "Skarmory",
+	japanese: "エアームド",
+	japanese_transliterated: "Airmd",
+	korean: "무장조",
+	chinese: "盔甲鳥",
+	french: "Airmure",
+	german: "Panzaeron",
+	spanish: "Skarmory",
+	italian: "Skarmory",
 };
 
 pub const Houndour: PokeName = PokeName {
 	id: 228,
 	english: "Houndour",
+	japanese: "デルビル",
+	japanese_transliterated: "Delvil",
+	korean: "델빌",
+	chinese: "戴魯比",
+	french: "Malosse",
+	german: "Hunduster",
+	spanish: "Houndour",
+	italian: "Houndour",
 };
 
 pub const Houndoom: PokeName = PokeName {
 	id: 229,
 	english: "Houndoom",
+	japanese: "ヘルガー",
+	japanese_transliterated: "Hellgar",
+	korean: "헬가",
+	chinese: "黑魯加",
+	french: "Démolosse",
+	german: "Hundemon",
+	spanish: "Houndoom",
+	italian: "Houndoom",
 };
 
 pub const Kingdra: PokeName = PokeName {
 	id: 230,
 	english: "Kingdra",
+	japanese: "キングドラ",
+	japanese_transliterated: "Kingdra",
+	korean: "킹드라",
+	chinese: "刺龍王",
+	french: "Hyporoi",
+	german: "Seedraking",
+	spanish: "Kingdra",
+	italian: "Kingdra",
 };
 
 pub const Phanpy: PokeName = PokeName {
 	id: 231,
 	english: "Phanpy",
+	japanese: "ゴマゾウ",
+	japanese_transliterated: "Gomazou",
+	korean: "코코리",
+	chinese: "小小象",
+	french: "Phanpy",
+	german: "Phanpy",
+	spanish: "Phanpy",
+	italian: "Phanpy",
 };
 
 pub const Donphan: PokeName = PokeName {
 	id: 232,
 	english: "Donphan",
+	japanese: "ドンファン",
+	japanese_transliterated: "Donfan",
+	korean: "코리갑",
+	chinese: "頓甲",
+	french: "Donphan",
+	german: "Donphan",
+	spanish: "Donphan",
+	italian: "Donphan",
 };
 
 pub const Porygon2: PokeName = PokeName {
 	id: 233,
 	english: "Porygon2",
+	japanese: "ポリゴン２",
+	japanese_transliterated: "Porygon2",
+	korean: "폴리곤2",
+	chinese: "3D龍2",
+	french: "Porygon2",
+	german: "Porygon2",
+	spanish: "Porygon2",
+	italian: "Porygon2",
 };
 
 pub const Stantler: PokeName = PokeName {
 	id: 234,
 	english: "Stantler",
+	japanese: "オドシシ",
+	japanese_transliterated: "Odoshishi",
+	korean: "노라키",
+	chinese: "驚角鹿",
+	french: "Cerfrousse",
+	german: "Damhirplex",
+	spanish: "Stantler",
+	italian: "Stantler",
 };
 
 pub const Smeargle: PokeName = PokeName {
 	id: 235,
 	english: "Smeargle",
+	japanese: "ドーブル",
+	japanese_transliterated: "Doble",
+	korean: "루브도",
+	chinese: "圖圖犬",
+	french: "Queulorior",
+	german: "Farbeagle",
+	spanish: "Smeargle",
+	italian: "Smeargle",
 };
 
 pub const Tyrogue: PokeName = PokeName {
 	id: 236,
 	english: "Tyrogue",
+	japanese: "バルキー",
+	japanese_transliterated: "Balkie",
+	korean: "배루키",
+	chinese: "巴爾郎",
+	french: "Debugant",
+	german: "Rabauz",
+	spanish: "Tyrogue",
+	italian: "Tyrogue",
 };
 
 pub const Hitmontop: PokeName = PokeName {
 	id: 237,
 	english: "Hitmontop",
+	japanese: "カポエラー",
+	japanese_transliterated: "Kapoerer",
+	korean: "카포에라",
+	chinese: "柯波朗",
+	french: "Kapoera",
+	german: "Kapoera",
+	spanish: "Hitmontop",
+	italian: "Hitmontop",
 };
 
 pub const Smoochum: PokeName = PokeName {
 	id: 238,
 	english: "Smoochum",
+	japanese: "ムチュール",
+	japanese_transliterated: "Muchul",
+	korean: "뽀뽀라",
+	chinese: "迷唇娃",
+	french: "Lippouti",
+	german: "Kussilla",
+	spanish: "Smoochum",
+	italian: "Smoochum",
 };
 
 pub const Elekid: PokeName = PokeName {
 	id: 239,
 	english: "Elekid",
+	japanese: "エレキッド",
+	japanese_transliterated: "Elekid",
+	korean: "에레키드",
+	chinese: "電擊怪",
+	french: "Élekid",
+	german: "Elekid",
+	spanish: "Elekid",
+	italian: "Elekid",
 };
 
 pub const Magby: PokeName = PokeName {
 	id: 240,
 	english: "Magby",
+	japanese: "ブビィ",
+	japanese_transliterated: "Buby",
+	korean: "마그비",
+	chinese: "小鴨嘴龍",
+	french: "Magby",
+	german: "Magby",
+	spanish: "Magby",
+	italian: "Magby",
 };
 
 pub const Miltank: PokeName = PokeName {
 	id: 241,
 	english: "Miltank",
+	japanese: "ミルタンク",
+	japanese_transliterated: "Miltank",
+	korean: "밀탱크",
+	chinese: "大奶罐",
+	french: "Écrémeuh",
+	german: "Miltank",
+	spanish: "Miltank",
+	italian: "Miltank",
 };
 
 pub const Blissey: PokeName = PokeName {
 	id: 242,
 	english: "Blissey",
+	japanese: "ハピナス",
+	japanese_transliterated: "Happinas",
+	korean: "해피너스",
+	chinese: "幸福蛋",
+	french: "Leuphorie",
+	german: "Heiteira",
+	spanish: "Blissey",
+	italian: "Blissey",
 };
 
 pub const Raikou: PokeName = PokeName {
 	id: 243,
 	english: "Raikou",
+	japanese: "ライコウ",
+	japanese_transliterated: "Raikou",
+	korean: "라이코",
+	chinese: "雷公",
+	french: "Raikou",
+	german: "Raikou",
+	spanish: "Raikou",
+	italian: "Raikou",
 };
 
 pub const Entei: PokeName = PokeName {
 	id: 244,
 	english: "Entei",
+	japanese: "エンテイ",
+	japanese_transliterated: "Entei",
+	korean: "앤테이",
+	chinese: "炎帝",
+	french: "Entei",
+	german: "Entei",
+	spanish: "Entei",
+	italian: "Entei",
 };
 
 pub const Suicune: PokeName = PokeName {
 	id: 245,
 	english: "Suicune",
+	japanese: "スイクン",
+	japanese_transliterated: "Suikun",
+	korean: "스이쿤",
+	chinese: "水君",
+	french: "Suicune",
+	german: "Suicune",
+	spanish: "Suicune",
+	italian: "Suicune",
 };
 
 pub const Larvitar: PokeName = PokeName {
 	id: 246,
 	english: "Larvitar",
+	japanese: "ヨーギラス",
+	japanese_transliterated: "Yogiras",
+	korean: "애버라스",
+	chinese: "由基拉",
+	french: "Embrylex",
+	german: "Larvitar",
+	spanish: "Larvitar",
+	italian: "Larvitar",
 };
 
 pub const Pupitar: PokeName = PokeName {
 	id: 247,
 	english: "Pupitar",
+	japanese: "サナギラス",
+	japanese_transliterated: "Sanagiras",
+	korean: "데기라스",
+	chinese: "沙基拉",
+	french: "Ymphect",
+	german: "Pupitar",
+	spanish: "Pupitar",
+	italian: "Pupitar",
 };
 
 pub const Tyranitar: PokeName = PokeName {
 	id: 248,
 	english: "Tyranitar",
+	japanese: "バンギラス",
+	japanese_transliterated: "Bangiras",
+	korean: "마기라스",
+	chinese: "班吉拉",
+	french: "Tyranocif",
+	german: "Despotar",
+	spanish: "Tyranitar",
+	italian: "Tyranitar",
 };
 
 pub const Lugia: PokeName = PokeName {
 	id: 249,
 	english: "Lugia",
+	japanese: "ルギア",
+	japanese_transliterated: "Lugia",
+	korean: "루기아",
+	chinese: "洛奇亞",
+	french: "Lugia",
+	german: "Lugia",
+	spanish: "Lugia",
+	italian: "Lugia",
 };
 
 pub const HoOh: PokeName = PokeName {
 	id: 250,
 	english: "Ho-Oh",
+	japanese: "ホウオウ",
+	japanese_transliterated: "Houou",
+	korean: "칠색조",
+	chinese: "鳳王",
+	french: "Ho-Oh",
+	german: "Ho-Oh",
+	spanish: "Ho-Oh",
+	italian: "Ho-Oh",
 };
 
 pub const Celebi: PokeName = PokeName {
 	id: 251,
 	english: "Celebi",
+	japanese: "セレビィ",
+	japanese_transliterated: "Celebi",
+	korean: "세레비",
+	chinese: "雪拉比",
+	french: "Celebi",
+	german: "Celebi",
+	spanish: "Celebi",
+	italian: "Celebi",
 };
 
