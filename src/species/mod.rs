@@ -54,11 +54,11 @@ impl PokeSpecies {
     /// ## Example:
     ///
     /// ```
-    /// use pokemon_go_data::species::PokeSpecies;
+    /// use pokemon_go_data::species::{NUM_SPECIES, PokeSpecies};
     ///
     /// let all_species = PokeSpecies::all_species();
     ///
-    /// assert_eq!(251, all_species.len());
+    /// assert_eq!(NUM_SPECIES as usize, all_species.len());
     /// assert_eq!(1, all_species[0].id());
     /// ```
     pub fn all_species() -> &'static [&'static PokeSpecies] {
