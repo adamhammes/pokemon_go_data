@@ -22,8 +22,7 @@ impl Species {
     /// ## Example:
     ///
     /// ```
-    /// use pokemon_go_data::Species;
-    /// use pokemon_go_data::names;
+    /// use pokemon_go_data::{names, Species};
     ///
     /// let vulpix = Species::named(names::Vulpix);
     /// assert_eq!(37, vulpix.id());
@@ -111,14 +110,34 @@ impl Species {
         (self.attack() + 15, self.defense() + 15, self.stamina() + 15)
     }
 
-    /// Returns the species' max Combat Power at the given `Level`, assuming perfect IVs.
-    pub fn max_cp_at_level(&self, level: Level) -> u16 {
+    /// Returns the species' max combat power at the given `Level`, assuming perfect IVs.
+    ///
+    /// ## Example:
+    ///
+    /// ```
+    /// use pokemon_go_data::{Level, names, Species};
+    ///
+    /// let level_30 = Level::new(30).unwrap();
+    /// let magikarp = Species::named(names::Magikarp);
+    ///
+    /// assert_eq!(188, magikarp.max_cp_at_level(level_30));
+    /// ```
+   pub fn max_cp_at_level(&self, level: Level) -> u16 {
         let (attack, defense, stamina) = self.perfect_stats();
 
         Species::calculate_cp(attack, defense, stamina, level)
     }
 
     /// Returns this species' max Combat Power at level 39, assuming perfect IVs.
+    ///
+    /// ## Example:
+    ///
+    /// ```
+    /// use pokemon_go_data::{names, Species};
+    ///
+    /// let tyranitar = Species::named(names::Tyranitar);
+    /// assert_eq!(3_617, tyranitar.max_cp());
+    /// ```
     pub fn max_cp(&self) -> u16 {
         let (attack, defense, stamina) = self.perfect_stats();
 
