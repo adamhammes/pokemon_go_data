@@ -49,7 +49,7 @@ impl PokeSpecies {
         Some(generated_species::ALL_SPECIES[(id - 1) as usize])
     }
 
-    /// Return a list of all `Species`, sorted by id.
+    /// Return a list of all `PokeSpecies`, sorted by id.
     ///
     /// ## Example:
     ///
