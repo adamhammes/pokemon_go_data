@@ -1,4 +1,5 @@
 use evaluation::Level;
+use names;
 use types::PokeType;
 
 mod generated_species;
@@ -16,6 +17,21 @@ pub struct Species {
 }
 
 impl Species {
+    /// Fetch a `Species` using a `PokeName` constant.
+    ///
+    /// ## Example:
+    ///
+    /// ```
+    /// use pokemon_go_data::Species;
+    /// use pokemon_go_data::names;
+    ///
+    /// let vulpix = Species::named(names::Vulpix);
+    /// assert_eq!(37, vulpix.id());
+    /// ```
+    pub fn named(name: names::PokeName) -> &'static Species {
+        &SPECIES[(name.id() - 1) as usize]
+    }
+
     /// Given the id of a species, return its corresponding data. Return `None` if no data is found
     /// for the given id.
     ///
@@ -125,8 +141,18 @@ impl Species {
 #[cfg(test)]
 mod tests {
     use evaluation::Level;
+    use names;
     use types::PokeType;
     use Species;
+
+    #[test]
+    fn named() {
+        let clefable = Species::named(names::Clefable);
+        assert_eq!(36, clefable.id());
+
+        let nidoran_male = Species::named(names::NidoranMale);
+        assert_eq!(32, nidoran_male.id());
+    }
 
     #[test]
     fn species_by_id() {
