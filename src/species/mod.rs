@@ -33,7 +33,7 @@ impl PokeSpecies {
     /// ## Example:
     ///
     /// ```
-    /// use pokemon_go_data::PokeSpecies;
+    /// use pokemon_go_data::species::PokeSpecies;
     ///
     /// let dragonite = PokeSpecies::from_id(149).unwrap();
     /// assert_eq!((263, 201, 182), dragonite.base_stats());
@@ -54,7 +54,7 @@ impl PokeSpecies {
     /// ## Example:
     ///
     /// ```
-    /// use pokemon_go_data::PokeSpecies;
+    /// use pokemon_go_data::species::PokeSpecies;
     ///
     /// let all_species = PokeSpecies::all_species();
     ///
@@ -195,7 +195,6 @@ mod tests {
     use evaluation::Level;
     use types::PokeType;
     use species::*;
-    use PokeSpecies;
 
     #[test]
     fn species_by_id() {
