@@ -3,7 +3,7 @@
 use species::PokeSpecies;
 use types::PokeType;
 
-pub const Bulbasaur: &'static PokeSpecies = &PokeSpecies  {
+pub const Bulbasaur: &'static PokeSpecies = &PokeSpecies {
 	id: 1,
 	attack: 118,
 	defense: 118,
@@ -21,7 +21,7 @@ pub const Bulbasaur: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Bulbasaur",
 };
 
-pub const Ivysaur: &'static PokeSpecies = &PokeSpecies  {
+pub const Ivysaur: &'static PokeSpecies = &PokeSpecies {
 	id: 2,
 	attack: 151,
 	defense: 151,
@@ -39,7 +39,7 @@ pub const Ivysaur: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ivysaur",
 };
 
-pub const Venusaur: &'static PokeSpecies = &PokeSpecies  {
+pub const Venusaur: &'static PokeSpecies = &PokeSpecies {
 	id: 3,
 	attack: 198,
 	defense: 198,
@@ -57,7 +57,7 @@ pub const Venusaur: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Venusaur",
 };
 
-pub const Charmander: &'static PokeSpecies = &PokeSpecies  {
+pub const Charmander: &'static PokeSpecies = &PokeSpecies {
 	id: 4,
 	attack: 116,
 	defense: 96,
@@ -75,7 +75,7 @@ pub const Charmander: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Charmander",
 };
 
-pub const Charmeleon: &'static PokeSpecies = &PokeSpecies  {
+pub const Charmeleon: &'static PokeSpecies = &PokeSpecies {
 	id: 5,
 	attack: 158,
 	defense: 129,
@@ -93,7 +93,7 @@ pub const Charmeleon: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Charmeleon",
 };
 
-pub const Charizard: &'static PokeSpecies = &PokeSpecies  {
+pub const Charizard: &'static PokeSpecies = &PokeSpecies {
 	id: 6,
 	attack: 223,
 	defense: 176,
@@ -111,7 +111,7 @@ pub const Charizard: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Charizard",
 };
 
-pub const Squirtle: &'static PokeSpecies = &PokeSpecies  {
+pub const Squirtle: &'static PokeSpecies = &PokeSpecies {
 	id: 7,
 	attack: 94,
 	defense: 122,
@@ -129,7 +129,7 @@ pub const Squirtle: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Squirtle",
 };
 
-pub const Wartortle: &'static PokeSpecies = &PokeSpecies  {
+pub const Wartortle: &'static PokeSpecies = &PokeSpecies {
 	id: 8,
 	attack: 126,
 	defense: 155,
@@ -147,7 +147,7 @@ pub const Wartortle: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Wartortle",
 };
 
-pub const Blastoise: &'static PokeSpecies = &PokeSpecies  {
+pub const Blastoise: &'static PokeSpecies = &PokeSpecies {
 	id: 9,
 	attack: 171,
 	defense: 210,
@@ -165,7 +165,7 @@ pub const Blastoise: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Blastoise",
 };
 
-pub const Caterpie: &'static PokeSpecies = &PokeSpecies  {
+pub const Caterpie: &'static PokeSpecies = &PokeSpecies {
 	id: 10,
 	attack: 55,
 	defense: 62,
@@ -183,7 +183,7 @@ pub const Caterpie: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Caterpie",
 };
 
-pub const Metapod: &'static PokeSpecies = &PokeSpecies  {
+pub const Metapod: &'static PokeSpecies = &PokeSpecies {
 	id: 11,
 	attack: 45,
 	defense: 94,
@@ -201,7 +201,7 @@ pub const Metapod: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Metapod",
 };
 
-pub const Butterfree: &'static PokeSpecies = &PokeSpecies  {
+pub const Butterfree: &'static PokeSpecies = &PokeSpecies {
 	id: 12,
 	attack: 167,
 	defense: 151,
@@ -219,7 +219,7 @@ pub const Butterfree: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Butterfree",
 };
 
-pub const Weedle: &'static PokeSpecies = &PokeSpecies  {
+pub const Weedle: &'static PokeSpecies = &PokeSpecies {
 	id: 13,
 	attack: 63,
 	defense: 55,
@@ -237,7 +237,7 @@ pub const Weedle: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Weedle",
 };
 
-pub const Kakuna: &'static PokeSpecies = &PokeSpecies  {
+pub const Kakuna: &'static PokeSpecies = &PokeSpecies {
 	id: 14,
 	attack: 46,
 	defense: 86,
@@ -255,7 +255,7 @@ pub const Kakuna: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Kakuna",
 };
 
-pub const Beedrill: &'static PokeSpecies = &PokeSpecies  {
+pub const Beedrill: &'static PokeSpecies = &PokeSpecies {
 	id: 15,
 	attack: 169,
 	defense: 150,
@@ -273,7 +273,7 @@ pub const Beedrill: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Beedrill",
 };
 
-pub const Pidgey: &'static PokeSpecies = &PokeSpecies  {
+pub const Pidgey: &'static PokeSpecies = &PokeSpecies {
 	id: 16,
 	attack: 85,
 	defense: 76,
@@ -291,7 +291,7 @@ pub const Pidgey: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Pidgey",
 };
 
-pub const Pidgeotto: &'static PokeSpecies = &PokeSpecies  {
+pub const Pidgeotto: &'static PokeSpecies = &PokeSpecies {
 	id: 17,
 	attack: 117,
 	defense: 108,
@@ -309,7 +309,7 @@ pub const Pidgeotto: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Pidgeotto",
 };
 
-pub const Pidgeot: &'static PokeSpecies = &PokeSpecies  {
+pub const Pidgeot: &'static PokeSpecies = &PokeSpecies {
 	id: 18,
 	attack: 166,
 	defense: 157,
@@ -327,7 +327,7 @@ pub const Pidgeot: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Pidgeot",
 };
 
-pub const Rattata: &'static PokeSpecies = &PokeSpecies  {
+pub const Rattata: &'static PokeSpecies = &PokeSpecies {
 	id: 19,
 	attack: 103,
 	defense: 70,
@@ -345,7 +345,7 @@ pub const Rattata: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Rattata",
 };
 
-pub const Raticate: &'static PokeSpecies = &PokeSpecies  {
+pub const Raticate: &'static PokeSpecies = &PokeSpecies {
 	id: 20,
 	attack: 161,
 	defense: 144,
@@ -363,7 +363,7 @@ pub const Raticate: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Raticate",
 };
 
-pub const Spearow: &'static PokeSpecies = &PokeSpecies  {
+pub const Spearow: &'static PokeSpecies = &PokeSpecies {
 	id: 21,
 	attack: 112,
 	defense: 61,
@@ -381,7 +381,7 @@ pub const Spearow: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Spearow",
 };
 
-pub const Fearow: &'static PokeSpecies = &PokeSpecies  {
+pub const Fearow: &'static PokeSpecies = &PokeSpecies {
 	id: 22,
 	attack: 182,
 	defense: 135,
@@ -399,7 +399,7 @@ pub const Fearow: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Fearow",
 };
 
-pub const Ekans: &'static PokeSpecies = &PokeSpecies  {
+pub const Ekans: &'static PokeSpecies = &PokeSpecies {
 	id: 23,
 	attack: 110,
 	defense: 102,
@@ -417,7 +417,7 @@ pub const Ekans: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ekans",
 };
 
-pub const Arbok: &'static PokeSpecies = &PokeSpecies  {
+pub const Arbok: &'static PokeSpecies = &PokeSpecies {
 	id: 24,
 	attack: 167,
 	defense: 158,
@@ -435,7 +435,7 @@ pub const Arbok: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Arbok",
 };
 
-pub const Pikachu: &'static PokeSpecies = &PokeSpecies  {
+pub const Pikachu: &'static PokeSpecies = &PokeSpecies {
 	id: 25,
 	attack: 112,
 	defense: 101,
@@ -453,7 +453,7 @@ pub const Pikachu: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Pikachu",
 };
 
-pub const Raichu: &'static PokeSpecies = &PokeSpecies  {
+pub const Raichu: &'static PokeSpecies = &PokeSpecies {
 	id: 26,
 	attack: 193,
 	defense: 165,
@@ -471,7 +471,7 @@ pub const Raichu: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Raichu",
 };
 
-pub const Sandshrew: &'static PokeSpecies = &PokeSpecies  {
+pub const Sandshrew: &'static PokeSpecies = &PokeSpecies {
 	id: 27,
 	attack: 126,
 	defense: 145,
@@ -489,7 +489,7 @@ pub const Sandshrew: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Sandshrew",
 };
 
-pub const Sandslash: &'static PokeSpecies = &PokeSpecies  {
+pub const Sandslash: &'static PokeSpecies = &PokeSpecies {
 	id: 28,
 	attack: 182,
 	defense: 202,
@@ -507,7 +507,7 @@ pub const Sandslash: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Sandslash",
 };
 
-pub const NidoranFemale: &'static PokeSpecies = &PokeSpecies  {
+pub const NidoranFemale: &'static PokeSpecies = &PokeSpecies {
 	id: 29,
 	attack: 86,
 	defense: 94,
@@ -525,7 +525,7 @@ pub const NidoranFemale: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Nidoran♀",
 };
 
-pub const Nidorina: &'static PokeSpecies = &PokeSpecies  {
+pub const Nidorina: &'static PokeSpecies = &PokeSpecies {
 	id: 30,
 	attack: 117,
 	defense: 126,
@@ -543,7 +543,7 @@ pub const Nidorina: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Nidorina",
 };
 
-pub const Nidoqueen: &'static PokeSpecies = &PokeSpecies  {
+pub const Nidoqueen: &'static PokeSpecies = &PokeSpecies {
 	id: 31,
 	attack: 180,
 	defense: 174,
@@ -561,7 +561,7 @@ pub const Nidoqueen: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Nidoqueen",
 };
 
-pub const NidoranMale: &'static PokeSpecies = &PokeSpecies  {
+pub const NidoranMale: &'static PokeSpecies = &PokeSpecies {
 	id: 32,
 	attack: 105,
 	defense: 76,
@@ -579,7 +579,7 @@ pub const NidoranMale: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Nidoran♂",
 };
 
-pub const Nidorino: &'static PokeSpecies = &PokeSpecies  {
+pub const Nidorino: &'static PokeSpecies = &PokeSpecies {
 	id: 33,
 	attack: 137,
 	defense: 112,
@@ -597,7 +597,7 @@ pub const Nidorino: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Nidorino",
 };
 
-pub const Nidoking: &'static PokeSpecies = &PokeSpecies  {
+pub const Nidoking: &'static PokeSpecies = &PokeSpecies {
 	id: 34,
 	attack: 204,
 	defense: 157,
@@ -615,7 +615,7 @@ pub const Nidoking: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Nidoking",
 };
 
-pub const Clefairy: &'static PokeSpecies = &PokeSpecies  {
+pub const Clefairy: &'static PokeSpecies = &PokeSpecies {
 	id: 35,
 	attack: 107,
 	defense: 116,
@@ -633,7 +633,7 @@ pub const Clefairy: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Clefairy",
 };
 
-pub const Clefable: &'static PokeSpecies = &PokeSpecies  {
+pub const Clefable: &'static PokeSpecies = &PokeSpecies {
 	id: 36,
 	attack: 178,
 	defense: 171,
@@ -651,7 +651,7 @@ pub const Clefable: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Clefable",
 };
 
-pub const Vulpix: &'static PokeSpecies = &PokeSpecies  {
+pub const Vulpix: &'static PokeSpecies = &PokeSpecies {
 	id: 37,
 	attack: 96,
 	defense: 122,
@@ -669,7 +669,7 @@ pub const Vulpix: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Vulpix",
 };
 
-pub const Ninetales: &'static PokeSpecies = &PokeSpecies  {
+pub const Ninetales: &'static PokeSpecies = &PokeSpecies {
 	id: 38,
 	attack: 169,
 	defense: 204,
@@ -687,7 +687,7 @@ pub const Ninetales: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ninetales",
 };
 
-pub const Jigglypuff: &'static PokeSpecies = &PokeSpecies  {
+pub const Jigglypuff: &'static PokeSpecies = &PokeSpecies {
 	id: 39,
 	attack: 80,
 	defense: 44,
@@ -705,7 +705,7 @@ pub const Jigglypuff: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Jigglypuff",
 };
 
-pub const Wigglytuff: &'static PokeSpecies = &PokeSpecies  {
+pub const Wigglytuff: &'static PokeSpecies = &PokeSpecies {
 	id: 40,
 	attack: 156,
 	defense: 93,
@@ -723,7 +723,7 @@ pub const Wigglytuff: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Wigglytuff",
 };
 
-pub const Zubat: &'static PokeSpecies = &PokeSpecies  {
+pub const Zubat: &'static PokeSpecies = &PokeSpecies {
 	id: 41,
 	attack: 83,
 	defense: 76,
@@ -741,7 +741,7 @@ pub const Zubat: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Zubat",
 };
 
-pub const Golbat: &'static PokeSpecies = &PokeSpecies  {
+pub const Golbat: &'static PokeSpecies = &PokeSpecies {
 	id: 42,
 	attack: 161,
 	defense: 153,
@@ -759,7 +759,7 @@ pub const Golbat: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Golbat",
 };
 
-pub const Oddish: &'static PokeSpecies = &PokeSpecies  {
+pub const Oddish: &'static PokeSpecies = &PokeSpecies {
 	id: 43,
 	attack: 131,
 	defense: 116,
@@ -777,7 +777,7 @@ pub const Oddish: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Oddish",
 };
 
-pub const Gloom: &'static PokeSpecies = &PokeSpecies  {
+pub const Gloom: &'static PokeSpecies = &PokeSpecies {
 	id: 44,
 	attack: 153,
 	defense: 139,
@@ -795,7 +795,7 @@ pub const Gloom: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Gloom",
 };
 
-pub const Vileplume: &'static PokeSpecies = &PokeSpecies  {
+pub const Vileplume: &'static PokeSpecies = &PokeSpecies {
 	id: 45,
 	attack: 202,
 	defense: 170,
@@ -813,7 +813,7 @@ pub const Vileplume: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Vileplume",
 };
 
-pub const Paras: &'static PokeSpecies = &PokeSpecies  {
+pub const Paras: &'static PokeSpecies = &PokeSpecies {
 	id: 46,
 	attack: 121,
 	defense: 99,
@@ -831,7 +831,7 @@ pub const Paras: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Paras",
 };
 
-pub const Parasect: &'static PokeSpecies = &PokeSpecies  {
+pub const Parasect: &'static PokeSpecies = &PokeSpecies {
 	id: 47,
 	attack: 165,
 	defense: 146,
@@ -849,7 +849,7 @@ pub const Parasect: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Parasect",
 };
 
-pub const Venonat: &'static PokeSpecies = &PokeSpecies  {
+pub const Venonat: &'static PokeSpecies = &PokeSpecies {
 	id: 48,
 	attack: 100,
 	defense: 102,
@@ -867,7 +867,7 @@ pub const Venonat: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Venonat",
 };
 
-pub const Venomoth: &'static PokeSpecies = &PokeSpecies  {
+pub const Venomoth: &'static PokeSpecies = &PokeSpecies {
 	id: 49,
 	attack: 179,
 	defense: 150,
@@ -885,7 +885,7 @@ pub const Venomoth: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Venomoth",
 };
 
-pub const Diglett: &'static PokeSpecies = &PokeSpecies  {
+pub const Diglett: &'static PokeSpecies = &PokeSpecies {
 	id: 50,
 	attack: 109,
 	defense: 88,
@@ -903,7 +903,7 @@ pub const Diglett: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Diglett",
 };
 
-pub const Dugtrio: &'static PokeSpecies = &PokeSpecies  {
+pub const Dugtrio: &'static PokeSpecies = &PokeSpecies {
 	id: 51,
 	attack: 167,
 	defense: 147,
@@ -921,7 +921,7 @@ pub const Dugtrio: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Dugtrio",
 };
 
-pub const Meowth: &'static PokeSpecies = &PokeSpecies  {
+pub const Meowth: &'static PokeSpecies = &PokeSpecies {
 	id: 52,
 	attack: 92,
 	defense: 81,
@@ -939,7 +939,7 @@ pub const Meowth: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Meowth",
 };
 
-pub const Persian: &'static PokeSpecies = &PokeSpecies  {
+pub const Persian: &'static PokeSpecies = &PokeSpecies {
 	id: 53,
 	attack: 150,
 	defense: 139,
@@ -957,7 +957,7 @@ pub const Persian: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Persian",
 };
 
-pub const Psyduck: &'static PokeSpecies = &PokeSpecies  {
+pub const Psyduck: &'static PokeSpecies = &PokeSpecies {
 	id: 54,
 	attack: 122,
 	defense: 96,
@@ -975,7 +975,7 @@ pub const Psyduck: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Psyduck",
 };
 
-pub const Golduck: &'static PokeSpecies = &PokeSpecies  {
+pub const Golduck: &'static PokeSpecies = &PokeSpecies {
 	id: 55,
 	attack: 191,
 	defense: 163,
@@ -993,7 +993,7 @@ pub const Golduck: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Golduck",
 };
 
-pub const Mankey: &'static PokeSpecies = &PokeSpecies  {
+pub const Mankey: &'static PokeSpecies = &PokeSpecies {
 	id: 56,
 	attack: 148,
 	defense: 87,
@@ -1011,7 +1011,7 @@ pub const Mankey: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Mankey",
 };
 
-pub const Primeape: &'static PokeSpecies = &PokeSpecies  {
+pub const Primeape: &'static PokeSpecies = &PokeSpecies {
 	id: 57,
 	attack: 207,
 	defense: 144,
@@ -1029,7 +1029,7 @@ pub const Primeape: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Primeape",
 };
 
-pub const Growlithe: &'static PokeSpecies = &PokeSpecies  {
+pub const Growlithe: &'static PokeSpecies = &PokeSpecies {
 	id: 58,
 	attack: 136,
 	defense: 96,
@@ -1047,7 +1047,7 @@ pub const Growlithe: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Growlithe",
 };
 
-pub const Arcanine: &'static PokeSpecies = &PokeSpecies  {
+pub const Arcanine: &'static PokeSpecies = &PokeSpecies {
 	id: 59,
 	attack: 227,
 	defense: 166,
@@ -1065,7 +1065,7 @@ pub const Arcanine: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Arcanine",
 };
 
-pub const Poliwag: &'static PokeSpecies = &PokeSpecies  {
+pub const Poliwag: &'static PokeSpecies = &PokeSpecies {
 	id: 60,
 	attack: 101,
 	defense: 82,
@@ -1083,7 +1083,7 @@ pub const Poliwag: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Poliwag",
 };
 
-pub const Poliwhirl: &'static PokeSpecies = &PokeSpecies  {
+pub const Poliwhirl: &'static PokeSpecies = &PokeSpecies {
 	id: 61,
 	attack: 130,
 	defense: 130,
@@ -1101,7 +1101,7 @@ pub const Poliwhirl: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Poliwhirl",
 };
 
-pub const Poliwrath: &'static PokeSpecies = &PokeSpecies  {
+pub const Poliwrath: &'static PokeSpecies = &PokeSpecies {
 	id: 62,
 	attack: 182,
 	defense: 187,
@@ -1119,7 +1119,7 @@ pub const Poliwrath: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Poliwrath",
 };
 
-pub const Abra: &'static PokeSpecies = &PokeSpecies  {
+pub const Abra: &'static PokeSpecies = &PokeSpecies {
 	id: 63,
 	attack: 195,
 	defense: 103,
@@ -1137,7 +1137,7 @@ pub const Abra: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Abra",
 };
 
-pub const Kadabra: &'static PokeSpecies = &PokeSpecies  {
+pub const Kadabra: &'static PokeSpecies = &PokeSpecies {
 	id: 64,
 	attack: 232,
 	defense: 138,
@@ -1155,7 +1155,7 @@ pub const Kadabra: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Kadabra",
 };
 
-pub const Alakazam: &'static PokeSpecies = &PokeSpecies  {
+pub const Alakazam: &'static PokeSpecies = &PokeSpecies {
 	id: 65,
 	attack: 271,
 	defense: 194,
@@ -1173,7 +1173,7 @@ pub const Alakazam: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Alakazam",
 };
 
-pub const Machop: &'static PokeSpecies = &PokeSpecies  {
+pub const Machop: &'static PokeSpecies = &PokeSpecies {
 	id: 66,
 	attack: 137,
 	defense: 88,
@@ -1191,7 +1191,7 @@ pub const Machop: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Machop",
 };
 
-pub const Machoke: &'static PokeSpecies = &PokeSpecies  {
+pub const Machoke: &'static PokeSpecies = &PokeSpecies {
 	id: 67,
 	attack: 177,
 	defense: 130,
@@ -1209,7 +1209,7 @@ pub const Machoke: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Machoke",
 };
 
-pub const Machamp: &'static PokeSpecies = &PokeSpecies  {
+pub const Machamp: &'static PokeSpecies = &PokeSpecies {
 	id: 68,
 	attack: 234,
 	defense: 162,
@@ -1227,7 +1227,7 @@ pub const Machamp: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Machamp",
 };
 
-pub const Bellsprout: &'static PokeSpecies = &PokeSpecies  {
+pub const Bellsprout: &'static PokeSpecies = &PokeSpecies {
 	id: 69,
 	attack: 139,
 	defense: 64,
@@ -1245,7 +1245,7 @@ pub const Bellsprout: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Bellsprout",
 };
 
-pub const Weepinbell: &'static PokeSpecies = &PokeSpecies  {
+pub const Weepinbell: &'static PokeSpecies = &PokeSpecies {
 	id: 70,
 	attack: 172,
 	defense: 95,
@@ -1263,7 +1263,7 @@ pub const Weepinbell: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Weepinbell",
 };
 
-pub const Victreebel: &'static PokeSpecies = &PokeSpecies  {
+pub const Victreebel: &'static PokeSpecies = &PokeSpecies {
 	id: 71,
 	attack: 207,
 	defense: 138,
@@ -1281,7 +1281,7 @@ pub const Victreebel: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Victreebel",
 };
 
-pub const Tentacool: &'static PokeSpecies = &PokeSpecies  {
+pub const Tentacool: &'static PokeSpecies = &PokeSpecies {
 	id: 72,
 	attack: 97,
 	defense: 182,
@@ -1299,7 +1299,7 @@ pub const Tentacool: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Tentacool",
 };
 
-pub const Tentacruel: &'static PokeSpecies = &PokeSpecies  {
+pub const Tentacruel: &'static PokeSpecies = &PokeSpecies {
 	id: 73,
 	attack: 166,
 	defense: 237,
@@ -1317,7 +1317,7 @@ pub const Tentacruel: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Tentacruel",
 };
 
-pub const Geodude: &'static PokeSpecies = &PokeSpecies  {
+pub const Geodude: &'static PokeSpecies = &PokeSpecies {
 	id: 74,
 	attack: 132,
 	defense: 163,
@@ -1335,7 +1335,7 @@ pub const Geodude: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Geodude",
 };
 
-pub const Graveler: &'static PokeSpecies = &PokeSpecies  {
+pub const Graveler: &'static PokeSpecies = &PokeSpecies {
 	id: 75,
 	attack: 164,
 	defense: 196,
@@ -1353,7 +1353,7 @@ pub const Graveler: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Graveler",
 };
 
-pub const Golem: &'static PokeSpecies = &PokeSpecies  {
+pub const Golem: &'static PokeSpecies = &PokeSpecies {
 	id: 76,
 	attack: 211,
 	defense: 229,
@@ -1371,7 +1371,7 @@ pub const Golem: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Golem",
 };
 
-pub const Ponyta: &'static PokeSpecies = &PokeSpecies  {
+pub const Ponyta: &'static PokeSpecies = &PokeSpecies {
 	id: 77,
 	attack: 170,
 	defense: 132,
@@ -1389,7 +1389,7 @@ pub const Ponyta: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ponyta",
 };
 
-pub const Rapidash: &'static PokeSpecies = &PokeSpecies  {
+pub const Rapidash: &'static PokeSpecies = &PokeSpecies {
 	id: 78,
 	attack: 207,
 	defense: 167,
@@ -1407,7 +1407,7 @@ pub const Rapidash: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Rapidash",
 };
 
-pub const Slowpoke: &'static PokeSpecies = &PokeSpecies  {
+pub const Slowpoke: &'static PokeSpecies = &PokeSpecies {
 	id: 79,
 	attack: 109,
 	defense: 109,
@@ -1425,7 +1425,7 @@ pub const Slowpoke: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Slowpoke",
 };
 
-pub const Slowbro: &'static PokeSpecies = &PokeSpecies  {
+pub const Slowbro: &'static PokeSpecies = &PokeSpecies {
 	id: 80,
 	attack: 177,
 	defense: 194,
@@ -1443,7 +1443,7 @@ pub const Slowbro: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Slowbro",
 };
 
-pub const Magnemite: &'static PokeSpecies = &PokeSpecies  {
+pub const Magnemite: &'static PokeSpecies = &PokeSpecies {
 	id: 81,
 	attack: 165,
 	defense: 128,
@@ -1461,7 +1461,7 @@ pub const Magnemite: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Magnemite",
 };
 
-pub const Magneton: &'static PokeSpecies = &PokeSpecies  {
+pub const Magneton: &'static PokeSpecies = &PokeSpecies {
 	id: 82,
 	attack: 223,
 	defense: 182,
@@ -1479,7 +1479,7 @@ pub const Magneton: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Magneton",
 };
 
-pub const Farfetchd: &'static PokeSpecies = &PokeSpecies  {
+pub const Farfetchd: &'static PokeSpecies = &PokeSpecies {
 	id: 83,
 	attack: 124,
 	defense: 118,
@@ -1497,7 +1497,7 @@ pub const Farfetchd: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Farfetch'd",
 };
 
-pub const Doduo: &'static PokeSpecies = &PokeSpecies  {
+pub const Doduo: &'static PokeSpecies = &PokeSpecies {
 	id: 84,
 	attack: 158,
 	defense: 88,
@@ -1515,7 +1515,7 @@ pub const Doduo: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Doduo",
 };
 
-pub const Dodrio: &'static PokeSpecies = &PokeSpecies  {
+pub const Dodrio: &'static PokeSpecies = &PokeSpecies {
 	id: 85,
 	attack: 218,
 	defense: 145,
@@ -1533,7 +1533,7 @@ pub const Dodrio: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Dodrio",
 };
 
-pub const Seel: &'static PokeSpecies = &PokeSpecies  {
+pub const Seel: &'static PokeSpecies = &PokeSpecies {
 	id: 86,
 	attack: 85,
 	defense: 128,
@@ -1551,7 +1551,7 @@ pub const Seel: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Seel",
 };
 
-pub const Dewgong: &'static PokeSpecies = &PokeSpecies  {
+pub const Dewgong: &'static PokeSpecies = &PokeSpecies {
 	id: 87,
 	attack: 139,
 	defense: 184,
@@ -1569,7 +1569,7 @@ pub const Dewgong: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Dewgong",
 };
 
-pub const Grimer: &'static PokeSpecies = &PokeSpecies  {
+pub const Grimer: &'static PokeSpecies = &PokeSpecies {
 	id: 88,
 	attack: 135,
 	defense: 90,
@@ -1587,7 +1587,7 @@ pub const Grimer: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Grimer",
 };
 
-pub const Muk: &'static PokeSpecies = &PokeSpecies  {
+pub const Muk: &'static PokeSpecies = &PokeSpecies {
 	id: 89,
 	attack: 190,
 	defense: 184,
@@ -1605,7 +1605,7 @@ pub const Muk: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Muk",
 };
 
-pub const Shellder: &'static PokeSpecies = &PokeSpecies  {
+pub const Shellder: &'static PokeSpecies = &PokeSpecies {
 	id: 90,
 	attack: 116,
 	defense: 168,
@@ -1623,7 +1623,7 @@ pub const Shellder: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Shellder",
 };
 
-pub const Cloyster: &'static PokeSpecies = &PokeSpecies  {
+pub const Cloyster: &'static PokeSpecies = &PokeSpecies {
 	id: 91,
 	attack: 186,
 	defense: 323,
@@ -1641,7 +1641,7 @@ pub const Cloyster: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Cloyster",
 };
 
-pub const Gastly: &'static PokeSpecies = &PokeSpecies  {
+pub const Gastly: &'static PokeSpecies = &PokeSpecies {
 	id: 92,
 	attack: 186,
 	defense: 70,
@@ -1659,7 +1659,7 @@ pub const Gastly: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Gastly",
 };
 
-pub const Haunter: &'static PokeSpecies = &PokeSpecies  {
+pub const Haunter: &'static PokeSpecies = &PokeSpecies {
 	id: 93,
 	attack: 223,
 	defense: 112,
@@ -1677,7 +1677,7 @@ pub const Haunter: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Haunter",
 };
 
-pub const Gengar: &'static PokeSpecies = &PokeSpecies  {
+pub const Gengar: &'static PokeSpecies = &PokeSpecies {
 	id: 94,
 	attack: 261,
 	defense: 156,
@@ -1695,7 +1695,7 @@ pub const Gengar: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Gengar",
 };
 
-pub const Onix: &'static PokeSpecies = &PokeSpecies  {
+pub const Onix: &'static PokeSpecies = &PokeSpecies {
 	id: 95,
 	attack: 85,
 	defense: 288,
@@ -1713,7 +1713,7 @@ pub const Onix: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Onix",
 };
 
-pub const Drowzee: &'static PokeSpecies = &PokeSpecies  {
+pub const Drowzee: &'static PokeSpecies = &PokeSpecies {
 	id: 96,
 	attack: 89,
 	defense: 158,
@@ -1731,7 +1731,7 @@ pub const Drowzee: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Drowzee",
 };
 
-pub const Hypno: &'static PokeSpecies = &PokeSpecies  {
+pub const Hypno: &'static PokeSpecies = &PokeSpecies {
 	id: 97,
 	attack: 144,
 	defense: 215,
@@ -1749,7 +1749,7 @@ pub const Hypno: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Hypno",
 };
 
-pub const Krabby: &'static PokeSpecies = &PokeSpecies  {
+pub const Krabby: &'static PokeSpecies = &PokeSpecies {
 	id: 98,
 	attack: 181,
 	defense: 156,
@@ -1767,7 +1767,7 @@ pub const Krabby: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Krabby",
 };
 
-pub const Kingler: &'static PokeSpecies = &PokeSpecies  {
+pub const Kingler: &'static PokeSpecies = &PokeSpecies {
 	id: 99,
 	attack: 240,
 	defense: 214,
@@ -1785,7 +1785,7 @@ pub const Kingler: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Kingler",
 };
 
-pub const Voltorb: &'static PokeSpecies = &PokeSpecies  {
+pub const Voltorb: &'static PokeSpecies = &PokeSpecies {
 	id: 100,
 	attack: 109,
 	defense: 114,
@@ -1803,7 +1803,7 @@ pub const Voltorb: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Voltorb",
 };
 
-pub const Electrode: &'static PokeSpecies = &PokeSpecies  {
+pub const Electrode: &'static PokeSpecies = &PokeSpecies {
 	id: 101,
 	attack: 173,
 	defense: 179,
@@ -1821,7 +1821,7 @@ pub const Electrode: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Electrode",
 };
 
-pub const Exeggcute: &'static PokeSpecies = &PokeSpecies  {
+pub const Exeggcute: &'static PokeSpecies = &PokeSpecies {
 	id: 102,
 	attack: 107,
 	defense: 140,
@@ -1839,7 +1839,7 @@ pub const Exeggcute: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Exeggcute",
 };
 
-pub const Exeggutor: &'static PokeSpecies = &PokeSpecies  {
+pub const Exeggutor: &'static PokeSpecies = &PokeSpecies {
 	id: 103,
 	attack: 233,
 	defense: 158,
@@ -1857,7 +1857,7 @@ pub const Exeggutor: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Exeggutor",
 };
 
-pub const Cubone: &'static PokeSpecies = &PokeSpecies  {
+pub const Cubone: &'static PokeSpecies = &PokeSpecies {
 	id: 104,
 	attack: 90,
 	defense: 165,
@@ -1875,7 +1875,7 @@ pub const Cubone: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Cubone",
 };
 
-pub const Marowak: &'static PokeSpecies = &PokeSpecies  {
+pub const Marowak: &'static PokeSpecies = &PokeSpecies {
 	id: 105,
 	attack: 144,
 	defense: 200,
@@ -1893,7 +1893,7 @@ pub const Marowak: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Marowak",
 };
 
-pub const Hitmonlee: &'static PokeSpecies = &PokeSpecies  {
+pub const Hitmonlee: &'static PokeSpecies = &PokeSpecies {
 	id: 106,
 	attack: 224,
 	defense: 211,
@@ -1911,7 +1911,7 @@ pub const Hitmonlee: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Hitmonlee",
 };
 
-pub const Hitmonchan: &'static PokeSpecies = &PokeSpecies  {
+pub const Hitmonchan: &'static PokeSpecies = &PokeSpecies {
 	id: 107,
 	attack: 193,
 	defense: 212,
@@ -1929,7 +1929,7 @@ pub const Hitmonchan: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Hitmonchan",
 };
 
-pub const Lickitung: &'static PokeSpecies = &PokeSpecies  {
+pub const Lickitung: &'static PokeSpecies = &PokeSpecies {
 	id: 108,
 	attack: 108,
 	defense: 137,
@@ -1947,7 +1947,7 @@ pub const Lickitung: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Lickitung",
 };
 
-pub const Koffing: &'static PokeSpecies = &PokeSpecies  {
+pub const Koffing: &'static PokeSpecies = &PokeSpecies {
 	id: 109,
 	attack: 119,
 	defense: 164,
@@ -1965,7 +1965,7 @@ pub const Koffing: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Koffing",
 };
 
-pub const Weezing: &'static PokeSpecies = &PokeSpecies  {
+pub const Weezing: &'static PokeSpecies = &PokeSpecies {
 	id: 110,
 	attack: 174,
 	defense: 221,
@@ -1983,7 +1983,7 @@ pub const Weezing: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Weezing",
 };
 
-pub const Rhyhorn: &'static PokeSpecies = &PokeSpecies  {
+pub const Rhyhorn: &'static PokeSpecies = &PokeSpecies {
 	id: 111,
 	attack: 140,
 	defense: 157,
@@ -2001,7 +2001,7 @@ pub const Rhyhorn: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Rhyhorn",
 };
 
-pub const Rhydon: &'static PokeSpecies = &PokeSpecies  {
+pub const Rhydon: &'static PokeSpecies = &PokeSpecies {
 	id: 112,
 	attack: 222,
 	defense: 206,
@@ -2019,7 +2019,7 @@ pub const Rhydon: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Rhydon",
 };
 
-pub const Chansey: &'static PokeSpecies = &PokeSpecies  {
+pub const Chansey: &'static PokeSpecies = &PokeSpecies {
 	id: 113,
 	attack: 60,
 	defense: 176,
@@ -2037,7 +2037,7 @@ pub const Chansey: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Chansey",
 };
 
-pub const Tangela: &'static PokeSpecies = &PokeSpecies  {
+pub const Tangela: &'static PokeSpecies = &PokeSpecies {
 	id: 114,
 	attack: 183,
 	defense: 205,
@@ -2055,7 +2055,7 @@ pub const Tangela: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Tangela",
 };
 
-pub const Kangaskhan: &'static PokeSpecies = &PokeSpecies  {
+pub const Kangaskhan: &'static PokeSpecies = &PokeSpecies {
 	id: 115,
 	attack: 181,
 	defense: 165,
@@ -2073,7 +2073,7 @@ pub const Kangaskhan: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Kangaskhan",
 };
 
-pub const Horsea: &'static PokeSpecies = &PokeSpecies  {
+pub const Horsea: &'static PokeSpecies = &PokeSpecies {
 	id: 116,
 	attack: 129,
 	defense: 125,
@@ -2091,7 +2091,7 @@ pub const Horsea: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Horsea",
 };
 
-pub const Seadra: &'static PokeSpecies = &PokeSpecies  {
+pub const Seadra: &'static PokeSpecies = &PokeSpecies {
 	id: 117,
 	attack: 187,
 	defense: 182,
@@ -2109,7 +2109,7 @@ pub const Seadra: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Seadra",
 };
 
-pub const Goldeen: &'static PokeSpecies = &PokeSpecies  {
+pub const Goldeen: &'static PokeSpecies = &PokeSpecies {
 	id: 118,
 	attack: 123,
 	defense: 115,
@@ -2127,7 +2127,7 @@ pub const Goldeen: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Goldeen",
 };
 
-pub const Seaking: &'static PokeSpecies = &PokeSpecies  {
+pub const Seaking: &'static PokeSpecies = &PokeSpecies {
 	id: 119,
 	attack: 175,
 	defense: 154,
@@ -2145,7 +2145,7 @@ pub const Seaking: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Seaking",
 };
 
-pub const Staryu: &'static PokeSpecies = &PokeSpecies  {
+pub const Staryu: &'static PokeSpecies = &PokeSpecies {
 	id: 120,
 	attack: 137,
 	defense: 112,
@@ -2163,7 +2163,7 @@ pub const Staryu: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Staryu",
 };
 
-pub const Starmie: &'static PokeSpecies = &PokeSpecies  {
+pub const Starmie: &'static PokeSpecies = &PokeSpecies {
 	id: 121,
 	attack: 210,
 	defense: 184,
@@ -2181,7 +2181,7 @@ pub const Starmie: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Starmie",
 };
 
-pub const MrMime: &'static PokeSpecies = &PokeSpecies  {
+pub const MrMime: &'static PokeSpecies = &PokeSpecies {
 	id: 122,
 	attack: 192,
 	defense: 233,
@@ -2199,7 +2199,7 @@ pub const MrMime: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Mr. Mime",
 };
 
-pub const Scyther: &'static PokeSpecies = &PokeSpecies  {
+pub const Scyther: &'static PokeSpecies = &PokeSpecies {
 	id: 123,
 	attack: 218,
 	defense: 170,
@@ -2217,7 +2217,7 @@ pub const Scyther: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Scyther",
 };
 
-pub const Jynx: &'static PokeSpecies = &PokeSpecies  {
+pub const Jynx: &'static PokeSpecies = &PokeSpecies {
 	id: 124,
 	attack: 223,
 	defense: 182,
@@ -2235,7 +2235,7 @@ pub const Jynx: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Jynx",
 };
 
-pub const Electabuzz: &'static PokeSpecies = &PokeSpecies  {
+pub const Electabuzz: &'static PokeSpecies = &PokeSpecies {
 	id: 125,
 	attack: 198,
 	defense: 173,
@@ -2253,7 +2253,7 @@ pub const Electabuzz: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Electabuzz",
 };
 
-pub const Magmar: &'static PokeSpecies = &PokeSpecies  {
+pub const Magmar: &'static PokeSpecies = &PokeSpecies {
 	id: 126,
 	attack: 206,
 	defense: 169,
@@ -2271,7 +2271,7 @@ pub const Magmar: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Magmar",
 };
 
-pub const Pinsir: &'static PokeSpecies = &PokeSpecies  {
+pub const Pinsir: &'static PokeSpecies = &PokeSpecies {
 	id: 127,
 	attack: 238,
 	defense: 197,
@@ -2289,7 +2289,7 @@ pub const Pinsir: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Pinsir",
 };
 
-pub const Tauros: &'static PokeSpecies = &PokeSpecies  {
+pub const Tauros: &'static PokeSpecies = &PokeSpecies {
 	id: 128,
 	attack: 198,
 	defense: 197,
@@ -2307,7 +2307,7 @@ pub const Tauros: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Tauros",
 };
 
-pub const Magikarp: &'static PokeSpecies = &PokeSpecies  {
+pub const Magikarp: &'static PokeSpecies = &PokeSpecies {
 	id: 129,
 	attack: 29,
 	defense: 102,
@@ -2325,7 +2325,7 @@ pub const Magikarp: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Magikarp",
 };
 
-pub const Gyarados: &'static PokeSpecies = &PokeSpecies  {
+pub const Gyarados: &'static PokeSpecies = &PokeSpecies {
 	id: 130,
 	attack: 237,
 	defense: 197,
@@ -2343,7 +2343,7 @@ pub const Gyarados: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Gyarados",
 };
 
-pub const Lapras: &'static PokeSpecies = &PokeSpecies  {
+pub const Lapras: &'static PokeSpecies = &PokeSpecies {
 	id: 131,
 	attack: 165,
 	defense: 180,
@@ -2361,7 +2361,7 @@ pub const Lapras: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Lapras",
 };
 
-pub const Ditto: &'static PokeSpecies = &PokeSpecies  {
+pub const Ditto: &'static PokeSpecies = &PokeSpecies {
 	id: 132,
 	attack: 91,
 	defense: 91,
@@ -2379,7 +2379,7 @@ pub const Ditto: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ditto",
 };
 
-pub const Eevee: &'static PokeSpecies = &PokeSpecies  {
+pub const Eevee: &'static PokeSpecies = &PokeSpecies {
 	id: 133,
 	attack: 104,
 	defense: 121,
@@ -2397,7 +2397,7 @@ pub const Eevee: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Eevee",
 };
 
-pub const Vaporeon: &'static PokeSpecies = &PokeSpecies  {
+pub const Vaporeon: &'static PokeSpecies = &PokeSpecies {
 	id: 134,
 	attack: 205,
 	defense: 177,
@@ -2415,7 +2415,7 @@ pub const Vaporeon: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Vaporeon",
 };
 
-pub const Jolteon: &'static PokeSpecies = &PokeSpecies  {
+pub const Jolteon: &'static PokeSpecies = &PokeSpecies {
 	id: 135,
 	attack: 232,
 	defense: 201,
@@ -2433,7 +2433,7 @@ pub const Jolteon: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Jolteon",
 };
 
-pub const Flareon: &'static PokeSpecies = &PokeSpecies  {
+pub const Flareon: &'static PokeSpecies = &PokeSpecies {
 	id: 136,
 	attack: 246,
 	defense: 204,
@@ -2451,7 +2451,7 @@ pub const Flareon: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Flareon",
 };
 
-pub const Porygon: &'static PokeSpecies = &PokeSpecies  {
+pub const Porygon: &'static PokeSpecies = &PokeSpecies {
 	id: 137,
 	attack: 153,
 	defense: 139,
@@ -2469,7 +2469,7 @@ pub const Porygon: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Porygon",
 };
 
-pub const Omanyte: &'static PokeSpecies = &PokeSpecies  {
+pub const Omanyte: &'static PokeSpecies = &PokeSpecies {
 	id: 138,
 	attack: 155,
 	defense: 174,
@@ -2487,7 +2487,7 @@ pub const Omanyte: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Omanyte",
 };
 
-pub const Omastar: &'static PokeSpecies = &PokeSpecies  {
+pub const Omastar: &'static PokeSpecies = &PokeSpecies {
 	id: 139,
 	attack: 207,
 	defense: 227,
@@ -2505,7 +2505,7 @@ pub const Omastar: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Omastar",
 };
 
-pub const Kabuto: &'static PokeSpecies = &PokeSpecies  {
+pub const Kabuto: &'static PokeSpecies = &PokeSpecies {
 	id: 140,
 	attack: 148,
 	defense: 162,
@@ -2523,7 +2523,7 @@ pub const Kabuto: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Kabuto",
 };
 
-pub const Kabutops: &'static PokeSpecies = &PokeSpecies  {
+pub const Kabutops: &'static PokeSpecies = &PokeSpecies {
 	id: 141,
 	attack: 220,
 	defense: 203,
@@ -2541,7 +2541,7 @@ pub const Kabutops: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Kabutops",
 };
 
-pub const Aerodactyl: &'static PokeSpecies = &PokeSpecies  {
+pub const Aerodactyl: &'static PokeSpecies = &PokeSpecies {
 	id: 142,
 	attack: 221,
 	defense: 164,
@@ -2559,7 +2559,7 @@ pub const Aerodactyl: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Aerodactyl",
 };
 
-pub const Snorlax: &'static PokeSpecies = &PokeSpecies  {
+pub const Snorlax: &'static PokeSpecies = &PokeSpecies {
 	id: 143,
 	attack: 190,
 	defense: 190,
@@ -2577,7 +2577,7 @@ pub const Snorlax: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Snorlax",
 };
 
-pub const Articuno: &'static PokeSpecies = &PokeSpecies  {
+pub const Articuno: &'static PokeSpecies = &PokeSpecies {
 	id: 144,
 	attack: 192,
 	defense: 249,
@@ -2595,7 +2595,7 @@ pub const Articuno: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Articuno",
 };
 
-pub const Zapdos: &'static PokeSpecies = &PokeSpecies  {
+pub const Zapdos: &'static PokeSpecies = &PokeSpecies {
 	id: 145,
 	attack: 253,
 	defense: 188,
@@ -2613,7 +2613,7 @@ pub const Zapdos: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Zapdos",
 };
 
-pub const Moltres: &'static PokeSpecies = &PokeSpecies  {
+pub const Moltres: &'static PokeSpecies = &PokeSpecies {
 	id: 146,
 	attack: 251,
 	defense: 184,
@@ -2631,7 +2631,7 @@ pub const Moltres: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Moltres",
 };
 
-pub const Dratini: &'static PokeSpecies = &PokeSpecies  {
+pub const Dratini: &'static PokeSpecies = &PokeSpecies {
 	id: 147,
 	attack: 119,
 	defense: 94,
@@ -2649,7 +2649,7 @@ pub const Dratini: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Dratini",
 };
 
-pub const Dragonair: &'static PokeSpecies = &PokeSpecies  {
+pub const Dragonair: &'static PokeSpecies = &PokeSpecies {
 	id: 148,
 	attack: 163,
 	defense: 138,
@@ -2667,7 +2667,7 @@ pub const Dragonair: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Dragonair",
 };
 
-pub const Dragonite: &'static PokeSpecies = &PokeSpecies  {
+pub const Dragonite: &'static PokeSpecies = &PokeSpecies {
 	id: 149,
 	attack: 263,
 	defense: 201,
@@ -2685,7 +2685,7 @@ pub const Dragonite: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Dragonite",
 };
 
-pub const Mewtwo: &'static PokeSpecies = &PokeSpecies  {
+pub const Mewtwo: &'static PokeSpecies = &PokeSpecies {
 	id: 150,
 	attack: 300,
 	defense: 182,
@@ -2703,7 +2703,7 @@ pub const Mewtwo: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Mewtwo",
 };
 
-pub const Mew: &'static PokeSpecies = &PokeSpecies  {
+pub const Mew: &'static PokeSpecies = &PokeSpecies {
 	id: 151,
 	attack: 210,
 	defense: 210,
@@ -2721,7 +2721,7 @@ pub const Mew: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Mew",
 };
 
-pub const Chikorita: &'static PokeSpecies = &PokeSpecies  {
+pub const Chikorita: &'static PokeSpecies = &PokeSpecies {
 	id: 152,
 	attack: 92,
 	defense: 122,
@@ -2739,7 +2739,7 @@ pub const Chikorita: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Chikorita",
 };
 
-pub const Bayleef: &'static PokeSpecies = &PokeSpecies  {
+pub const Bayleef: &'static PokeSpecies = &PokeSpecies {
 	id: 153,
 	attack: 122,
 	defense: 155,
@@ -2757,7 +2757,7 @@ pub const Bayleef: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Bayleef",
 };
 
-pub const Meganium: &'static PokeSpecies = &PokeSpecies  {
+pub const Meganium: &'static PokeSpecies = &PokeSpecies {
 	id: 154,
 	attack: 168,
 	defense: 202,
@@ -2775,7 +2775,7 @@ pub const Meganium: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Meganium",
 };
 
-pub const Cyndaquil: &'static PokeSpecies = &PokeSpecies  {
+pub const Cyndaquil: &'static PokeSpecies = &PokeSpecies {
 	id: 155,
 	attack: 116,
 	defense: 96,
@@ -2793,7 +2793,7 @@ pub const Cyndaquil: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Cyndaquil",
 };
 
-pub const Quilava: &'static PokeSpecies = &PokeSpecies  {
+pub const Quilava: &'static PokeSpecies = &PokeSpecies {
 	id: 156,
 	attack: 158,
 	defense: 129,
@@ -2811,7 +2811,7 @@ pub const Quilava: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Quilava",
 };
 
-pub const Typhlosion: &'static PokeSpecies = &PokeSpecies  {
+pub const Typhlosion: &'static PokeSpecies = &PokeSpecies {
 	id: 157,
 	attack: 223,
 	defense: 176,
@@ -2829,7 +2829,7 @@ pub const Typhlosion: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Typhlosion",
 };
 
-pub const Totodile: &'static PokeSpecies = &PokeSpecies  {
+pub const Totodile: &'static PokeSpecies = &PokeSpecies {
 	id: 158,
 	attack: 117,
 	defense: 116,
@@ -2847,7 +2847,7 @@ pub const Totodile: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Totodile",
 };
 
-pub const Croconaw: &'static PokeSpecies = &PokeSpecies  {
+pub const Croconaw: &'static PokeSpecies = &PokeSpecies {
 	id: 159,
 	attack: 150,
 	defense: 151,
@@ -2865,7 +2865,7 @@ pub const Croconaw: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Croconaw",
 };
 
-pub const Feraligatr: &'static PokeSpecies = &PokeSpecies  {
+pub const Feraligatr: &'static PokeSpecies = &PokeSpecies {
 	id: 160,
 	attack: 205,
 	defense: 197,
@@ -2883,7 +2883,7 @@ pub const Feraligatr: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Feraligatr",
 };
 
-pub const Sentret: &'static PokeSpecies = &PokeSpecies  {
+pub const Sentret: &'static PokeSpecies = &PokeSpecies {
 	id: 161,
 	attack: 79,
 	defense: 77,
@@ -2901,7 +2901,7 @@ pub const Sentret: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Sentret",
 };
 
-pub const Furret: &'static PokeSpecies = &PokeSpecies  {
+pub const Furret: &'static PokeSpecies = &PokeSpecies {
 	id: 162,
 	attack: 148,
 	defense: 130,
@@ -2919,7 +2919,7 @@ pub const Furret: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Furret",
 };
 
-pub const Hoothoot: &'static PokeSpecies = &PokeSpecies  {
+pub const Hoothoot: &'static PokeSpecies = &PokeSpecies {
 	id: 163,
 	attack: 67,
 	defense: 101,
@@ -2937,7 +2937,7 @@ pub const Hoothoot: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Hoothoot",
 };
 
-pub const Noctowl: &'static PokeSpecies = &PokeSpecies  {
+pub const Noctowl: &'static PokeSpecies = &PokeSpecies {
 	id: 164,
 	attack: 145,
 	defense: 179,
@@ -2955,7 +2955,7 @@ pub const Noctowl: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Noctowl",
 };
 
-pub const Ledyba: &'static PokeSpecies = &PokeSpecies  {
+pub const Ledyba: &'static PokeSpecies = &PokeSpecies {
 	id: 165,
 	attack: 72,
 	defense: 142,
@@ -2973,7 +2973,7 @@ pub const Ledyba: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ledyba",
 };
 
-pub const Ledian: &'static PokeSpecies = &PokeSpecies  {
+pub const Ledian: &'static PokeSpecies = &PokeSpecies {
 	id: 166,
 	attack: 107,
 	defense: 209,
@@ -2991,7 +2991,7 @@ pub const Ledian: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ledian",
 };
 
-pub const Spinarak: &'static PokeSpecies = &PokeSpecies  {
+pub const Spinarak: &'static PokeSpecies = &PokeSpecies {
 	id: 167,
 	attack: 105,
 	defense: 73,
@@ -3009,7 +3009,7 @@ pub const Spinarak: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Spinarak",
 };
 
-pub const Ariados: &'static PokeSpecies = &PokeSpecies  {
+pub const Ariados: &'static PokeSpecies = &PokeSpecies {
 	id: 168,
 	attack: 161,
 	defense: 128,
@@ -3027,7 +3027,7 @@ pub const Ariados: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ariados",
 };
 
-pub const Crobat: &'static PokeSpecies = &PokeSpecies  {
+pub const Crobat: &'static PokeSpecies = &PokeSpecies {
 	id: 169,
 	attack: 194,
 	defense: 178,
@@ -3045,7 +3045,7 @@ pub const Crobat: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Crobat",
 };
 
-pub const Chinchou: &'static PokeSpecies = &PokeSpecies  {
+pub const Chinchou: &'static PokeSpecies = &PokeSpecies {
 	id: 170,
 	attack: 106,
 	defense: 106,
@@ -3063,7 +3063,7 @@ pub const Chinchou: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Chinchou",
 };
 
-pub const Lanturn: &'static PokeSpecies = &PokeSpecies  {
+pub const Lanturn: &'static PokeSpecies = &PokeSpecies {
 	id: 171,
 	attack: 146,
 	defense: 146,
@@ -3081,7 +3081,7 @@ pub const Lanturn: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Lanturn",
 };
 
-pub const Pichu: &'static PokeSpecies = &PokeSpecies  {
+pub const Pichu: &'static PokeSpecies = &PokeSpecies {
 	id: 172,
 	attack: 77,
 	defense: 63,
@@ -3099,7 +3099,7 @@ pub const Pichu: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Pichu",
 };
 
-pub const Cleffa: &'static PokeSpecies = &PokeSpecies  {
+pub const Cleffa: &'static PokeSpecies = &PokeSpecies {
 	id: 173,
 	attack: 75,
 	defense: 91,
@@ -3117,7 +3117,7 @@ pub const Cleffa: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Cleffa",
 };
 
-pub const Igglybuff: &'static PokeSpecies = &PokeSpecies  {
+pub const Igglybuff: &'static PokeSpecies = &PokeSpecies {
 	id: 174,
 	attack: 69,
 	defense: 34,
@@ -3135,7 +3135,7 @@ pub const Igglybuff: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Igglybuff",
 };
 
-pub const Togepi: &'static PokeSpecies = &PokeSpecies  {
+pub const Togepi: &'static PokeSpecies = &PokeSpecies {
 	id: 175,
 	attack: 67,
 	defense: 116,
@@ -3153,7 +3153,7 @@ pub const Togepi: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Togepi",
 };
 
-pub const Togetic: &'static PokeSpecies = &PokeSpecies  {
+pub const Togetic: &'static PokeSpecies = &PokeSpecies {
 	id: 176,
 	attack: 139,
 	defense: 191,
@@ -3171,7 +3171,7 @@ pub const Togetic: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Togetic",
 };
 
-pub const Natu: &'static PokeSpecies = &PokeSpecies  {
+pub const Natu: &'static PokeSpecies = &PokeSpecies {
 	id: 177,
 	attack: 134,
 	defense: 89,
@@ -3189,7 +3189,7 @@ pub const Natu: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Natu",
 };
 
-pub const Xatu: &'static PokeSpecies = &PokeSpecies  {
+pub const Xatu: &'static PokeSpecies = &PokeSpecies {
 	id: 178,
 	attack: 192,
 	defense: 146,
@@ -3207,7 +3207,7 @@ pub const Xatu: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Xatu",
 };
 
-pub const Mareep: &'static PokeSpecies = &PokeSpecies  {
+pub const Mareep: &'static PokeSpecies = &PokeSpecies {
 	id: 179,
 	attack: 114,
 	defense: 82,
@@ -3225,7 +3225,7 @@ pub const Mareep: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Mareep",
 };
 
-pub const Flaaffy: &'static PokeSpecies = &PokeSpecies  {
+pub const Flaaffy: &'static PokeSpecies = &PokeSpecies {
 	id: 180,
 	attack: 145,
 	defense: 112,
@@ -3243,7 +3243,7 @@ pub const Flaaffy: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Flaaffy",
 };
 
-pub const Ampharos: &'static PokeSpecies = &PokeSpecies  {
+pub const Ampharos: &'static PokeSpecies = &PokeSpecies {
 	id: 181,
 	attack: 211,
 	defense: 172,
@@ -3261,7 +3261,7 @@ pub const Ampharos: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ampharos",
 };
 
-pub const Bellossom: &'static PokeSpecies = &PokeSpecies  {
+pub const Bellossom: &'static PokeSpecies = &PokeSpecies {
 	id: 182,
 	attack: 169,
 	defense: 189,
@@ -3279,7 +3279,7 @@ pub const Bellossom: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Bellossom",
 };
 
-pub const Marill: &'static PokeSpecies = &PokeSpecies  {
+pub const Marill: &'static PokeSpecies = &PokeSpecies {
 	id: 183,
 	attack: 37,
 	defense: 93,
@@ -3297,7 +3297,7 @@ pub const Marill: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Marill",
 };
 
-pub const Azumarill: &'static PokeSpecies = &PokeSpecies  {
+pub const Azumarill: &'static PokeSpecies = &PokeSpecies {
 	id: 184,
 	attack: 112,
 	defense: 152,
@@ -3315,7 +3315,7 @@ pub const Azumarill: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Azumarill",
 };
 
-pub const Sudowoodo: &'static PokeSpecies = &PokeSpecies  {
+pub const Sudowoodo: &'static PokeSpecies = &PokeSpecies {
 	id: 185,
 	attack: 167,
 	defense: 198,
@@ -3333,7 +3333,7 @@ pub const Sudowoodo: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Sudowoodo",
 };
 
-pub const Politoed: &'static PokeSpecies = &PokeSpecies  {
+pub const Politoed: &'static PokeSpecies = &PokeSpecies {
 	id: 186,
 	attack: 174,
 	defense: 192,
@@ -3351,7 +3351,7 @@ pub const Politoed: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Politoed",
 };
 
-pub const Hoppip: &'static PokeSpecies = &PokeSpecies  {
+pub const Hoppip: &'static PokeSpecies = &PokeSpecies {
 	id: 187,
 	attack: 67,
 	defense: 101,
@@ -3369,7 +3369,7 @@ pub const Hoppip: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Hoppip",
 };
 
-pub const Skiploom: &'static PokeSpecies = &PokeSpecies  {
+pub const Skiploom: &'static PokeSpecies = &PokeSpecies {
 	id: 188,
 	attack: 91,
 	defense: 127,
@@ -3387,7 +3387,7 @@ pub const Skiploom: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Skiploom",
 };
 
-pub const Jumpluff: &'static PokeSpecies = &PokeSpecies  {
+pub const Jumpluff: &'static PokeSpecies = &PokeSpecies {
 	id: 189,
 	attack: 118,
 	defense: 197,
@@ -3405,7 +3405,7 @@ pub const Jumpluff: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Jumpluff",
 };
 
-pub const Aipom: &'static PokeSpecies = &PokeSpecies  {
+pub const Aipom: &'static PokeSpecies = &PokeSpecies {
 	id: 190,
 	attack: 136,
 	defense: 112,
@@ -3423,7 +3423,7 @@ pub const Aipom: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Aipom",
 };
 
-pub const Sunkern: &'static PokeSpecies = &PokeSpecies  {
+pub const Sunkern: &'static PokeSpecies = &PokeSpecies {
 	id: 191,
 	attack: 55,
 	defense: 55,
@@ -3441,7 +3441,7 @@ pub const Sunkern: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Sunkern",
 };
 
-pub const Sunflora: &'static PokeSpecies = &PokeSpecies  {
+pub const Sunflora: &'static PokeSpecies = &PokeSpecies {
 	id: 192,
 	attack: 185,
 	defense: 148,
@@ -3459,7 +3459,7 @@ pub const Sunflora: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Sunflora",
 };
 
-pub const Yanma: &'static PokeSpecies = &PokeSpecies  {
+pub const Yanma: &'static PokeSpecies = &PokeSpecies {
 	id: 193,
 	attack: 154,
 	defense: 94,
@@ -3477,7 +3477,7 @@ pub const Yanma: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Yanma",
 };
 
-pub const Wooper: &'static PokeSpecies = &PokeSpecies  {
+pub const Wooper: &'static PokeSpecies = &PokeSpecies {
 	id: 194,
 	attack: 75,
 	defense: 75,
@@ -3495,7 +3495,7 @@ pub const Wooper: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Wooper",
 };
 
-pub const Quagsire: &'static PokeSpecies = &PokeSpecies  {
+pub const Quagsire: &'static PokeSpecies = &PokeSpecies {
 	id: 195,
 	attack: 152,
 	defense: 152,
@@ -3513,7 +3513,7 @@ pub const Quagsire: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Quagsire",
 };
 
-pub const Espeon: &'static PokeSpecies = &PokeSpecies  {
+pub const Espeon: &'static PokeSpecies = &PokeSpecies {
 	id: 196,
 	attack: 261,
 	defense: 194,
@@ -3531,7 +3531,7 @@ pub const Espeon: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Espeon",
 };
 
-pub const Umbreon: &'static PokeSpecies = &PokeSpecies  {
+pub const Umbreon: &'static PokeSpecies = &PokeSpecies {
 	id: 197,
 	attack: 126,
 	defense: 250,
@@ -3549,7 +3549,7 @@ pub const Umbreon: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Umbreon",
 };
 
-pub const Murkrow: &'static PokeSpecies = &PokeSpecies  {
+pub const Murkrow: &'static PokeSpecies = &PokeSpecies {
 	id: 198,
 	attack: 175,
 	defense: 87,
@@ -3567,7 +3567,7 @@ pub const Murkrow: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Murkrow",
 };
 
-pub const Slowking: &'static PokeSpecies = &PokeSpecies  {
+pub const Slowking: &'static PokeSpecies = &PokeSpecies {
 	id: 199,
 	attack: 177,
 	defense: 194,
@@ -3585,7 +3585,7 @@ pub const Slowking: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Slowking",
 };
 
-pub const Misdreavus: &'static PokeSpecies = &PokeSpecies  {
+pub const Misdreavus: &'static PokeSpecies = &PokeSpecies {
 	id: 200,
 	attack: 167,
 	defense: 167,
@@ -3603,7 +3603,7 @@ pub const Misdreavus: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Misdreavus",
 };
 
-pub const Unown: &'static PokeSpecies = &PokeSpecies  {
+pub const Unown: &'static PokeSpecies = &PokeSpecies {
 	id: 201,
 	attack: 136,
 	defense: 91,
@@ -3621,7 +3621,7 @@ pub const Unown: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Unown",
 };
 
-pub const Wobbuffet: &'static PokeSpecies = &PokeSpecies  {
+pub const Wobbuffet: &'static PokeSpecies = &PokeSpecies {
 	id: 202,
 	attack: 60,
 	defense: 106,
@@ -3639,7 +3639,7 @@ pub const Wobbuffet: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Wobbuffet",
 };
 
-pub const Girafarig: &'static PokeSpecies = &PokeSpecies  {
+pub const Girafarig: &'static PokeSpecies = &PokeSpecies {
 	id: 203,
 	attack: 182,
 	defense: 133,
@@ -3657,7 +3657,7 @@ pub const Girafarig: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Girafarig",
 };
 
-pub const Pineco: &'static PokeSpecies = &PokeSpecies  {
+pub const Pineco: &'static PokeSpecies = &PokeSpecies {
 	id: 204,
 	attack: 108,
 	defense: 146,
@@ -3675,7 +3675,7 @@ pub const Pineco: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Pineco",
 };
 
-pub const Forretress: &'static PokeSpecies = &PokeSpecies  {
+pub const Forretress: &'static PokeSpecies = &PokeSpecies {
 	id: 205,
 	attack: 161,
 	defense: 242,
@@ -3693,7 +3693,7 @@ pub const Forretress: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Forretress",
 };
 
-pub const Dunsparce: &'static PokeSpecies = &PokeSpecies  {
+pub const Dunsparce: &'static PokeSpecies = &PokeSpecies {
 	id: 206,
 	attack: 131,
 	defense: 131,
@@ -3711,7 +3711,7 @@ pub const Dunsparce: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Dunsparce",
 };
 
-pub const Gligar: &'static PokeSpecies = &PokeSpecies  {
+pub const Gligar: &'static PokeSpecies = &PokeSpecies {
 	id: 207,
 	attack: 143,
 	defense: 204,
@@ -3729,7 +3729,7 @@ pub const Gligar: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Gligar",
 };
 
-pub const Steelix: &'static PokeSpecies = &PokeSpecies  {
+pub const Steelix: &'static PokeSpecies = &PokeSpecies {
 	id: 208,
 	attack: 148,
 	defense: 333,
@@ -3747,7 +3747,7 @@ pub const Steelix: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Steelix",
 };
 
-pub const Snubbull: &'static PokeSpecies = &PokeSpecies  {
+pub const Snubbull: &'static PokeSpecies = &PokeSpecies {
 	id: 209,
 	attack: 137,
 	defense: 89,
@@ -3765,7 +3765,7 @@ pub const Snubbull: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Snubbull",
 };
 
-pub const Granbull: &'static PokeSpecies = &PokeSpecies  {
+pub const Granbull: &'static PokeSpecies = &PokeSpecies {
 	id: 210,
 	attack: 212,
 	defense: 137,
@@ -3783,7 +3783,7 @@ pub const Granbull: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Granbull",
 };
 
-pub const Qwilfish: &'static PokeSpecies = &PokeSpecies  {
+pub const Qwilfish: &'static PokeSpecies = &PokeSpecies {
 	id: 211,
 	attack: 184,
 	defense: 148,
@@ -3801,7 +3801,7 @@ pub const Qwilfish: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Qwilfish",
 };
 
-pub const Scizor: &'static PokeSpecies = &PokeSpecies  {
+pub const Scizor: &'static PokeSpecies = &PokeSpecies {
 	id: 212,
 	attack: 236,
 	defense: 191,
@@ -3819,7 +3819,7 @@ pub const Scizor: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Scizor",
 };
 
-pub const Shuckle: &'static PokeSpecies = &PokeSpecies  {
+pub const Shuckle: &'static PokeSpecies = &PokeSpecies {
 	id: 213,
 	attack: 17,
 	defense: 396,
@@ -3837,7 +3837,7 @@ pub const Shuckle: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Shuckle",
 };
 
-pub const Heracross: &'static PokeSpecies = &PokeSpecies  {
+pub const Heracross: &'static PokeSpecies = &PokeSpecies {
 	id: 214,
 	attack: 234,
 	defense: 189,
@@ -3855,7 +3855,7 @@ pub const Heracross: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Heracross",
 };
 
-pub const Sneasel: &'static PokeSpecies = &PokeSpecies  {
+pub const Sneasel: &'static PokeSpecies = &PokeSpecies {
 	id: 215,
 	attack: 189,
 	defense: 157,
@@ -3873,7 +3873,7 @@ pub const Sneasel: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Sneasel",
 };
 
-pub const Teddiursa: &'static PokeSpecies = &PokeSpecies  {
+pub const Teddiursa: &'static PokeSpecies = &PokeSpecies {
 	id: 216,
 	attack: 142,
 	defense: 93,
@@ -3891,7 +3891,7 @@ pub const Teddiursa: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Teddiursa",
 };
 
-pub const Ursaring: &'static PokeSpecies = &PokeSpecies  {
+pub const Ursaring: &'static PokeSpecies = &PokeSpecies {
 	id: 217,
 	attack: 236,
 	defense: 144,
@@ -3909,7 +3909,7 @@ pub const Ursaring: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ursaring",
 };
 
-pub const Slugma: &'static PokeSpecies = &PokeSpecies  {
+pub const Slugma: &'static PokeSpecies = &PokeSpecies {
 	id: 218,
 	attack: 118,
 	defense: 71,
@@ -3927,7 +3927,7 @@ pub const Slugma: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Slugma",
 };
 
-pub const Magcargo: &'static PokeSpecies = &PokeSpecies  {
+pub const Magcargo: &'static PokeSpecies = &PokeSpecies {
 	id: 219,
 	attack: 139,
 	defense: 209,
@@ -3945,7 +3945,7 @@ pub const Magcargo: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Magcargo",
 };
 
-pub const Swinub: &'static PokeSpecies = &PokeSpecies  {
+pub const Swinub: &'static PokeSpecies = &PokeSpecies {
 	id: 220,
 	attack: 90,
 	defense: 74,
@@ -3963,7 +3963,7 @@ pub const Swinub: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Swinub",
 };
 
-pub const Piloswine: &'static PokeSpecies = &PokeSpecies  {
+pub const Piloswine: &'static PokeSpecies = &PokeSpecies {
 	id: 221,
 	attack: 181,
 	defense: 147,
@@ -3981,7 +3981,7 @@ pub const Piloswine: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Piloswine",
 };
 
-pub const Corsola: &'static PokeSpecies = &PokeSpecies  {
+pub const Corsola: &'static PokeSpecies = &PokeSpecies {
 	id: 222,
 	attack: 118,
 	defense: 156,
@@ -3999,7 +3999,7 @@ pub const Corsola: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Corsola",
 };
 
-pub const Remoraid: &'static PokeSpecies = &PokeSpecies  {
+pub const Remoraid: &'static PokeSpecies = &PokeSpecies {
 	id: 223,
 	attack: 127,
 	defense: 69,
@@ -4017,7 +4017,7 @@ pub const Remoraid: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Remoraid",
 };
 
-pub const Octillery: &'static PokeSpecies = &PokeSpecies  {
+pub const Octillery: &'static PokeSpecies = &PokeSpecies {
 	id: 224,
 	attack: 197,
 	defense: 141,
@@ -4035,7 +4035,7 @@ pub const Octillery: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Octillery",
 };
 
-pub const Delibird: &'static PokeSpecies = &PokeSpecies  {
+pub const Delibird: &'static PokeSpecies = &PokeSpecies {
 	id: 225,
 	attack: 128,
 	defense: 90,
@@ -4053,7 +4053,7 @@ pub const Delibird: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Delibird",
 };
 
-pub const Mantine: &'static PokeSpecies = &PokeSpecies  {
+pub const Mantine: &'static PokeSpecies = &PokeSpecies {
 	id: 226,
 	attack: 148,
 	defense: 260,
@@ -4071,7 +4071,7 @@ pub const Mantine: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Mantine",
 };
 
-pub const Skarmory: &'static PokeSpecies = &PokeSpecies  {
+pub const Skarmory: &'static PokeSpecies = &PokeSpecies {
 	id: 227,
 	attack: 148,
 	defense: 260,
@@ -4089,7 +4089,7 @@ pub const Skarmory: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Skarmory",
 };
 
-pub const Houndour: &'static PokeSpecies = &PokeSpecies  {
+pub const Houndour: &'static PokeSpecies = &PokeSpecies {
 	id: 228,
 	attack: 152,
 	defense: 93,
@@ -4107,7 +4107,7 @@ pub const Houndour: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Houndour",
 };
 
-pub const Houndoom: &'static PokeSpecies = &PokeSpecies  {
+pub const Houndoom: &'static PokeSpecies = &PokeSpecies {
 	id: 229,
 	attack: 224,
 	defense: 159,
@@ -4125,7 +4125,7 @@ pub const Houndoom: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Houndoom",
 };
 
-pub const Kingdra: &'static PokeSpecies = &PokeSpecies  {
+pub const Kingdra: &'static PokeSpecies = &PokeSpecies {
 	id: 230,
 	attack: 194,
 	defense: 194,
@@ -4143,7 +4143,7 @@ pub const Kingdra: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Kingdra",
 };
 
-pub const Phanpy: &'static PokeSpecies = &PokeSpecies  {
+pub const Phanpy: &'static PokeSpecies = &PokeSpecies {
 	id: 231,
 	attack: 107,
 	defense: 107,
@@ -4161,7 +4161,7 @@ pub const Phanpy: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Phanpy",
 };
 
-pub const Donphan: &'static PokeSpecies = &PokeSpecies  {
+pub const Donphan: &'static PokeSpecies = &PokeSpecies {
 	id: 232,
 	attack: 214,
 	defense: 214,
@@ -4179,7 +4179,7 @@ pub const Donphan: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Donphan",
 };
 
-pub const Porygon2: &'static PokeSpecies = &PokeSpecies  {
+pub const Porygon2: &'static PokeSpecies = &PokeSpecies {
 	id: 233,
 	attack: 198,
 	defense: 183,
@@ -4197,7 +4197,7 @@ pub const Porygon2: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Porygon2",
 };
 
-pub const Stantler: &'static PokeSpecies = &PokeSpecies  {
+pub const Stantler: &'static PokeSpecies = &PokeSpecies {
 	id: 234,
 	attack: 192,
 	defense: 132,
@@ -4215,7 +4215,7 @@ pub const Stantler: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Stantler",
 };
 
-pub const Smeargle: &'static PokeSpecies = &PokeSpecies  {
+pub const Smeargle: &'static PokeSpecies = &PokeSpecies {
 	id: 235,
 	attack: 40,
 	defense: 88,
@@ -4233,7 +4233,7 @@ pub const Smeargle: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Smeargle",
 };
 
-pub const Tyrogue: &'static PokeSpecies = &PokeSpecies  {
+pub const Tyrogue: &'static PokeSpecies = &PokeSpecies {
 	id: 236,
 	attack: 64,
 	defense: 64,
@@ -4251,7 +4251,7 @@ pub const Tyrogue: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Tyrogue",
 };
 
-pub const Hitmontop: &'static PokeSpecies = &PokeSpecies  {
+pub const Hitmontop: &'static PokeSpecies = &PokeSpecies {
 	id: 237,
 	attack: 173,
 	defense: 214,
@@ -4269,7 +4269,7 @@ pub const Hitmontop: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Hitmontop",
 };
 
-pub const Smoochum: &'static PokeSpecies = &PokeSpecies  {
+pub const Smoochum: &'static PokeSpecies = &PokeSpecies {
 	id: 238,
 	attack: 153,
 	defense: 116,
@@ -4287,7 +4287,7 @@ pub const Smoochum: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Smoochum",
 };
 
-pub const Elekid: &'static PokeSpecies = &PokeSpecies  {
+pub const Elekid: &'static PokeSpecies = &PokeSpecies {
 	id: 239,
 	attack: 135,
 	defense: 110,
@@ -4305,7 +4305,7 @@ pub const Elekid: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Elekid",
 };
 
-pub const Magby: &'static PokeSpecies = &PokeSpecies  {
+pub const Magby: &'static PokeSpecies = &PokeSpecies {
 	id: 240,
 	attack: 151,
 	defense: 108,
@@ -4323,7 +4323,7 @@ pub const Magby: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Magby",
 };
 
-pub const Miltank: &'static PokeSpecies = &PokeSpecies  {
+pub const Miltank: &'static PokeSpecies = &PokeSpecies {
 	id: 241,
 	attack: 157,
 	defense: 211,
@@ -4341,7 +4341,7 @@ pub const Miltank: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Miltank",
 };
 
-pub const Blissey: &'static PokeSpecies = &PokeSpecies  {
+pub const Blissey: &'static PokeSpecies = &PokeSpecies {
 	id: 242,
 	attack: 129,
 	defense: 229,
@@ -4359,7 +4359,7 @@ pub const Blissey: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Blissey",
 };
 
-pub const Raikou: &'static PokeSpecies = &PokeSpecies  {
+pub const Raikou: &'static PokeSpecies = &PokeSpecies {
 	id: 243,
 	attack: 241,
 	defense: 210,
@@ -4377,7 +4377,7 @@ pub const Raikou: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Raikou",
 };
 
-pub const Entei: &'static PokeSpecies = &PokeSpecies  {
+pub const Entei: &'static PokeSpecies = &PokeSpecies {
 	id: 244,
 	attack: 235,
 	defense: 176,
@@ -4395,7 +4395,7 @@ pub const Entei: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Entei",
 };
 
-pub const Suicune: &'static PokeSpecies = &PokeSpecies  {
+pub const Suicune: &'static PokeSpecies = &PokeSpecies {
 	id: 245,
 	attack: 180,
 	defense: 235,
@@ -4413,7 +4413,7 @@ pub const Suicune: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Suicune",
 };
 
-pub const Larvitar: &'static PokeSpecies = &PokeSpecies  {
+pub const Larvitar: &'static PokeSpecies = &PokeSpecies {
 	id: 246,
 	attack: 115,
 	defense: 93,
@@ -4431,7 +4431,7 @@ pub const Larvitar: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Larvitar",
 };
 
-pub const Pupitar: &'static PokeSpecies = &PokeSpecies  {
+pub const Pupitar: &'static PokeSpecies = &PokeSpecies {
 	id: 247,
 	attack: 155,
 	defense: 133,
@@ -4449,7 +4449,7 @@ pub const Pupitar: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Pupitar",
 };
 
-pub const Tyranitar: &'static PokeSpecies = &PokeSpecies  {
+pub const Tyranitar: &'static PokeSpecies = &PokeSpecies {
 	id: 248,
 	attack: 251,
 	defense: 212,
@@ -4467,7 +4467,7 @@ pub const Tyranitar: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Tyranitar",
 };
 
-pub const Lugia: &'static PokeSpecies = &PokeSpecies  {
+pub const Lugia: &'static PokeSpecies = &PokeSpecies {
 	id: 249,
 	attack: 193,
 	defense: 323,
@@ -4485,7 +4485,7 @@ pub const Lugia: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Lugia",
 };
 
-pub const HoOh: &'static PokeSpecies = &PokeSpecies  {
+pub const HoOh: &'static PokeSpecies = &PokeSpecies {
 	id: 250,
 	attack: 263,
 	defense: 301,
@@ -4503,7 +4503,7 @@ pub const HoOh: &'static PokeSpecies = &PokeSpecies  {
 	italian: "Ho-Oh",
 };
 
-pub const Celebi: &'static PokeSpecies = &PokeSpecies  {
+pub const Celebi: &'static PokeSpecies = &PokeSpecies {
 	id: 251,
 	attack: 210,
 	defense: 210,

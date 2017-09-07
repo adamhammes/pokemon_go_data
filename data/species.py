@@ -69,7 +69,7 @@ def write_species(stats, names):
         for stat, name in zip(stats, names):
             display_name = NAME_EXCEPTIONS.get(name['English'], name['English'])
 
-            f.write('pub const {}: &\'static PokeSpecies = &PokeSpecies  {{\n'.format(display_name))
+            f.write('pub const {}: &\'static PokeSpecies = &PokeSpecies {{\n'.format(display_name))
 
             f.write('\tid: {},\n'.format(stat['id']))
 
