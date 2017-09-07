@@ -1,3 +1,4 @@
+//! Holds the [PokeSpecies](species/struct.PokeSpecies.html) constants.
 use evaluation::Level;
 use types::PokeType;
 
@@ -27,7 +28,7 @@ pub struct PokeSpecies {
 }
 
 impl PokeSpecies {
-    /// Given the id of a species, return its corresponding data. Return `None` if no data is found
+    /// Given the id of a species, return its corresponding data. Returns `None` if no data is found
     /// for the given id.
     ///
     /// ## Example:
@@ -105,43 +106,7 @@ impl PokeSpecies {
         self.secondary_type.is_some()
     }
 
-    pub fn english(&self) -> &'static str {
-        self.english
-    }
-
-    pub fn japanese(&self) -> &'static str {
-        self.japanese
-    }
-
-    pub fn japanese_transliterated(&self) -> &'static str {
-        self.japanese_transliterated
-    }
-
-    pub fn korean(&self) -> &'static str {
-        self.korean
-    }
-
-    pub fn chinese(&self) -> &'static str {
-        self.chinese
-    }
-
-    pub fn french(&self) -> &'static str {
-        self.french
-    }
-
-    pub fn german(&self) -> &'static str {
-        self.german
-    }
-
-    pub fn spanish(&self) -> &'static str {
-        self.spanish
-    }
-
-    pub fn italian(&self) -> &'static str {
-        self.italian
-    }
-
-    /// Returns the highest possible stats for this pokemon (e.g., perfect IVs).
+    /// Returns the highest possible stats for this pokemon (i.e., perfect IVs).
     pub fn perfect_stats(&self) -> (u16, u16, u16) {
         (self.attack() + 15, self.defense() + 15, self.stamina() + 15)
     }
@@ -187,6 +152,42 @@ impl PokeSpecies {
         let inner = attack_calc * defense_calc * stamina_calc * cp_multiplier / 10.;
 
         ::std::cmp::max(10, inner.floor() as u16)
+    }
+
+    pub fn english_name(&self) -> &'static str {
+        self.english
+    }
+
+    pub fn japanese_name(&self) -> &'static str {
+        self.japanese
+    }
+
+    pub fn japanese_transliterated(&self) -> &'static str {
+        self.japanese_transliterated
+    }
+
+    pub fn korean_name(&self) -> &'static str {
+        self.korean
+    }
+
+    pub fn chinese_name(&self) -> &'static str {
+        self.chinese
+    }
+
+    pub fn french_name(&self) -> &'static str {
+        self.french
+    }
+
+    pub fn german_name(&self) -> &'static str {
+        self.german
+    }
+
+    pub fn spanish_name(&self) -> &'static str {
+        self.spanish
+    }
+
+    pub fn italian_name(&self) -> &'static str {
+        self.italian
     }
 }
 
